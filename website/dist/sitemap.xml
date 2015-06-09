@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/about.html</loc>
+    <lastmod>2015-05-29T09:12:24.927Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/accessories.html</loc>
+    <lastmod>2015-05-29T09:12:24.929Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://github.com/matthewcrisp/drumhut/dist/blog.html</loc>
-    <lastmod>2015-05-26T21:37:55.452Z</lastmod>
+    <lastmod>2015-05-29T09:12:24.930Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/contact.html</loc>
+    <lastmod>2015-05-29T09:12:24.930Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/djembes.html</loc>
+    <lastmod>2015-05-29T09:12:24.930Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/dunun.html</loc>
+    <lastmod>2015-05-29T09:12:24.930Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/events.html</loc>
+    <lastmod>2015-05-29T09:12:24.930Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/matthewcrisp/drumhut/dist/index.html</loc>
-    <lastmod>2015-05-26T21:37:55.454Z</lastmod>
+    <lastmod>2015-05-29T09:12:24.931Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/matthewcrisp/drumhut/dist/matthew.html</loc>
-    <lastmod>2015-05-26T21:37:55.454Z</lastmod>
+    <loc>https://github.com/matthewcrisp/drumhut/dist/repairs.html</loc>
+    <lastmod>2015-05-29T09:12:24.931Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
