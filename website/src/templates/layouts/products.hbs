@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="storeApp">
+  <head>
+    
+  {{> global-head }}
+
+  </head>
+
+  <body id="home">
+
+    {{> global-header }}
+
+    <section class="hero-image-bg light-typo welcome-section">
+        <div class="overlay-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">
+                    
+                    <h1>{{ heading }}</h1>
+                    <h2>{{ lead }}</h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+
+      <section class="padding-top-bottom">
+          <div class="container">
+              <div class="row">
+
+                {{> body}}
+
+
+            </div>
+        </div>
+    </section>
+
+    {{> global-footer }}
+
+  </body>
+</html>
+

@@ -30,8 +30,12 @@ module.exports = function(grunt) {
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
+        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml,json}'],
         tasks: ['assemble']
+      },
+      copy: {
+        files: ['<%= config.src %>/assets/**/*'],
+        tasks: ['copy:assets']
       },
       livereload: {
         options: {
@@ -64,17 +68,27 @@ module.exports = function(grunt) {
     },
 
     assemble: {
-      pages: {
-        options: {
+      options: {
           flatten: true,
           assets: '<%= config.dist %>/assets',
-          layout: '<%= config.src %>/templates/layouts/default.hbs',
+          layout: 'default.hbs',
+          layoutdir: '<%= config.src %>/templates/layouts/',
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-permalinks','assemble-contrib-sitemap'],
+          plugins: ['assemble-contrib-permalinks','assemble-contrib-sitemap']
+      },
+      pages: {
+        files: {
+            '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
+        }
+      },
+      products: {
+        options: {
+          layout: 'product.hbs',
+          pages: grunt.file.readJSON('src/data/djembes.json').concat(grunt.file.readJSON('src/data/accessories.json'), grunt.file.readJSON('src/data/dunun.json'))
         },
         files: {
-          '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
+            '<%= config.dist %>/': ['<%= config.src %>/templates/pages/dummy.hbs']
         }
       }
     },
@@ -86,11 +100,11 @@ module.exports = function(grunt) {
         src: '**',
         dest: '<%= config.dist %>/assets/'
       },
-      theme: {
+      assets: {
         expand: true,
         cwd: 'src/assets/',
-        src: '**',
-        dest: '<%= config.dist %>/assets/css/'
+        src: '**/*',
+        dest: '<%= config.dist %>/assets/'
       }
     },
 

@@ -1,0 +1,22 @@
+[{
+    "name": "Home",
+    "url": "/"
+}, {
+    "name": "Djembes",
+    "url": "/djembes.html"
+}, {
+    "name": "Dunun",
+    "url": "/dunun.html"
+}, {
+    "name": "Accessories",
+    "url": "/accessories.html"
+}, {
+    "name": "Repairs",
+    "url": "/repairs.html"
+}, {
+    "name": "Events",
+    "url": "/events.html"
+}, {
+    "name": "Contact",
+    "url": "/contact.html"
+}]
