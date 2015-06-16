@@ -1,114 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="storeApp">
   <head>
-    <meta charset="UTF-8">
+    
+      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Repairs | Drumhut</title>
+
+    <title>Repairs | Drumhut hello</title>
+    <meta name="description" content="">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!-- Bootstrap theme -->
-    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/superslides.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/blue.css" class="colors">
+    <link rel="stylesheet" href="assets/css/drumhut.css">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/theme.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/ico/32.png" sizes="32x32" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/img/ico/60.png" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/72.png" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/ico/120.png" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/ico/152.png" type="image/png"/>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
-  <body>
+
+  <body id="home" class="dark-bg">
 
     
-<!-- Fixed navbar -->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Drumhut</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
-        
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        
-        <li>
-          <a href="accessories.html">Accessories</a>
-        </li>
-        
-        <li>
-          <a href="blog.html">Blog</a>
-        </li>
-        
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-        
-        <li>
-          <a href="djembes.html">Djembes</a>
-        </li>
-        
-        <li>
-          <a href="dunun.html">Dunun</a>
-        </li>
-        
-        <li>
-          <a href="events.html">Events</a>
-        </li>
-        
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        
-        <li class="active">
-          <a href="repairs.html">Repairs</a>
-        </li>
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Github <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://github.com/assemble/assemble">Assemble</a></li>
-            <li><a href="https://github.com/assemble/generator-assemble">Generator Assemble</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Plugins</li>
-            <li><a href="https://github.com/assemble/assemble-contrib-permalinks">assemble-contrib-permalinks</a></li>
-            <li><a href="https://github.com/assemble/assemble-contrib-sitemap">assemble-contrib-sitemap</a></li>
-            
-          </ul>
-        </li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
+<div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">
+                <img id="navlogo" src="assets/img/navlogo-blue.png" alt="microstore" width="122" height="45">
+            </a>
+
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul id="navigation" class="nav navbar-nav navbar-right text-center">
+
+                
+                <li>
+                    <a href="/">Home</a></li>
+                </li>
+                
+                <li>
+                    <a href="/djembes.html">Djembes</a></li>
+                </li>
+                
+                <li>
+                    <a href="/dunun.html">Dunun</a></li>
+                </li>
+                
+                <li>
+                    <a href="/accessories.html">Accessories</a></li>
+                </li>
+                
+                <li>
+                    <a href="/repairs.html">Repairs</a></li>
+                </li>
+                
+                <li>
+                    <a href="/events.html">Events</a></li>
+                </li>
+                
+                <li>
+                    <a href="/contact.html">Contact</a></li>
+                </li>
+                
 
 
-    <div class="container theme-showcase" role="main">
+                
 
-      
-<div class="jumbotron">
-  <h1>Repairs</h1>
-</div>
-
+            </ul>
+        </div>
 
     </div>
+</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <section class="hero-image-bg light-typo welcome-section">
+        <div class="overlay-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">
+                    
+                    <h1>Repairs</h1>
+                    <h2></h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+
+      <section class="padding-top-bottom">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 wow fadeInLeft">
+                      <header class="section-header cta-message">
+                          <h2>Repairs</h2>
+                          <!-- <h4>Pellentesque interdum eget</h4> -->
+                      </header>
+                  </div>
+                  <div class="col-md-8 cta-message wow fadeInUp">
+                      
+                      
+
+<p>Pellentesque interdum eget odio eu rutrum. Nunc tempus massa a tellus aliquet sodales. Nunc urna tortor, rhoncus accumsan vestibulum non, feugiat a mauris. In hac habitasse platea dictumst. In sagittis orci nec aliquet tristique.</p>
+
+                  </div>
+              </div>
+          </div>
+      </section>
+
+    </div>
+
+    <footer id="main-footer" class="dark-bg light-typo">
+    <div class="container">
+        <p class="pull-left copyright wow fadeInUp">&copy; Drumhut 2015.</p>
+        <p class="pull-right wow fadeInUp">Yada yada some right aligned yada</p>
+    </div>
+</footer>
+
   </body>
 </html>
+
