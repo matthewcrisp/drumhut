@@ -13,4 +13,19 @@
         "price": "£500"
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
+}, {
+    "filename": "djembe2",
+    "data": {
+        "name": "Djembe 2",
+        "thumb": "/img/product2.jpg",
+        "images": [
+            "img/01.jpg",
+            "img/02.jpg",
+            "img/03.jpg",
+            "img/04.jpg",
+            "img/05.jpg"
+        ],
+        "price": "£600"
+    },
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }]
