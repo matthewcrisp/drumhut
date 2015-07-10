@@ -1,16 +1,36 @@
 [{
     "filename": "dunun1",
     "data": {
-        "name": "Dunun1 1",
-        "thumb": "/img/product1.jpg",
+        "name": "Dununba",
+        "thumb": "/img/Blue Rope Collage.jpg",
         "images": [
-            "img/01.jpg",
-            "img/02.jpg",
-            "img/03.jpg",
-            "img/04.jpg",
-            "img/05.jpg"
+            "img/Blue Rope Collage.jpg"         
         ],
         "price": "£500"
     },
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
+    "content": "Dununba bass drum"
+}, {
+    "filename": "dunun2",
+    "data": {
+        "name": "Sangban",
+        "thumb": "/img/Blue Rope Collage.jpg",
+        "images": [
+			"/img/Blue Rope Collage.jpg"
+          
+        ],
+        "price": "£500"
+    },
+    "content": "Sangban bass drum"
+}, {
+    "filename": "dunun3",
+    "data": {
+        "name": "Kenkeni",
+        "thumb": "/img/Blue Rope Collage.jpg",
+        "images": [
+			"/img/Blue Rope Collage.jpg"
+          
+        ],
+        "price": "£500"
+    },
+    "content": "Kenkeni Bass drum"
 }]
