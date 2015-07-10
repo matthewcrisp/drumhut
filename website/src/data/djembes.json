@@ -6,9 +6,6 @@
         "images": [
             "img/Guinea1Full.jpg",
             "img/Guenea1Foot.jpg",
-            "img/03.jpg",
-            "img/04.jpg",
-            "img/05.jpg"
         ],
         "price": "£500"
     },
@@ -21,9 +18,7 @@
         "images": [
             "img/Guinea2Profile.jpg",
             "img/Guinea2Detail.jpg",
-            "img/Guinea2Full.jpg",
-            "img/04.jpg",
-            "img/05.jpg"
+            "img/Guinea2Full.jpg",            
         ],
         "price": "£600"
     },
