@@ -2,9 +2,9 @@
     "filename": "dunun1",
     "data": {
         "name": "Dununba",
-        "thumb": "/img/Blue Rope Collage.jpg",
+        "thumb": "/img/dunun.jpg",
         "images": [
-            "img/Blue Rope Collage.jpg"         
+            "img/dunun.jpg"         
         ],
         "price": "£500"
     },
@@ -13,9 +13,9 @@
     "filename": "dunun2",
     "data": {
         "name": "Sangban",
-        "thumb": "/img/Blue Rope Collage.jpg",
+        "thumb": "/img/dunun.jpg",
         "images": [
-			"/img/Blue Rope Collage.jpg"
+			"/img/dunun.jpg"
           
         ],
         "price": "£500"
@@ -25,9 +25,9 @@
     "filename": "dunun3",
     "data": {
         "name": "Kenkeni",
-        "thumb": "/img/Blue Rope Collage.jpg",
+        "thumb": "/img/dunun.jpg",
         "images": [
-			"/img/Blue Rope Collage.jpg"
+			"/img/dunun.jpg"
           
         ],
         "price": "£500"
