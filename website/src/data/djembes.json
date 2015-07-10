@@ -5,7 +5,7 @@
         "thumb": "/img/Guinea1Full.jpg",
         "images": [
             "img/Guinea1Full.jpg",
-            "img/Guenea1Foot.jpg",
+            "img/Guenea1Foot.jpg"
         ],
         "price": "£500"
     },
@@ -18,13 +18,13 @@
         "images": [
             "img/Guinea2Profile.jpg",
             "img/Guinea2Detail.jpg",
-            "img/Guinea2Full.jpg",            
+            "img/Guinea2Full.jpg"           
         ],
         "price": "£600"
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
-	"filename": "djembe3"
+	"filename": "djembe3",
 	"data": {
 		"name": "Djembe 3",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -35,7 +35,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe4"
+	"filename": "djembe4",
 	"data": {
 		"name": "Djembe 4",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -46,7 +46,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe5"
+	"filename": "djembe5",
 	"data": {
 		"name": "Djembe 5",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -57,7 +57,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe6"
+	"filename": "djembe6",
 	"data": {
 		"name": "Djembe 6",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -68,7 +68,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe7"
+	"filename": "djembe7",
 	"data": {
 		"name": "Djembe 7",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -79,7 +79,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe8"
+	"filename": "djembe8",
 	"data": {
 		"name": "Djembe 8",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -88,7 +88,7 @@
 		"price": "£450"	
 	},
 	"content": "Standard djembe description."
-},
+}
 	
 
 ]
