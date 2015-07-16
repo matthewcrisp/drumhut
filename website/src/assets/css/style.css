@@ -2,7 +2,7 @@
 
 h1,h2,h3,h4,h5,h6, body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300; 
+	font-weight: 300px;
 }
 p{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -20,6 +20,9 @@ strong{
 }
 .padding-top-bottom {
 	padding: 60px 0;
+}
+h1.boris {
+	font-family: 'BorisBlackBloxx Regular';
 }
 
 h3.center {
@@ -969,6 +972,7 @@ form p {
 	background:#23A657;
 	text-decoration: none;
 	border-color: #23A657;
+	
 }
 
 /* ------------------------------ Media -------------------------- */

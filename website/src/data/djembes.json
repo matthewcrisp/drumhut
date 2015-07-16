@@ -1,5 +1,5 @@
 [{
-    "filename": "djembe1",
+    "filename": "alseny1",
     "data": {
         "name": "Djembe 1",
         "thumb": "/img/Guinea1Full.jpg",
@@ -11,7 +11,7 @@
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
-    "filename": "djembe2",
+    "filename": "alseny2",
     "data": {
         "name": "Djembe 2",
         "thumb": "/img/Guinea2Full.jpg",
@@ -24,7 +24,7 @@
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
-	"filename": "djembe3",
+	"filename": "alseny3",
 	"data": {
 		"name": "Djembe 3",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -35,7 +35,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe4",
+	"filename": "alseny4",
 	"data": {
 		"name": "Djembe 4",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -46,7 +46,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe5",
+	"filename": "alseny5",
 	"data": {
 		"name": "Djembe 5",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -57,7 +57,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe6",
+	"filename": "alseny6",
 	"data": {
 		"name": "Djembe 6",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -68,7 +68,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "djembe7",
+	"filename": "alseny7",
 	"data": {
 		"name": "Djembe 7",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -78,17 +78,31 @@
 	},
 	"content": "Standard djembe description."
 },
-{
-	"filename": "djembe8",
-	"data": {
-		"name": "Djembe 8",
-		"thumb": "/img/Blue Rope Collage.jpg",
-		"images": [
-			"img/Blue Rope Collage.jpg"	],
-		"price": "£450"	
-	},
-	"content": "Standard djembe description."
-}
-	
+
+    {
+        "filename": "alseny8",
+        "data": {
+            "name": "Djembe 8",
+            "thumb": "/img/Blue Rope Collage.jpg",
+            "images": [
+                "img/Blue Rope Collage.jpg"
+            ],
+            "price": "£450"
+        },
+        "content": "Standard djembe description."
+    },
+    {
+        "filename": "otherdjembes",
+        "data": {
+			"name": "Other Djembes",
+			"thumb": "/img/Blue Rope Collage.jpg"
+		
+            
+             
+            
+        }
+    
+	}
+
 
 ]
