@@ -1,5 +1,5 @@
 [{
-    "filename": "alseny1",
+    "filename": "djembe1",
     "data": {
         "name": "Djembe 1",
         "thumb": "/img/Guinea1Full.jpg",
@@ -11,7 +11,7 @@
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
-    "filename": "alseny2",
+    "filename": "djembe2",
     "data": {
         "name": "Djembe 2",
         "thumb": "/img/Guinea2Full.jpg",
@@ -24,7 +24,7 @@
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
-	"filename": "alseny3",
+	"filename": "djembe3",
 	"data": {
 		"name": "Djembe 3",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -35,7 +35,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "alseny4",
+	"filename": "djembe4",
 	"data": {
 		"name": "Djembe 4",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -46,7 +46,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "alseny5",
+	"filename": "djembe5",
 	"data": {
 		"name": "Djembe 5",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -57,7 +57,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "alseny6",
+	"filename": "djembe6",
 	"data": {
 		"name": "Djembe 6",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -68,7 +68,7 @@
 	"content": "Standard djembe description."
 },
 {
-	"filename": "alseny7",
+	"filename": "djembe7",
 	"data": {
 		"name": "Djembe 7",
 		"thumb": "/img/Blue Rope Collage.jpg",
@@ -80,7 +80,7 @@
 },
 
     {
-        "filename": "alseny8",
+        "filename": "djembe8",
         "data": {
             "name": "Djembe 8",
             "thumb": "/img/Blue Rope Collage.jpg",
