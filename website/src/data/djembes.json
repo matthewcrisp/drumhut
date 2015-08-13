@@ -7,7 +7,8 @@
             "img/Guinea1Full.jpg",
             "img/Guenea1Foot.jpg"
         ],
-        "price": "£500"
+        "price": "£500",
+		"featured": true
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
@@ -20,7 +21,8 @@
             "img/Guinea2Detail.jpg",
             "img/Guinea2Full.jpg"           
         ],
-        "price": "£600"
+        "price": "£600",
+		"featured": true
     },
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu."
 }, {
@@ -30,7 +32,8 @@
 		"thumb": "/img/Blue Rope Collage.jpg",
 		"images": [
 			"img/Blue Rope Collage.jpg"	],
-		"price": "£450"	
+		"price": "£450",
+		"featured": true
 	},
 	"content": "Standard djembe description."
 },
@@ -41,7 +44,8 @@
 		"thumb": "/img/Blue Rope Collage.jpg",
 		"images": [
 			"img/Blue Rope Collage.jpg"	],
-		"price": "£450"	
+		"price": "£450",
+		"featured": true
 	},
 	"content": "Standard djembe description."
 },
@@ -52,7 +56,8 @@
 		"thumb": "/img/Blue Rope Collage.jpg",
 		"images": [
 			"img/Blue Rope Collage.jpg"	],
-		"price": "£450"	
+		"price": "£450",
+		"featured": true
 	},
 	"content": "Standard djembe description."
 },
@@ -63,7 +68,8 @@
 		"thumb": "/img/Blue Rope Collage.jpg",
 		"images": [
 			"img/Blue Rope Collage.jpg"	],
-		"price": "£450"	
+		"price": "£450",
+		"featured": true
 	},
 	"content": "Standard djembe description."
 },
@@ -74,7 +80,8 @@
 		"thumb": "/img/Blue Rope Collage.jpg",
 		"images": [
 			"img/Blue Rope Collage.jpg"	],
-		"price": "£450"	
+		"price": "£450",
+		"featured": true
 	},
 	"content": "Standard djembe description."
 },
@@ -87,22 +94,11 @@
             "images": [
                 "img/Blue Rope Collage.jpg"
             ],
-            "price": "£450"
+            "price": "£450",
+		    "featured": false
         },
         "content": "Standard djembe description."
-    },
-    {
-        "filename": "otherdjembes",
-        "data": {
-			"name": "Other Djembes",
-			"thumb": "/img/Blue Rope Collage.jpg"
-		
-            
-             
-            
-        }
-    
-	}
+    }
 
 
 ]

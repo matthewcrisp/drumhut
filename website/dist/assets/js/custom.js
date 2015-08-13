@@ -66,7 +66,7 @@ $(document).ready(function() {
 	});
 		
 	/* Project Preview	==============================================*/
-	$('.img-box').click(function(e) {
+	/*$('.img-box').click(function(e) {
 		e.preventDefault();
 		var elem = $(this).parent(),
 			title = elem.find('.project-title').text(),
@@ -101,7 +101,7 @@ $(document).ready(function() {
 				$('#project-modal .screen').addClass('done').prev('.loader').fadeOut();
 			}, 1000);
 		}).modal();
-	});
+	});*/
 
 	$('#project-modal').on('hidden.bs.modal', function() {
 		$(this).find('.loader').show();

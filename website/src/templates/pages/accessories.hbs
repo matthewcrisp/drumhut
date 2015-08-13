@@ -15,19 +15,6 @@ navOrder: 4
 
 {{#each accessories}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-    <div class="img-box">
-        <div class="hover-mask2"></div>
-        <span class="product-icon icon-eye"></span>
-        <img class="img-responsive project-image" src="{{../assets}}{{ data.thumb }}" alt="">
-    </div>
-    <div class="product-info col-md-12">
-        <p class="project-price">{{ data.price }}</p>
-        <div>
-            <h4 class="project-title"><a href="{{ filename }}.html">{{ data.name }}</a></h4>
-        </div>
-    </div>
-    <div class="sr-only project-description" data-images="{{ data.images }}">
-        {{ content }}
-    </div>
+	{{> product-link this }}
 </article> 
 {{/each}}

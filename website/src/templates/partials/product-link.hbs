@@ -1,0 +1,16 @@
+<a href="{{ this.filename }}.html" class="product-link">
+    <span class="img-box">
+        <span class="hover-mask2"></span>
+        <span class="product-icon icon-eye"></span>
+        <img class="img-responsive project-image" src="/assets/{{ this.data.thumb }}" alt="">
+    </span>
+    <span class="product-info col-md-12">
+        <span class="project-price">{{ this.data.price }}</span>
+        <span>
+            <span class="project-title">{{ this.data.name }}</span>
+        </span>
+    </span>
+    <span class="sr-only project-description">
+        {{ this.content }}
+    </span>
+</a>

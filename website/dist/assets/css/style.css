@@ -452,7 +452,7 @@ table {
 	 display:block;
 }
 
-.img-box:hover .hover-mask2{
+.product-link:hover .hover-mask2{
 	opacity:.5; 
 	cursor: pointer;
 	-o-transition:.1s;-ms-transition:.1s;-moz-transition:.1s;-webkit-transition:.1s;transition:.1s;
@@ -477,7 +477,7 @@ table {
 	-ms-transition: all 200ms ease-out;
 	transition: all 200ms ease-out;
 }
-.img-box:hover .product-icon:before {
+.product-link:hover .product-icon:before {
 	opacity: 1;
 	font-size: 50px;
 	margin: -25px 0 0 -25px;
@@ -502,9 +502,13 @@ table {
 	color: #000;
 	font-size: 14px;
 }
-.img-box{
+.product-link,
+.img-box {
+	display: block;
 	overflow: hidden;
 	position: relative;
+}
+.img-box {
 	border-radius: 5px;
 }
 .hover-mask2 {
