@@ -11,7 +11,11 @@ navOrder: 2
 
 ---
 
+<section id="djembes" class=" padding-top-bottom">
 <div class="row">
+<header class="section-header text-center wow fadeInUp">
+            <h2>Premium Djembes</h2>
+        </header>
 {{#each djembes}}
 {{#if data.featured}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
@@ -20,10 +24,14 @@ navOrder: 2
 {{/if}}
 {{/each}}
 </div>
+</section>
 
-<h3>Other Djembes</h3>
 
+<section id="otherdjembes" class="gray-bg padding-top-bottom ">
 <div class="row">
+<header class="section-header text-center wow fadeInUp">
+            <h2>Other Djembes</h2>
+        </header>
 {{#each djembes}}
 {{#unless data.featured}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
@@ -32,3 +40,4 @@ navOrder: 2
 {{/unless}}
 {{/each}}
 </div>
+</section>
