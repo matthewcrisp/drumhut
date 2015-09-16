@@ -8,9 +8,15 @@ $(document).ready(function() {
 
 	/* Hero slider ======================================= */
 
-	$('#hero-slides, #product-slides').superslides({
+	$('#hero-slides').superslides({
 		play: 4000,
 		animation: 'fade'
+	});
+
+	$('#product-slides').superslides({
+		play: 8000,
+		animation: 'fade',
+		inherit_height_from: '#product-slides-container'
 	});
 
 	/* Navbar collapse ======================================= */
