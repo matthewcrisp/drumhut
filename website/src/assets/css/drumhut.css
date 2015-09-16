@@ -40,8 +40,3 @@
 .slide-wrapper {
     max-height: 500px;
 }
-
-.slide-wrapper__img {
-    display: block;
-    max-height: 500px;
-}
