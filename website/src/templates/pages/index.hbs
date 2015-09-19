@@ -19,7 +19,7 @@ navOrder: 1
                 <ul class="social-links text-center">
 					<li><a href="#djembes" class="smooth-scroll" alt="Djembes"><img src="{{assets}}/img/Djembe Icon 3.png" style="margin-top:8px; margin-left:0px"></img></a></li>
                     <li><a href="#dunun" class="smooth-scroll" alt="Dunun"><img src="{{assets}}/img/Dunun Icon 3.png" style="margin-top:8px"></img></a></li>
-					<li><a href="#accessories" class="smooth-scroll" alt="Sound Demos"><i class="icon-youtube"></i></a></li>					
+					<li><a href="#sound" class="smooth-scroll" alt="Sound Demos"><i class="icon-youtube"></i></a></li>					
                 </ul>
             </div>
         </div>
@@ -38,17 +38,19 @@ navOrder: 1
 <section id="djembes" class=" padding-top-bottom">
     <div class="container">
         <header class="section-header text-center wow fadeInUp">
-            <h2>Our Djembes</h2>
+            <h2>Djembes</h2>
         </header>
     </div>
     <div class="container">
         <div id="projects-container" class="row">
             
             {{#each djembes}}
+			{{#if data.featured}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
             </article> 
-            {{/each}}
+            {{/if}}
+			{{/each}}
 
         </div>
     </div>
@@ -58,7 +60,7 @@ navOrder: 1
 <section id="dunun" class="gray-bg padding-top-bottom ">
  <div class="container">
         <header class="section-header text-center wow fadeInUp">
-            <h2>Our Dunun</h2>
+            <h2>Dunun</h2>
         </header>
     </div>
     <div class="container">
@@ -79,13 +81,32 @@ navOrder: 1
 <section id="accessories" class="padding-top-bottom ">
     <div class="container">
         <header class="section-header text-center wow fadeInUp">
-            <h2>Our Accessories</h2>
+            <h2>Accessories</h2>
         </header>
     </div>
     <div class="container">
         <div id="projects-container" class="row">
             
             {{#each accessories}}
+            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+				{{> product-link this }}
+            </article> 
+            {{/each}}
+
+        </div>
+    </div>
+</section>
+
+<section id="sound" class="gray-bg padding-top-bottom ">
+ <div class="container">
+        <header class="section-header text-center wow fadeInUp">
+            <h2>Sound Samples</h2>
+        </header>
+    </div>
+    <div class="container">
+        <div id="projects-container" class="row">
+            
+            {{#each dunun}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
             </article> 
