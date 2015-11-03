@@ -17,7 +17,7 @@ navOrder: 1
                 <img id="logo" src="{{assets}}/img/drumhut-logo-white.png" class="img-responsive text-center" alt="drumhut logo" width="100%">                
                 <h3>{{ lead }}</h3>
                 <ul class="social-links text-center">
-					<li><a href="#djembes" class="smooth-scroll" alt="Djembes"><img src="{{assets}}/img/Djembe Icon 3.png" style="margin-top:8px; margin-left:0px"></img></a></li>
+					<li><a href="#djembes" class="smooth-scroll" alt="Djembes"><img src="{{assets}}/img/Djembe Icon 5.png" style="margin-top:8px; margin-left:0px"></img></a></li>
                     <li><a href="#dunun" class="smooth-scroll" alt="Dunun"><img src="{{assets}}/img/Dunun Icon 3.png" style="margin-top:8px"></img></a></li>
 					<li><a href="#sound" class="smooth-scroll" alt="Sound Demos"><i class="icon-youtube"></i></a></li>					
                 </ul>
@@ -78,37 +78,19 @@ navOrder: 1
 
 </section>
 
-<section id="accessories" class="padding-top-bottom ">
-    <div class="container">
-        <header class="section-header text-center wow fadeInUp">
-            <h2>Accessories</h2>
-        </header>
-    </div>
-    <div class="container">
-        <div id="projects-container" class="row">
-            
-            {{#each accessories}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-				{{> product-link this }}
-            </article> 
-            {{/each}}
-
-        </div>
-    </div>
-</section>
 
 <section id="sound" class="gray-bg padding-top-bottom ">
  <div class="container">
         <header class="section-header text-center wow fadeInUp">
-            <h2>Sound Samples</h2>
+            <h2>Sound Demos</h2>
         </header>
     </div>
     <div class="container">
         <div id="projects-container" class="row">
             
-            {{#each dunun}}
+            {{#each demos}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-				{{> product-link this }}
+				{{{ code }}}
             </article> 
             {{/each}}
 
@@ -116,61 +98,16 @@ navOrder: 1
     </div>
 </section>
 
-<section id="testimonial" class="padding-top-bottom image-bg light-typo">
-    <div class="container">
-        
-        <div class="testimonial">
-            <div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example" data-interval="10000">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>                   
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <h1>That really nice testamonial from...</h1>
-                        <br>
-                        <h3>Tom Caine</h3>
-                    </div>
-                    <div class="item">
-                        <h1>That other really nice testamonial from...</h1>
-                        <br>
-                        <h3>Diana Calthrop</h3>
-                    </div>                    
-                </div>
-                <br><br><br>
-            </div>
-        </div>
-        <div class="overlay-bg"></div>
-    </div>
-</section>
 
-<section id="About" class="light-typo dark-bg padding-top-bottom">
+<section id="About" class="light-typo color-bg padding-top-bottom">
     <div class="container ">
         <header class="section-header text-center">
-            <h2>About <img src="{{assets}}/img/drumhut-logo-white.png" width="200px" padding-left-right="20px"></h2>			
+            <h2><img src="{{assets}}/img/drumhut-logo-white.png" width="300px"></h2>			
         </header>
-		<p>Pellentesque interdum eget odio eu rutrum. Nunc tempus massa a tellus aliquet sodales. Nunc urna tortor, rhoncus accumsan vestibulum non, feugiat a mauris. In hac habitasse platea dictumst. In sagittis orci nec aliquet tristique.</p>
+		<p>The Drumhut is owned and run by me, Matthew Crisp, and the company was born of my desire to bring a reliable source of top quality Guinean djembes and dunun to the UK.</p>
 
-<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>        
+<p>Edinburgh is The Drumhut's home, but I ship all of our products across the UK, and will soon be offering our products to the EU. The professional level djembes we stock are from Conakry in Guinea and are carved by the exceptionally talented Alseny Camara. Each djembe is a work of art unto itself. They're skinned here in Scotland using the highest quality skins from Mali and Guinea and racing-spec yacht rope, meaning that these are amongst highest quality instruments of their type on the planet.</p>
+
+<p>We also stock a range of more budget djembes for those not yet ready to buy the best. But rest assured, they're all skinned and finished with the same skill, care and attention as the professional djembes.</p>
     </div>
 </section>  
-
-
-<section id="cta" class="padding-top-bottom color-bg light-typo">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-4 col-sm-4 news wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="10">
-                <i class="icon-trophy iconBig"></i>
-                <h3>Quality guaranteed</h3>
-            </div>
-            <div class="col-md-4 col-sm-4 news wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="10">
-                <i class="icon-truck iconBig"></i>
-                <h3>Home delivery</h3>
-            </div>
-            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="10">
-                <i class="icon-lock iconBig news"></i>
-                <h3>Secure payment</h3>
-            </div>
-        </div>
-    </div>
-</section>

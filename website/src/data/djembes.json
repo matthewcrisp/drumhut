@@ -3,11 +3,10 @@
     "data": {
         "name": "The Sierpinski",
         "thumb": "/img/sierpinski.jpg",
-        "images": [
-            "img/sierpinski.jpg",
+        "images": [            
 			"img/sierpinski2.jpg"
         ],
-        "price": "£450",
+        "price": "£400",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24\"",
@@ -23,11 +22,10 @@
     "data": {
         "name": "The Ramanujan",
         "thumb": "/img/ramanujan.jpg",
-        "images": [
-            "img/ramanujan.jpg",
+        "images": [            
 			"img/ramanujan2.jpg"
         ],
-        "price": "£450",
+        "price": "£400",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24.5\"",
@@ -43,7 +41,7 @@
 		"thumb": "/img/pascal.jpg",
 		"images": [
 			"img/pascal.jpg"	],
-		"price": "£450",
+		"price": "£400",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24.5\"",
@@ -61,7 +59,7 @@
 		"thumb": "/img/escher.jpg",
 		"images": [
 			"img/escher.jpg"	],
-		"price": "£500",
+		"price": "£450",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24\"",
@@ -78,7 +76,7 @@
 		"thumb": "/img/maxwell.jpg",
 		"images": [
 			"img/maxwell.jpg"	],
-		"price": "£450",
+		"price": "£400",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24\"",
@@ -95,7 +93,7 @@
 		"thumb": "/img/pythagoras.jpg",
 		"images": [
 			"img/pythagoras.jpg"	],
-		"price": "£400",
+		"price": "£375",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24\"",
@@ -113,14 +111,14 @@
 		"thumb": "/img/euclid.jpg",
 		"images": [
 			"img/euclid.jpg"	],
-		"price": "£450",
+		"price": "£400",
 		"featured": true,
 		"diameter": "13\"",
 		"height": "24\"",
 		"wood": "Lenke",
 		"skin": "Thin goat skin",
 		"finish": "Clean Cut",
-		"description":"One of my favourite colour combinations can be found on this djembe: 4mm Dyneema Purple rope and the beautiful 'Red Henna' ring wrap. Named after the most ubiquitous name in mathematics, the carving on The Pythagoras shows off the beauty in the interplay of triangles and kites. The thin skin on this djembe gives very short and dry slaps and tones, perfect for studio work and playing solo."
+		"description":"SAY SOMETHING ABOUT HOW IT SOUNDS. One of my favourite colour combinations can be found on this djembe: 4mm Dyneema Purple rope and the beautiful 'Red Henna' ring wrap. Named after the most ubiquitous name in mathematics, the carving on The Pythagoras shows off the beauty in the interplay of triangles and kites. The thin skin on this djembe gives very short and dry slaps and tones, perfect for studio work and playing solo."
 	}
 },
 {
@@ -207,13 +205,13 @@
 		"wood": "Bete",
 		"skin": "Medium Goat",
 		"finish": "Clean Cut",
-		"description": "Another 13\" diameter Ghanaian djembe made from an attractive sample of bete wood (African walnut). Nicely carved and finished to an extremely smooth matt shine, this is a beautiful example of decorative Ghanaian djembes. Ideal for beginner djembefolas, Ghanaian djembes lack the true sound profile of a Malinke djembe, but serve as a good budget option for someone wanting to practice in drum circles with a full sized djembe that won't break the bank. "
+		"description": "SOLD!!<br><br>Another 13\" diameter Ghanaian djembe made from an attractive sample of bete wood (African walnut). Nicely carved and finished to an extremely smooth matt shine, this is a beautiful example of decorative Ghanaian djembes. Ideal for beginner djembefolas, Ghanaian djembes lack the true sound profile of a Malinke djembe, but serve as a good budget option for someone wanting to practice in drum circles with a full sized djembe that won't break the bank. "
 		}
 },
 {
 "filename": "djembe6",
 	"data": {
-		"name": "13\" Bete Ghana Djembe",
+		"name": "13\" Decorative Indonesian Mahogany Djembe",
 		"thumb": "/img/indonesian.jpg",
 		"images": ["img/indonesian.jpg"],
 		"price": "£140",
@@ -223,7 +221,7 @@
 		"wood": "Indonesian Mahogany",
 		"skin": "Hairy Calf",
 		"finish": "Clean Cut",
-		"description": "This lathe turned Indonesian mahogany djembe decorated with Aborigine inspired artwork is an unusual drum. The interior shape is something of a hybrid between the traditional profiles of a djembe and a bougarabou. To emphasise both characteristics, I decided to head this drum with a thick, unshaved calf skin, as would commonly be found on a bougarabou, and tune the drum to a level of tension more commonly found in djembe drums. The result is something quite pleasing to both the ear and the hands. Sharp and responsive to the touch, the slaps and tones are well defined and easy to play, but the sound is noticicably more muted and 'fat' than you'd expect from a djembe.<br><br> I'd recommend this as a perfect drum for studio recording or for a percussionist in a band. However it lacks in volume when compared with other drums of similar size, so this djembe probably isn't best suited to drum circles or other unamplified situations."
+		"description": "This lathe turned Indonesian mahogany <a href=\"http://www.google.com\">djembe</a> decorated with Aborigine inspired artwork is an unusual drum. The interior shape is something of a hybrid between the traditional profiles of a djembe and a bougarabou. To emphasise both characteristics, I decided to head this drum with a thick, unshaved calf skin, as would commonly be found on a bougarabou, and tune the drum to a level of tension more commonly found in djembe drums. The result is something quite pleasing to both the ear and the hands. Sharp and responsive to the touch, the slaps and tones are well defined and easy to play, but the sound is noticicably more muted and 'fat' than you'd expect from a djembe.<br><br>I'd recommend this as a perfect drum for studio recording or for an amplified percussionist in a band. However it lacks in volume when compared with other drums of similar size, so this djembe probably isn't best suited to drum circles or other unamplified situations."
 		}
 		}
 

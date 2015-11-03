@@ -7,7 +7,46 @@
 			"/img/bags.jpg"
           
         ],
-        "price": "£500"
+        "price": "£30"
     },
     "content": "Ghanaian patterned djembe bag"
+},
+{
+    "filename": "bells1",
+    "data": {
+        "name": "Banana Bells",
+        "thumb": "/img/bells.jpg",
+        "images": [
+			"/img/bells.jpg"
+          
+        ],
+        "price": "£tba",
+		"description": "Iron banana bells for trad-style dunun playing. The favoured style of bell for many dununfola; they sound great and do far less damage to your dunun ropes than most other bells."
+    }
+},
+{
+    "filename": "ksinkksink1",
+    "data": {
+        "name": "Ksink Ksink",
+        "thumb": "/img/comingsoon.jpg",
+        "images": [
+			"/img/comingsoon.jpg"
+          
+        ],
+        "price": "£tba",
+		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look."
+    }
+},
+{
+    "filename": "beatbutter",
+    "data": {
+        "name": "Beat Butter - Hand Nourishment",
+        "thumb": "/img/comingsoon.jpg",
+        "images": [
+			"/img/comingsoon.jpg"
+          
+        ],
+        "price": "£tba",
+		"description": "100ml tubs of fortified shea butter. All our blends include skin stregthening tincture of benzoin that helps prevent damage and speeds up the healing process when damage does occur. <br><br>Our blends include:<br>Warming Ginger<br>Fragrance of the Forest<br>Invigorating Citrus<br>Relaxing Bergamot"
+    }
 }]

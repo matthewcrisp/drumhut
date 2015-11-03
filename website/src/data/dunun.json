@@ -2,35 +2,35 @@
     "filename": "dunun1",
     "data": {
         "name": "Dununba",
-        "thumb": "/img/dunun.jpg",
+        "thumb": "/img/dununcs.jpg",
         "images": [
-            "img/dunun.jpg"         
+            "img/dununcs.jpg"         
         ],
-        "price": "£500"
+        "price": "£tba"
     },
-    "content": "Dununba bass drum"
+    "content": "Dununba"
 }, {
     "filename": "dunun2",
     "data": {
         "name": "Sangban",
-        "thumb": "/img/dunun.jpg",
+        "thumb": "/img/dununcs.jpg",
         "images": [
-			"/img/dunun.jpg"
+			"/img/dununcs.jpg"
           
         ],
-        "price": "£500"
+        "price": "£tba"
     },
-    "content": "Sangban bass drum"
+    "content": "Sangban"
 }, {
     "filename": "dunun3",
     "data": {
         "name": "Kenkeni",
-        "thumb": "/img/dunun.jpg",
+        "thumb": "/img/dununcs.jpg",
         "images": [
-			"/img/dunun.jpg"
+			"/img/dununcs.jpg"
           
         ],
-        "price": "£500"
+        "price": "£tba"
     },
-    "content": "Kenkeni Bass drum"
+    "content": "Kenkeni"
 }]
