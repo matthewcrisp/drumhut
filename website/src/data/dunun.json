@@ -1,5 +1,5 @@
 [{
-    "filename": "dunun1",
+    "filename": "dunun-dunun1",
     "data": {
         "name": "Dununba",
         "thumb": "/img/dununcs.jpg",
@@ -10,7 +10,7 @@
     },
     "content": "Dununba"
 }, {
-    "filename": "dunun2",
+    "filename": "dunun-dunun2",
     "data": {
         "name": "Sangban",
         "thumb": "/img/dununcs.jpg",
@@ -22,7 +22,7 @@
     },
     "content": "Sangban"
 }, {
-    "filename": "dunun3",
+    "filename": "dunun-dunun3",
     "data": {
         "name": "Kenkeni",
         "thumb": "/img/dununcs.jpg",

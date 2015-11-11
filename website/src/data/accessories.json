@@ -1,5 +1,5 @@
 [{
-    "filename": "bag1",
+    "filename": "accessory-bag1",
     "data": {
         "name": "Bag 1",
         "thumb": "/img/bags.jpg",
@@ -12,7 +12,7 @@
     "content": "Ghanaian patterned djembe bag"
 },
 {
-    "filename": "bells1",
+    "filename": "accessory-bells1",
     "data": {
         "name": "Banana Bells",
         "thumb": "/img/bells.jpg",
@@ -25,7 +25,7 @@
     }
 },
 {
-    "filename": "ksinkksink1",
+    "filename": "accessory-ksinkksink1",
     "data": {
         "name": "Ksink Ksink",
         "thumb": "/img/comingsoon.jpg",
@@ -38,7 +38,7 @@
     }
 },
 {
-    "filename": "beatbutter",
+    "filename": "accessory-beatbutter",
     "data": {
         "name": "Beat Butter - Hand Nourishment",
         "thumb": "/img/comingsoon.jpg",

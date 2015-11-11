@@ -84,10 +84,28 @@ module.exports = function(grunt) {
             '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
         }
       },
-      products: {
+      djembes: {
         options: {
-          layout: 'product.hbs',
-          pages: grunt.file.readJSON('src/data/djembes.json').concat(grunt.file.readJSON('src/data/accessories.json'), grunt.file.readJSON('src/data/dunun.json'))
+          layout: 'product-djembe.hbs',
+          pages: grunt.file.readJSON('src/data/djembes.json')
+        },
+        files: {
+            '<%= config.dist %>/': ['<%= config.src %>/templates/pages/dummy.hbs']
+        }
+      },
+      dununs: {
+        options: {
+          layout: 'product-dunun.hbs',
+          pages: grunt.file.readJSON('src/data/dunun.json')
+        },
+        files: {
+            '<%= config.dist %>/': ['<%= config.src %>/templates/pages/dummy.hbs']
+        }
+      },
+      accessories: {
+        options: {
+          layout: 'product-accessory.hbs',
+          pages: grunt.file.readJSON('src/data/accessories.json')
         },
         files: {
             '<%= config.dist %>/': ['<%= config.src %>/templates/pages/dummy.hbs']
