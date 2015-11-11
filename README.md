@@ -30,3 +30,12 @@ Once that is all complete you can run the project
 
 This should open up your default browser with the test page
 
+### Deploying
+
+    $ grunt build
+
+    # commit your new build
+    # push to master branch
+    # push to gh-pages branch
+
+    $ git subtree push --prefix website/dist origin gh-pages
