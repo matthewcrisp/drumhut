@@ -42,7 +42,7 @@
                   </div>
                   <div class="col-md-8 cta-message wow fadeInUp">
                       <div class="slide-wrapper" id="product-slides-container">
-                         <div id="product-slides">
+                         <div id="product-slides" data-length="{{ images.length }}">
                             <div class="slides-container">
                                 {{#each images}}
                                 <img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image">
