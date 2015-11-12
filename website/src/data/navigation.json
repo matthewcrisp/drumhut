@@ -1,25 +1,25 @@
 [{
     "name": "Home",
-    "url": "/"
+    "url": "./"
 }, {
     "name": "Djembes",
-    "url": "/djembes.html"
+    "url": "./djembes.html"
 }, {
     "name": "Dunun",
-    "url": "/dunun.html"
+    "url": "./dunun.html"
 }, {
     "name": "Accessories",
-    "url": "/accessories.html"
+    "url": "./accessories.html"
 }, {
     "name": "Demos",
-    "url": "/demos.html"
+    "url": "./demos.html"
 }, {
     "name": "Repairs",
-    "url": "/repairs.html"
+    "url": "./repairs.html"
 }, {
     "name": "Events",
-    "url": "/events.html"
+    "url": "./events.html"
 }, {
     "name": "Contact",
-    "url": "/contact.html"
+    "url": "./contact.html"
 }]

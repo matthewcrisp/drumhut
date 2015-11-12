@@ -4,9 +4,9 @@
 
         "name": "Bags",
         "title": "Bag 1 - Djembe Accessories",
-        "thumb": "/img/bags.jpg",
+        "thumb": "img/bags.jpg",
         "images": [
-			"/img/bags.jpg"
+			"img/bags.jpg"
           
         ],
         "price": "£30",
@@ -19,9 +19,9 @@
     "data": {
         "name": "Banana Bells",
         "title": "Banana Bells - Djembe Accessories",
-        "thumb": "/img/bells.jpg",
+        "thumb": "img/bells.jpg",
         "images": [
-			"/img/bells.jpg"
+			"img/bells.jpg"
           
         ],
         "price": "£tba",
@@ -34,9 +34,9 @@
     "data": {
         "name": "Ksink Ksink",
         "title": "Ksink Ksink - Djembe Accessories",
-        "thumb": "/img/comingsoon.jpg",
+        "thumb": "img/comingsoon.jpg",
         "images": [
-			"/img/comingsoon.jpg"
+			"img/comingsoon.jpg"
           
         ],
         "price": "£tba",
@@ -49,9 +49,9 @@
     "data": {
         "name": "Beat Butter - Hand Nourishment",
         "title": "Beat Butter - Hand Nourishment - Djembe Accessories",
-        "thumb": "/img/comingsoon.jpg",
+        "thumb": "img/comingsoon.jpg",
         "images": [
-			"/img/comingsoon.jpg"
+			"img/comingsoon.jpg"
           
         ],
         "price": "£tba",
