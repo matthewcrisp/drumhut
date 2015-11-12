@@ -76,8 +76,7 @@ module.exports = function(grunt) {
           layout: 'default.hbs',
           layoutdir: '<%= config.src %>/templates/layouts/',
           data: '<%= config.src %>/data/*.{json,yml}',
-          partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-permalinks','assemble-contrib-sitemap']
+          partials: '<%= config.src %>/templates/partials/*.hbs'
       },
       pages: {
         files: {
@@ -125,12 +124,21 @@ module.exports = function(grunt) {
         cwd: 'src/assets/',
         src: '**/*',
         dest: '<%= config.dist %>/assets/'
+      },
+      cname: {
+        expand: true,
+        cwd: 'src/',
+        src: '_CNAME',
+        dest: '<%= config.dist %>/',
+        rename: function (dest, src) {
+          return dest + src.replace('_', '');
+        }
       }
     },
 
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*.{html,xml}']
+    clean: ['<%= config.dist %>/**/*']
 
   });
 
