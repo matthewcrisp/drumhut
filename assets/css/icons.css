@@ -1,20 +1,20 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?1x5u5b');
-	src:url('fonts/icomoon.eot?#iefix1x5u5b') format('embedded-opentype'),
-		url('fonts/icomoon.woff?1x5u5b') format('woff'),
-		url('fonts/icomoon.ttf?1x5u5b') format('truetype'),
-		url('fonts/icomoon.svg?1x5u5b#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?1x5u5b');
+	src:url('../fonts/icomoon.eot?#iefix1x5u5b') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?1x5u5b') format('woff'),
+		url('../fonts/icomoon.ttf?1x5u5b') format('truetype'),
+		url('../fonts/icomoon.svg?1x5u5b#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'BorisBlackBloxx Regular';
-	src:url('fonts/borisblackbloxx-webfont.eot?1x5u5b');
-	src:url('fonts/borisblackbloxx-webfont.eot?#iefix1x5u5b') format('embedded-opentype'),
-		url('fonts/borisblackbloxx-webfont.woff?1x5u5b') format('woff'),
-		url('fonts/borisblackbloxx-webfont.ttf?1x5u5b') format('truetype'),
-		url('fonts/borisblackbloxx-webfont.svg?1x5u5b#icomoon') format('svg');
+	src:url('../fonts/borisblackbloxx-webfont.eot?1x5u5b');
+	src:url('../fonts/borisblackbloxx-webfont.eot?#iefix1x5u5b') format('embedded-opentype'),
+		url('../fonts/borisblackbloxx-webfont.woff?1x5u5b') format('woff'),
+		url('../fonts/borisblackbloxx-webfont.ttf?1x5u5b') format('truetype'),
+		url('../fonts/borisblackbloxx-webfont.svg?1x5u5b#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
