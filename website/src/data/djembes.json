@@ -3,7 +3,7 @@
         "data": {
             "title": "The Sierpinski - Premium Handmade Djembes",
             "name": "The Sierpinski",
-            "thumb": "/img/sierpinski.jpg",
+            "thumb": "img/sierpinski.jpg",
             "images": [
                 "img/sierpinski2.jpg"
             ],
@@ -24,7 +24,7 @@
         "data": {
             "title": "The Ramanujan - Premium Handmade Djembes",
             "name": "The Ramanujan",
-            "thumb": "/img/ramanujan.jpg",
+            "thumb": "img/ramanujan.jpg",
             "images": [
                 "img/ramanujan2.jpg"
             ],
@@ -43,7 +43,7 @@
         "data": {
             "title": "The Pascal - Premium Handmade Djembes",
             "name": "The Pascal",
-            "thumb": "/img/pascal.jpg",
+            "thumb": "img/pascal.jpg",
             "images": [
                 "img/pascal.jpg"
             ],
@@ -63,7 +63,7 @@
         "data": {
             "title": "The Escher - Premium Handmade Djembes",
             "name": "The Escher",
-            "thumb": "/img/escher.jpg",
+            "thumb": "img/escher.jpg",
             "images": [
                 "img/escher.jpg"
             ],
@@ -82,7 +82,7 @@
         "data": {
             "title": "The Maxwell - Premium Handmade Djembes",
             "name": "The Maxwell",
-            "thumb": "/img/maxwell.jpg",
+            "thumb": "img/maxwell.jpg",
             "images": [
                 "img/maxwell.jpg"
             ],
@@ -101,7 +101,7 @@
         "data": {
             "title": "The Euclid - Premium Handmade Djembes",
             "name": "The Euclid",
-            "thumb": "/img/pythagoras.jpg",
+            "thumb": "img/pythagoras.jpg",
             "images": [
                 "img/pythagoras.jpg"
             ],
@@ -122,7 +122,7 @@
         "data": {
             "title": "The Pythagoras - Premium Handmade Djembes",
             "name": "The Pythagoras",
-            "thumb": "/img/euclid.jpg",
+            "thumb": "img/euclid.jpg",
             "images": [
                 "img/euclid.jpg"
             ],
@@ -141,7 +141,7 @@
         "data": {
             "title": "13\" Senegalese Djembe - Handmade Djembes",
             "name": "13\" Senegalese Djembe",
-            "thumb": "/img/pinkone.jpg",
+            "thumb": "img/pinkone.jpg",
             "images": [
                 "img/pinkone.jpg"
             ],
@@ -160,7 +160,7 @@
         "data": {
             "title": "13\" Tweneboa Ghana Djembe - Handmade Djembes",
             "name": "13\" Tweneboa Ghana Djembe",
-            "thumb": "/img/13twene.jpg",
+            "thumb": "img/13twene.jpg",
             "images": [
                 "img/13twene.jpg"
             ],
@@ -179,7 +179,7 @@
         "data": {
             "title": "12.5\" Iroko Ivory Coast Djembe - Handmade Djembes",
             "name": "12.5\" Iroko Ivory Coast Djembe",
-            "thumb": "/img/125irokokam.jpg",
+            "thumb": "img/125irokokam.jpg",
             "images": [
                 "img/125irokokam.jpg"
             ],
@@ -199,7 +199,7 @@
         "data": {
             "title": "13\" Bete Ghana Djembe - Reshaped - Handmade Djembes",
             "name": "13\" Bete Ghana Djembe - Reshaped",
-            "thumb": "/img/13betereshape.jpg",
+            "thumb": "img/13betereshape.jpg",
             "images": [
                 "img/13beteshape.jpg",
                 "img/reshape.jpg"
@@ -219,7 +219,7 @@
         "data": {
             "title": "13\" Bete Ghana Djembe - Handmade Djembes",
             "name": "13\" Bete Ghana Djembe",
-            "thumb": "/img/marsha.jpg",
+            "thumb": "img/marsha.jpg",
             "images": [
                 "img/marsha.jpg"
             ],
@@ -238,7 +238,7 @@
         "data": {
             "title": "13\" Decorative Indonesian Mahogany Djembe - Handmade Djembes",
             "name": "13\" Decorative Indonesian Mahogany Djembe",
-            "thumb": "/img/indonesian.jpg",
+            "thumb": "img/indonesian.jpg",
             "images": ["img/indonesian.jpg"],
             "price": "£140",
             "featured": false,
