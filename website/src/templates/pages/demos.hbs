@@ -1,0 +1,22 @@
+---
+
+title: Sound Demos
+heading: DEMOS
+lead:
+
+layout: products.hbs
+
+showInNav: true
+navOrder: 5
+
+---
+
+<section id="demos" class="padding-top-bottom">
+    <div class="row">
+    {{#each demos}}
+        <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            {{{ this.data.code }}}
+        </article> 
+    {{/each}}
+    </div>
+</section>

@@ -35,8 +35,16 @@
 	font-size:1.3em;
 
 	
-	}
+}
 
 .slide-wrapper {
     max-height: 500px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.small p {
+    font-size: 12px;
 }

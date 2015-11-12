@@ -1,52 +1,61 @@
 [{
-    "filename": "bag1",
+    "filename": "accessory-bag1",
     "data": {
+
         "name": "Bags",
+        "title": "Bag 1 - Djembe Accessories",
         "thumb": "/img/bags.jpg",
         "images": [
 			"/img/bags.jpg"
           
         ],
-        "price": "£30"
+        "price": "£30",
+        "showEnquireButton": true
     },
     "content": "Ghanaian patterned djembe bag"
 },
 {
-    "filename": "bells1",
+    "filename": "accessory-bells1",
     "data": {
         "name": "Banana Bells",
+        "title": "Banana Bells - Djembe Accessories",
         "thumb": "/img/bells.jpg",
         "images": [
 			"/img/bells.jpg"
           
         ],
         "price": "£tba",
-		"description": "Iron banana bells for trad-style dunun playing. The favoured style of bell for many dununfola; they sound great and do far less damage to your dunun ropes than most other bells."
+		"description": "Iron banana bells for trad-style dunun playing. The favoured style of bell for many dununfola; they sound great and do far less damage to your dunun ropes than most other bells.",
+        "showEnquireButton": false
     }
 },
 {
-    "filename": "ksinkksink1",
+    "filename": "accessory-ksinkksink1",
     "data": {
         "name": "Ksink Ksink",
+        "title": "Ksink Ksink - Djembe Accessories",
         "thumb": "/img/comingsoon.jpg",
         "images": [
 			"/img/comingsoon.jpg"
           
         ],
         "price": "£tba",
-		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look."
+		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look.",
+        "showEnquireButton": false
     }
 },
 {
-    "filename": "beatbutter",
+    "filename": "accessory-beatbutter",
     "data": {
         "name": "Beat Butter - Hand Nourishment",
+        "title": "Beat Butter - Hand Nourishment - Djembe Accessories",
         "thumb": "/img/comingsoon.jpg",
         "images": [
 			"/img/comingsoon.jpg"
           
         ],
         "price": "£tba",
-		"description": "100ml tubs of fortified shea butter. All our blends include skin stregthening tincture of benzoin that helps prevent damage and speeds up the healing process when damage does occur. <br><br>Our blends include:<br>Warming Ginger<br>Fragrance of the Forest<br>Invigorating Citrus<br>Relaxing Bergamot"
+		"description": "100ml tubs of fortified shea butter. All our blends include skin strengthening tincture of benzoin that helps prevent damage and speeds up the healing process when damage does occur. <br><br>Our blends include:<br>Warming Ginger<br>Fragrance of the Forest<br>Invigorating Citrus<br>Relaxing Bergamot",
+        "showEnquireButton": false
     }
 }]

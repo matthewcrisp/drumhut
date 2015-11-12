@@ -1,242 +1,269 @@
 [{
-    "filename": "alseny1",
-    "data": {
-        "name": "The Sierpinski",
-        "thumb": "/img/sierpinski.jpg",
-        "images": [            
-			"img/sierpinski2.jpg"
-        ],
-        "price": "£400",
-		"featured": true,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Khadi",
-		"skin": "Medium goat skin",
-		"finish": "Fold-over",
-		"description": "A powerful sounding Khadi wood djembe, carved with motifs reminiscent of the Sierpinski Triangle fractal. One of the shorter djembes in the Drum Hut Premium range, this drum sits at what would generally be considered the standard adult djembe height 24\". Finished with a clean folded skin and blue/black 5mm Evolution Control rope, this djembe will stand out in any drum circle for both its sound and appearance."
-		
+            "filename": "djembe-alseny1",
+        "data": {
+            "title": "The Sierpinski - Premium Handmade Djembes",
+            "name": "The Sierpinski",
+            "thumb": "/img/sierpinski.jpg",
+            "images": [
+                "img/sierpinski2.jpg"
+            ],
+            "price": "£400",
+            "featured": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Khadi",
+            "skin": "Medium goat skin",
+            "finish": "Fold-over",
+            "description": "A powerful sounding Khadi wood djembe, carved with motifs reminiscent of the Sierpinski Triangle fractal. One of the shorter djembes in the Drum Hut Premium range, this drum sits at what would generally be considered the standard adult djembe height 24\". Finished with a clean folded skin and blue/black 5mm Evolution Control rope, this djembe will stand out in any drum circle for both its sound and appearance.",
+            "showEnquireButton": true
+
+        }
+
+    }, {
+        "filename": "djembe-alseny2",
+        "data": {
+            "title": "The Ramanujan - Premium Handmade Djembes",
+            "name": "The Ramanujan",
+            "thumb": "/img/ramanujan.jpg",
+            "images": [
+                "img/ramanujan2.jpg"
+            ],
+            "price": "£400",
+            "featured": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24.5\"",
+            "wood": "Djalla",
+            "skin": "Medium goat skin",
+            "finish": "Skin Twist",
+            "description": "The red Djalla wood and elegant profile and carving of this djembe provide a distinct and pleasing Islamic aesthetic. Named for the influential Indian mathematician Srinivasa Ramanujan who helped develop prime number theory, examples of prime number arithmetic can be found in the carving of this djembe. The tall bowl shape and Djalla wood combination make for a drum with exceptionally sweet tones and very dry slaps.",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-alseny3",
+        "data": {
+            "title": "The Pascal - Premium Handmade Djembes",
+            "name": "The Pascal",
+            "thumb": "/img/pascal.jpg",
+            "images": [
+                "img/pascal.jpg"
+            ],
+            "price": "£400",
+            "featured": true,
+			"sold": true,
+            "diameter": "13\"",
+            "height": "24.5\"",
+            "wood": "Lenke",
+            "skin": "Thick goat skin",
+            "finish": "Clean Cut",
+            "description": "An aggressive sounding djembe with a loud, resonant voice and uncomprimising carving to match. Perfect for those who want to be both seen and heard. Named after 17th Century mathematician Blaise Pascal and the famous \"Pascal's Triangle\" - a triangular array that can be seen in the carving on the foot of this djembe.",
+            "showEnquireButton": true
+        }
+
+    }, {
+        "filename": "djembe-alseny4",
+        "data": {
+            "title": "The Escher - Premium Handmade Djembes",
+            "name": "The Escher",
+            "thumb": "/img/escher.jpg",
+            "images": [
+                "img/escher.jpg"
+            ],
+            "price": "£450",
+            "featured": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Lenke",
+            "skin": "",
+            "finish": "",
+            "description": "Delicately, but mesmerisingly carved, this djembe is named after the artist M.C. Escher, who specialised in illusions, patterns and other mathematically inspired artwork. This lightweight djembe is yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials.",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-alseny5",
+        "data": {
+            "title": "The Maxwell - Premium Handmade Djembes",
+            "name": "The Maxwell",
+            "thumb": "/img/maxwell.jpg",
+            "images": [
+                "img/maxwell.jpg"
+            ],
+            "price": "£400",
+            "featured": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Lenke",
+            "skin": "",
+            "finish": "",
+            "description": "James Clerk Maxwell, the magnificently bearded physicist and pioneer of the study of electromagnetic waves lends this djembe his name. The delicate carving and gentle profile of this djembe will make for a subtle, but surprisingly powerful djembe when it's skinned. It's yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials.",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-alseny6",
+        "data": {
+            "title": "The Euclid - Premium Handmade Djembes",
+            "name": "The Euclid",
+            "thumb": "/img/pythagoras.jpg",
+            "images": [
+                "img/pythagoras.jpg"
+            ],
+            "price": "£375",
+            "featured": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Lenke",
+            "skin": "",
+            "finish": "",
+            "description": "Triangles and arcs dominate the aesthetic of this djembe, meaning the only appropriate name could be Euclid; the Ancient Greek Godfather of geometry. A visually striking djembe, The Euclid will stand out from any crowd. It's yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials.",
+            "description2": "Unfortunately this djembe has had a small issue with some pesky woodworms, but it's since been fully treated and is now a perfectly serviceable djembe. There were just seven flight holes in total and none of them very deep. The insects are now gone and the holes have all been filled with resin. Nonetheless, £50 has been dropped from the price of this djembe to compensate for the presence of the holes.",
+            "showEnquireButton": true 
+        }
+
+    }, {
+        "filename": "djembe-alseny7",
+        "data": {
+            "title": "The Pythagoras - Premium Handmade Djembes",
+            "name": "The Pythagoras",
+            "thumb": "/img/euclid.jpg",
+            "images": [
+                "img/euclid.jpg"
+            ],
+            "price": "£400",
+            "featured": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Lenke",
+            "skin": "Thin goat skin",
+            "finish": "Clean Cut",
+            "description": "SAY SOMETHING ABOUT HOW IT SOUNDS. One of my favourite colour combinations can be found on this djembe: 4mm Dyneema Purple rope and the beautiful 'Red Henna' ring wrap. Named after the most ubiquitous name in mathematics, the carving on The Pythagoras shows off the beauty in the interplay of triangles and kites. The thin skin on this djembe gives very short and dry slaps and tones, perfect for studio work and playing solo.",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-senegalese",
+        "data": {
+            "title": "13\" Senegalese Djembe - Handmade Djembes",
+            "name": "13\" Senegalese Djembe",
+            "thumb": "/img/pinkone.jpg",
+            "images": [
+                "img/pinkone.jpg"
+            ],
+            "price": "£180",
+            "featured": false,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Unknown",
+            "skin": "Medium goat skin",
+            "finish": "Clean Cut",
+            "description": "Daring in colour, once described by one person as \"disgusting\" and instantly by another as \"gorgeous\", this is a djembe that splits opinions! It comes from Senegal and has been lovingly restored here at The Drum Hut. A crack in the foot has been repaired and the whole drum has been sanded smooth and waxed to a shine. It's tuned high and has some of the sharpest and most piercing slaps around. Made from lightweight wood but well shaped on the inside, this djembe both easily transportable and true to the proper sound of a djembe.",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-tweneboa",
+        "data": {
+            "title": "13\" Tweneboa Ghana Djembe - Handmade Djembes",
+            "name": "13\" Tweneboa Ghana Djembe",
+            "thumb": "/img/13twene.jpg",
+            "images": [
+                "img/13twene.jpg"
+            ],
+            "price": "£140",
+            "featured": false,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Tweneboa",
+            "skin": "Medium Goat",
+            "finish": "",
+            "description": "13\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this pretty drum would be the perfect first djembe for a beginner drummer wanting experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on.",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-iroko-ivory-coast",
+        "data": {
+            "title": "12.5\" Iroko Ivory Coast Djembe - Handmade Djembes",
+            "name": "12.5\" Iroko Ivory Coast Djembe",
+            "thumb": "/img/125irokokam.jpg",
+            "images": [
+                "img/125irokokam.jpg"
+            ],
+            "price": "£220",
+            "featured": false,
+			"sold": false,
+            "diameter": "12.5\"",
+            "height": "24\"",
+            "wood": "Iroko",
+            "skin": "Calf Skin",
+            "finish": "Fold-over",
+            "description": "A superb sounding djembe with smooth, rich tones and surprisingly mellow, pleasant slaps. This shell was originally a Kambala djembe, probably built around 2005 and has been repurposed with a thick calf skin that gives the shell an unusually pleasant and smooth sound profile - none of the dry, crispness of the most expensive djembes, but one that is loved by all who've played it.",
+        	"showEnquireButton": true
+
+        	}
+    }, {
+        "filename": "djembe-ghana-reshaped",
+        "data": {
+            "title": "13\" Bete Ghana Djembe - Reshaped - Handmade Djembes",
+            "name": "13\" Bete Ghana Djembe - Reshaped",
+            "thumb": "/img/13betereshape.jpg",
+            "images": [
+                "img/13beteshape.jpg",
+                "img/reshape.jpg"
+            ],
+            "price": "£180",
+            "featured": false,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Bete",
+            "skin": "Medium Goat Skin",
+            "finish": "Fold-over",
+            "description": "With an all new shape to the interior of the bowl, this djembe stands head and shoulders above other djembes of this type. The typical funnel-shaped carving of Ghanaian djembes that does nothing to enhance the sound of a djembe is here replaced with the strong bowl-shaped carve of a traditional djembe. This gives the drum more more distinction between tones and slaps, reduces umpleasant overtones and makes this a much easier djembe to play. Added to all this is the benefit that comes from Ghanaian djembes being made from light woods - you'll get a good sounding, lightweight djembe that won't break your back or your djembe bag!",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-ghana",
+        "data": {
+            "title": "13\" Bete Ghana Djembe - Handmade Djembes",
+            "name": "13\" Bete Ghana Djembe",
+            "thumb": "/img/marsha.jpg",
+            "images": [
+                "img/marsha.jpg"
+            ],
+            "price": "£140",
+            "featured": false,
+			"sold": true,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Bete",
+            "skin": "Medium Goat",
+            "finish": "Clean Cut",
+            "description": "SOLD!!<br><br>Another 13\" diameter Ghanaian djembe made from an attractive sample of bete wood (African walnut). Nicely carved and finished to an extremely smooth matt shine, this is a beautiful example of decorative Ghanaian djembes. Ideal for beginner djembefolas, Ghanaian djembes lack the true sound profile of a Malinke djembe, but serve as a good budget option for someone wanting to practice in drum circles with a full sized djembe that won't break the bank. ",
+            "showEnquireButton": true
+        }
+    }, {
+        "filename": "djembe-indonesian-mahogany",
+        "data": {
+            "title": "13\" Decorative Indonesian Mahogany Djembe - Handmade Djembes",
+            "name": "13\" Decorative Indonesian Mahogany Djembe",
+            "thumb": "/img/indonesian.jpg",
+            "images": ["img/indonesian.jpg"],
+            "price": "£140",
+            "featured": false,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Indonesian Mahogany",
+            "skin": "Hairy Calf",
+            "finish": "Clean Cut",
+            "description": "This lathe turned Indonesian mahogany <a href=\"http://www.google.com\">djembe</a> decorated with Aborigine inspired artwork is an unusual drum. The interior shape is something of a hybrid between the traditional profiles of a djembe and a bougarabou. To emphasise both characteristics, I decided to head this drum with a thick, unshaved calf skin, as would commonly be found on a bougarabou, and tune the drum to a level of tension more commonly found in djembe drums. The result is something quite pleasing to both the ear and the hands. Sharp and responsive to the touch, the slaps and tones are well defined and easy to play, but the sound is noticicably more muted and 'fat' than you'd expect from a djembe.<br><br>I'd recommend this as a perfect drum for studio recording or for an amplified percussionist in a band. However it lacks in volume when compared with other drums of similar size, so this djembe probably isn't best suited to drum circles or other unamplified situations.",
+            "showEnquireButton": true
+        }
     }
-    
-}, {
-    "filename": "alseny2",
-    "data": {
-        "name": "The Ramanujan",
-        "thumb": "/img/ramanujan.jpg",
-        "images": [            
-			"img/ramanujan2.jpg"
-        ],
-        "price": "£400",
-		"featured": true,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24.5\"",
-		"wood": "Djalla",
-		"skin": "Medium goat skin",
-		"finish": "Skin Twist",
-		"description": "The red Djalla wood and elegant profile and carving of this djembe provide a distinct and pleasing Islamic aesthetic. Named for the influential Indian mathematician Srinivasa Ramanujan who helped develop prime number theory, examples of prime number arithmetic can be found in the carving of this djembe. The tall bowl shape and Djalla wood combination make for a drum with exceptionally sweet tones and very dry slaps."
-}
-}, {
-	"filename": "alseny3",
-	"data": {
-		"name": "The Pascal",
-		"thumb": "/img/pascal.jpg",
-		"images": [
-			"img/pascal.jpg"	],
-		"price": "£400",
-		"featured": true,
-		"sold": true,
-		"diameter": "13\"",
-		"height": "24.5\"",
-		"wood": "Lenke",
-		"skin": "Thick goat skin",
-		"finish": "Clean Cut",
-		"description":"An aggressive sounding djembe with a loud, resonant voice and uncomprimising carving to match. Perfect for those who want to be both seen and heard. Named after 17th Century mathematician Blaise Pascal and the famous \"Pascal's Triangle\" - a triangular array that can be seen in the carving on the foot of this djembe."
-	}
-	
-},
-{
-	"filename": "alseny4",
-	"data": {
-		"name": "The Escher",
-		"thumb": "/img/escher.jpg",
-		"images": [
-			"img/escher.jpg"	],
-		"price": "£450",
-		"featured": true,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Lenke",
-		"skin": "",
-		"finish": "",
-		"description":"Delicately, but mesmerisingly carved, this djembe is named after the artist M.C. Escher, who specialised in illusions, patterns and other mathematically inspired artwork. This lightweight djembe is yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials."
-	}
-},
-{
-	"filename": "alseny5",
-	"data": {
-		"name": "The Maxwell",
-		"thumb": "/img/maxwell.jpg",
-		"images": [
-			"img/maxwell.jpg"	],
-		"price": "£400",
-		"featured": true,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Lenke",
-		"skin": "",
-		"finish": "",
-		"description":"James Clerk Maxwell, the magnificently bearded physicist and pioneer of the study of electromagnetic waves lends this djembe his name. The delicate carving and gentle profile of this djembe will make for a subtle, but surprisingly powerful djembe when it's skinned. It's yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials."
-	}
-},
-{
-	"filename": "alseny6",
-	"data": {
-		"name": "The Euclid",
-		"thumb": "/img/pythagoras.jpg",
-		"images": [
-			"img/pythagoras.jpg"	],
-		"price": "£375",
-		"featured": true,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Lenke",
-		"skin": "",
-		"finish": "",
-		"description":"Triangles and arcs dominate the aesthetic of this djembe, meaning the only appropriate name could be Euclid; the Ancient Greek Godfather of geometry. A visually striking djembe, The Euclid will stand out from any crowd. It's yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials.",
-		"description2": "Unfortunately this djembe has had a small issue with some pesky woodworms, but it's since been fully treated and is now a perfectly serviceable djembe. There were just seven flight holes in total and none of them very deep. The insects are now gone and the holes have all been filled with resin. Nonetheless, £50 has been dropped from the price of this djembe to compensate for the presence of the holes."
-	}
-	
-},{
-	"filename": "alseny7",
-	"data": {
-		"name": "The Pythagoras",
-		"thumb": "/img/euclid.jpg",
-		"images": [
-			"img/euclid.jpg"	],
-		"price": "£400",
-		"featured": true,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Lenke",
-		"skin": "Thin goat skin",
-		"finish": "Clean Cut",
-		"description":"SAY SOMETHING ABOUT HOW IT SOUNDS. One of my favourite colour combinations can be found on this djembe: 4mm Dyneema Purple rope and the beautiful 'Red Henna' ring wrap. Named after the most ubiquitous name in mathematics, the carving on The Pythagoras shows off the beauty in the interplay of triangles and kites. The thin skin on this djembe gives very short and dry slaps and tones, perfect for studio work and playing solo."
-	}
-},
-{
-	"filename": "djembe1",
-	"data": {
-		"name": "13\" Senegalese Djembe",
-		"thumb": "/img/pinkone.jpg",
-		"images": [
-			"img/pinkone.jpg"	],
-		"price": "£180",
-		"featured": false,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Unknown",
-		"skin": "Medium goat skin",
-		"finish": "Clean Cut",
-		"description":"Daring in colour, once described by one person as \"disgusting\" and instantly by another as \"gorgeous\", this is a djembe that splits opinions! It comes from Senegal and has been lovingly restored here at The Drum Hut. A crack in the foot has been repaired and the whole drum has been sanded smooth and waxed to a shine. It's tuned high and has some of the sharpest and most piercing slaps around. Made from lightweight wood but well shaped on the inside, this djembe both easily transportable and true to the proper sound of a djembe."
-		}
-},
-{
-	"filename": "djembe2",
-	"data": {
-		"name": "13\" Tweneboa Ghana Djembe",
-		"thumb": "/img/13twene.jpg",
-		"images": [
-			"img/13twene.jpg"	],
-		"price": "£140",
-		"featured": false,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Tweneboa",
-		"skin": "Medium Goat",
-		"finish": "",
-		"description": "13\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this pretty drum would be the perfect first djembe for a beginner drummer wanting experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on."
-		}
-},
-{
-	"filename": "djembe3",
-	"data": {
-		"name": "12.5\" Iroko Ivory Coast Djembe",
-		"thumb": "/img/125irokokam.jpg",
-		"images": [
-			"img/125irokokam.jpg"	],
-		"price": "£220",
-		"featured": false,
-		"sold": false,
-		"diameter": "12.5\"",
-		"height": "24\"",
-		"wood": "Iroko",
-		"skin": "Calf Skin",
-		"finish": "Fold-over",
-		"description": "A superb sounding djembe with smooth, rich tones and surprisingly mellow, pleasant slaps. This shell was originally a Kambala djembe, probably built around 2005 and has been repurposed with a thick calf skin that gives the shell an unusually pleasant and smooth sound profile - none of the dry, crispness of the most expensive djembes, but one that is loved by all who've played it."
-		}
-},
-{
-	"filename": "djembe4",
-	"data": {
-		"name": "13\" Bete Ghana Djembe - Reshaped",
-		"thumb": "/img/13betereshape.jpg",
-		"images": [
-			"img/13beteshape.jpg",
-			"img/reshape.jpg"
-			],
-		"price": "£180",
-		"featured": false,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Bete",
-		"skin": "Medium Goat Skin",
-		"finish": "Fold-over",
-		"description": "With an all new shape to the interior of the bowl, this djembe stands head and shoulders above other djembes of this type. The typical funnel-shaped carving of Ghanaian djembes that does nothing to enhance the sound of a djembe is here replaced with the strong bowl-shaped carve of a traditional djembe. This gives the drum more more distinction between tones and slaps, reduces umpleasant overtones and makes this a much easier djembe to play. Added to all this is the benefit that comes from Ghanaian djembes being made from light woods - you'll get a good sounding, lightweight djembe that won't break your back or your djembe bag!"
-		}
-},
-{
-	"filename": "djembe5",
-	"data": {
-		"name": "13\" Bete Ghana Djembe",
-		"thumb": "/img/marsha.jpg",
-		"images": [
-			"img/marsha.jpg"	],
-		"price": "£140",
-		"featured": false,
-		"sold": true,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Bete",
-		"skin": "Medium Goat",
-		"finish": "Clean Cut",
-		"description": "SOLD!!<br><br>Another 13\" diameter Ghanaian djembe made from an attractive sample of bete wood (African walnut). Nicely carved and finished to an extremely smooth matt shine, this is a beautiful example of decorative Ghanaian djembes. Ideal for beginner djembefolas, Ghanaian djembes lack the true sound profile of a Malinke djembe, but serve as a good budget option for someone wanting to practice in drum circles with a full sized djembe that won't break the bank. "
-		}
-},
-{
-"filename": "djembe6",
-	"data": {
-		"name": "13\" Decorative Indonesian Mahogany Djembe",
-		"thumb": "/img/indonesian.jpg",
-		"images": ["img/indonesian.jpg"],
-		"price": "£140",
-		"featured": false,
-		"sold": false,
-		"diameter": "13\"",
-		"height": "24\"",
-		"wood": "Indonesian Mahogany",
-		"skin": "Hairy Calf",
-		"finish": "Clean Cut",
-		"description": "This lathe turned Indonesian mahogany <a href=\"http://www.google.com\">djembe</a> decorated with Aborigine inspired artwork is an unusual drum. The interior shape is something of a hybrid between the traditional profiles of a djembe and a bougarabou. To emphasise both characteristics, I decided to head this drum with a thick, unshaved calf skin, as would commonly be found on a bougarabou, and tune the drum to a level of tension more commonly found in djembe drums. The result is something quite pleasing to both the ear and the hands. Sharp and responsive to the touch, the slaps and tones are well defined and easy to play, but the sound is noticicably more muted and 'fat' than you'd expect from a djembe.<br><br>I'd recommend this as a perfect drum for studio recording or for an amplified percussionist in a band. However it lacks in volume when compared with other drums of similar size, so this djembe probably isn't best suited to drum circles or other unamplified situations."
-		}
-		}
 
 
 

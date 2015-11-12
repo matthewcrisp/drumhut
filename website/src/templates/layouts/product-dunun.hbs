@@ -26,14 +26,19 @@
       <section class="padding-top-bottom">
           <div class="container">
               <div class="row">
-                  <div class="col-md-4 wow fadeInLeft">
+                  <div class="col-md-4 wow fadeInLeft text-center">
                       <header class="section-header cta-message">
-                          <center><h1>{{ name }}</h1>
+                          <h1>{{ name }}</h1>
                           <h3>{{ price }}</h3>
                           </header>
-            					  <center><p>{{{ description }}}</p>
-            					  <p><font size="1">{{ description2 }}</font></p></center>
-					  
+            					  <p>{{{ description }}}</p>
+                        <div class="small">
+                           <p>{{ description2 }}</p>
+                       </div>
+
+                       {{#if showEnquireButton}}
+                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Dunun: {{ name }}" class="btn btn-primary">Enquire</a>
+                       {{/if}}
                   </div>
                   <div class="col-md-8 cta-message wow fadeInUp">
                       <div class="slide-wrapper" id="product-slides-container">

@@ -13,10 +13,14 @@ $(document).ready(function() {
 		animation: 'fade'
 	});
 
-	$('#product-slides').superslides({
-		play: 8000,
+	var $productSlides = $('#product-slides'),
+		slideCount = parseInt($productSlides.attr('data-length') || 0, 10);
+
+	$productSlides.superslides({
+		play: slideCount > 1 ? 8000 : 0,
 		animation: 'fade',
-		inherit_height_from: '#product-slides-container'
+		inherit_height_from: '#product-slides-container',
+		inherit_width_from: '#product-slides-container'
 	});
 
 	/* Navbar collapse ======================================= */

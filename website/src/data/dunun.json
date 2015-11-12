@@ -1,36 +1,42 @@
 [{
-    "filename": "dunun1",
+    "filename": "dunun-dununba",
     "data": {
         "name": "Dununba",
+        "title": "Dununba - Premium Handmade Dunun",
         "thumb": "/img/dununcs.jpg",
         "images": [
-            "img/dununcs.jpg"         
+            "img/dununcs.jpg"
         ],
-        "price": "£tba"
+        "price": "£tba",
+        "showEnquireButton": false
     },
     "content": "Dununba"
 }, {
-    "filename": "dunun2",
+    "filename": "dunun-sangban",
     "data": {
         "name": "Sangban",
+        "title": "Sangban - Premium Handmade Dunun",
         "thumb": "/img/dununcs.jpg",
         "images": [
-			"/img/dununcs.jpg"
-          
+            "/img/dununcs.jpg"
+
         ],
-        "price": "£tba"
+        "price": "£tba",
+        "showEnquireButton": false
     },
     "content": "Sangban"
 }, {
-    "filename": "dunun3",
+    "filename": "dunun-kenkeni",
     "data": {
         "name": "Kenkeni",
+        "title": "Kenkeni - Premium Handmade Dunun",
         "thumb": "/img/dununcs.jpg",
         "images": [
-			"/img/dununcs.jpg"
-          
+            "/img/dununcs.jpg"
+
         ],
-        "price": "£tba"
+        "price": "£tba",
+        "showEnquireButton": false
     },
     "content": "Kenkeni"
 }]
