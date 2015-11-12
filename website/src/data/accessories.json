@@ -1,7 +1,8 @@
 [{
     "filename": "accessory-bag1",
     "data": {
-        "name": "Bag 1",
+
+        "name": "Bags",
         "title": "Bag 1 - Djembe Accessories",
         "thumb": "img/bags.jpg",
         "images": [
