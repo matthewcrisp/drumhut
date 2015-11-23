@@ -40,12 +40,12 @@
                         <div class="small">
             					     <p>{{ description2 }}</p>
 					             </div>
+								 </div>
+								
 
-                       {{#if showEnquireButton}}
-                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary">Enquire</a>
-                       {{/if}}
-                  </div>
-                  <div class="col-md-8 cta-message wow fadeInUp">
+                       
+                  
+                  <div class="col-md-8 cta-message wow fadeInUp text-center">
                       <div class="slide-wrapper" id="product-slides-container">
                          <div id="product-slides" data-length="{{ images.length }}">
                             <div class="slides-container">
@@ -57,9 +57,17 @@
                       </div>
                       {{> body }}
 
-                  </div>
-
-              </div>
+                  
+				  
+				  
+								 {{#if showEnquireButton}}
+                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin-top:5px">Enquire</a>
+								 {{/if}}
+								 <br>
+						<a href="{{{etsy-link}}}" class="btn btn-primary" style="margin-top:5px"><font size="4.5em">Buy on Etsy</font></a>
+								 
+					</div>
+              </div>			  
           </div>
       </section>
 
