@@ -49,8 +49,8 @@
                       <div class="slide-wrapper" id="product-slides-container">
                          <div id="product-slides" data-length="{{ images.length }}">
                             <div class="slides-container">
-                                {{#each images}}
-                                <img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image">
+                                {{#each images}}														
+                                <img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image">								
                                 {{/each}}
                             </div>
                         </div>
@@ -64,7 +64,9 @@
                        <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin-top:5px">Enquire</a>
 								 {{/if}}
 								 <br>
+								 {{#unless sold}}
 						<a href="{{{etsy-link}}}" class="btn btn-primary" style="margin-top:5px"><font size="4.5em">Buy on Etsy</font></a>
+								 {{/unless}}
 								 
 					</div>
               </div>			  
