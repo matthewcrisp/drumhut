@@ -50,9 +50,6 @@ navOrder: 1
 			{{#if data.featured}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
-				{{#if data.sold}}
-		<img src="../assets/img/sold.png" style="z-index:1; position:absolute; top:0; height:90%">
-				{{/if}}
             </article> 
             {{/if}}
 			{{/each}}
@@ -117,9 +114,11 @@ navOrder: 1
         <div id="projects-container" class="row">
             
             {{#each djembes}}
+            {{#if this.data.videoCode}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
             </article> 
+            {{/if}}
             {{/each}}
 
         </div>

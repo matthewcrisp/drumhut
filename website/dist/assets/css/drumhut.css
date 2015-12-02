@@ -48,3 +48,11 @@
 .small p {
     font-size: 12px;
 }
+
+.sold {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}

@@ -13,4 +13,7 @@
     <span class="sr-only project-description">
         {{ this.content }}
     </span>
+    {{#if this.data.sold}}
+        <img src="../assets/img/sold.png" class="sold">
+    {{/if}}
 </a>
