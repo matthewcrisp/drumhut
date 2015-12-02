@@ -19,8 +19,11 @@ navOrder: 2
         </header>
 {{#each djembes}}
 {{#if data.featured}}
-<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
 	{{> product-link this }}
+	{{#if data.sold}}
+		<img src="../assets/img/sold.png" style="z-index:1; position:absolute; top:0; height:90%">
+	{{/if}}
 </article> 
 {{/if}}
 {{/each}}
@@ -38,6 +41,9 @@ navOrder: 2
 {{#unless data.featured}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
+	{{#if data.sold}}
+		<img src="../assets/img/sold.png" style="z-index:1; position:absolute; top:0; height:90%">
+	{{/if}}
 </article> 
 {{/unless}}
 {{/each}}

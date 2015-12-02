@@ -18,8 +18,9 @@ navOrder: 1
                 <h3>{{ lead }}</h3>
                 <ul class="social-links text-center">
 					<li><a href="#djembes" class="smooth-scroll" alt="Djembes"><img src="{{assets}}/img/Djembe Icon 5.png" style="margin-top:8px; margin-left:0px"></img></a></li>
-                    <li><a href="#dunun" class="smooth-scroll" alt="Dunun"><img src="{{assets}}/img/Dunun Icon 3.png" style="margin-top:8px"></img></a></li>
-					<li><a href="#sound" class="smooth-scroll" alt="Sound Demos"><i class="icon-youtube"></i></a></li>					
+                   <!-- <li><a href="#dunun" class="smooth-scroll" alt="Dunun"><img src="{{assets}}/img/Dunun Icon 3.png" style="margin-top:8px"></img></a></li>
+						<li><a href="#accessories" class="smooth-scroll" alt="Accessories"><img src="{{assets}}/img/accessories.png" style="margin-top:8px"></img></a></li>-->
+					<li><a href="#sound" class="smooth-scroll" alt="Sound Demos"><i style="opacity:0.5" class="icon-youtube"></i></a></li>					
                 </ul>
             </div>
         </div>
@@ -39,6 +40,7 @@ navOrder: 1
     <div class="container">
         <header class="section-header text-center wow fadeInUp">
             <h2>Djembes</h2>
+			<p>A small</p>
         </header>
     </div>
     <div class="container">
@@ -48,15 +50,20 @@ navOrder: 1
 			{{#if data.featured}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
+				{{#if data.sold}}
+		<img src="../assets/img/sold.png" style="z-index:1; position:absolute; top:0; height:90%">
+				{{/if}}
             </article> 
             {{/if}}
 			{{/each}}
 
-        </div>
+        </div>		
+		<center><a href="/djembes.html" class="btn btn-primary"><font size="4em">See The Whole Range</font></a></center>
     </div>
 
 </section>
 
+<!--
 <section id="dunun" class="gray-bg padding-top-bottom ">
  <div class="container">
         <header class="section-header text-center wow fadeInUp">
@@ -78,6 +85,27 @@ navOrder: 1
 
 </section>
 
+<section id="accessories" class="padding-top-bottom ">
+ <div class="container">
+        <header class="section-header text-center wow fadeInUp">
+            <h2>Accessories</h2>
+        </header>
+    </div>
+    <div class="container">
+        <div id="projects-container" class="row">
+            
+            {{#each accessories}}
+            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+				{{> product-link this }}
+            </article> 
+            {{/each}}
+
+        </div>
+    </div>
+
+
+</section>
+-->
 
 <section id="sound" class="gray-bg padding-top-bottom ">
  <div class="container">
@@ -88,9 +116,9 @@ navOrder: 1
     <div class="container">
         <div id="projects-container" class="row">
             
-            {{#each demos}}
+            {{#each djembes}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-				{{{ this.data.code }}}
+				{{{ this.data.videoCode }}}
             </article> 
             {{/each}}
 
@@ -104,10 +132,10 @@ navOrder: 1
         <header class="section-header text-center">
             <h2><img src="{{assets}}/img/drumhut-logo-white.png" width="300px"></h2>			
         </header>
-		<p>The Drumhut is owned and run by me, Matthew Crisp, and the company was born of my desire to bring a reliable source of top quality Guinean djembes and dunun to the UK.</p>
+		<center><p>The Drumhut is owned and run by me, Matthew Crisp, and the company was born of my desire to bring a reliable source of top quality Guinean djembes and dunun to the UK.</p>
 
 <p>Edinburgh is The Drumhut's home, but I ship all of our products across the UK, and will soon be offering our products to the EU. The professional level djembes we stock are from Conakry in Guinea and are carved by the exceptionally talented Alseny Camara. Each djembe is a work of art unto itself. They're skinned here in Scotland using the highest quality skins from Mali and Guinea and racing-spec yacht rope, meaning that these are amongst highest quality instruments of their type on the planet.</p>
 
 <p>We also stock a range of more budget djembes for those not yet ready to buy the best. But rest assured, they're all skinned and finished with the same skill, care and attention as the professional djembes.</p>
-    </div>
+    </center></div>
 </section>  
