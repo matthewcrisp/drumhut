@@ -19,7 +19,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/257967301/the-sierpinski-13-djembe-from-the-drum?ref=listing-shop-header-0",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/140822220\" width=\"100%\" height=\"300\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"https://vimeo.com/140822220\">Mockolo Demos The Sierpinski</a> from <a href=\"https://vimeo.com/user18486666\">Matthew Crisp</a> on <a href=\"https://vimeo.com\">Vimeo</a>.</p>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/140822220?color=ff9933&title=0&byline=0&portrait=0\" width=\"600\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
 
         }
 
@@ -44,7 +44,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/257478425/the-ramanujan-premium-13-djalla-wood?ref=shop_home_active_1",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/147534088\" width=\"100%\" height=\"300\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"https://vimeo.com/147534088\">The Ramanujan</a></p>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/147534088?color=ff9933&title=0&byline=0&portrait=0\" width=\"600\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     }, {
         "filename": "djembe-alseny3",
@@ -311,7 +311,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/147534087\" width=\"100%\" height=\"300\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"https://vimeo.com/147534087\">12.5\" Balafon Wood Guinea Djembe - Calf Skin</a></p>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/147534087?color=ff9933&title=0&byline=0&portrait=0\" width=\"600\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     }
 
