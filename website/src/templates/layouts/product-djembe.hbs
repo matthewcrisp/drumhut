@@ -60,17 +60,23 @@
                   
 				  
 				  
-								 {{#if showEnquireButton}}
-                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin-top:5px">Enquire</a>
-								 {{/if}}
-								 <br>
 								 {{#unless sold}}
+                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin-top:5px">Enquire</a>
+								 
+								 <br>
+								 
 						<a href="{{{etsy-link}}}" class="btn btn-primary" style="margin-top:5px"><font size="4.5em">Buy on Etsy</font></a>
 								 {{/unless}}
 								 
 					</div>
-              </div>			  
-          </div>
+              </div>	
+			{{#if video}}
+			  <div class="row" style="padding-top:20px">	
+				<div class="col-md-6 col-md-offset-5 col-sm-8 col-sm-offset-2">
+					{{{ videoCode }}}
+				</div>
+			  </div>
+			  {{/if}}
       </section>
 
     </div>

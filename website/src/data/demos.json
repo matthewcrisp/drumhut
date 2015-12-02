@@ -2,7 +2,7 @@
     "filename": "demo1",
     "data": {
         "name": "The Sierpinski",
-        "thumb": "img/sierpinski.jpg",
+        "thumb": "img/thumbs/sierpinski.jpg",
         "images": [
 			"img/sierpinski.jpg"
           
@@ -15,7 +15,7 @@
     "filename": "demo2",
     "data": {
         "name": "12.5\" Balafon Wood Guinea Djembe - Calf Skin",
-        "thumb": "img/sierpinski.jpg",
+        "thumb": "img/thumbs/sierpinski.jpg",
         "images": [
 			"img/sierpinski.jpg"
           
@@ -28,7 +28,7 @@
     "filename": "demo3",
     "data": {
         "name": "The Ramanujan",
-        "thumb": "img/ramanujan.jpg",
+        "thumb": "img/thumbs/ramanujan.jpg",
         "images": [
 			"img/ramanujan.jpg"
           
