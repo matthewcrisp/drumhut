@@ -1,5 +1,5 @@
 [{
-            "filename": "djembe-alseny1",
+            "filename": "djembe-sierpinkski",
         "data": {
             "title": "The Sierpinski - Premium Handmade Djembes",
             "name": "The Sierpinski",
@@ -7,7 +7,7 @@
             "images": [
                 "img/sierpinski2.jpg"
             ],
-            "price": "£400",
+            "price": "£420",
             "featured": true,
 			"sold": true,
             "diameter": "13\"",
@@ -24,7 +24,7 @@
         }
 
     }, {
-        "filename": "djembe-alseny2",
+        "filename": "djembe-ramanujan",
         "data": {
             "title": "The Ramanujan - Premium Handmade Djembes",
             "name": "The Ramanujan",
@@ -32,7 +32,7 @@
             "images": [
                 "img/ramanujan2.jpg"
             ],
-            "price": "£400",
+            "price": "£420",
             "featured": true,
 			"sold": false,
             "diameter": "13\"",
@@ -47,7 +47,7 @@
 			"videoCode": "<iframe src=\"https://player.vimeo.com/video/147534088?color=ff9933&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     }, {
-        "filename": "djembe-alseny3",
+        "filename": "djembe-pascal",
         "data": {
             "title": "The Pascal - Premium Handmade Djembes",
             "name": "The Pascal",
@@ -70,7 +70,7 @@
         }
 
     }, {
-        "filename": "djembe-alseny4",
+        "filename": "djembe-escher",
         "data": {
             "title": "The Escher - Premium Handmade Djembes",
             "name": "The Escher",
@@ -92,7 +92,7 @@
 			"video": false
         }
     }, {
-        "filename": "djembe-alseny5",
+        "filename": "djembe-maxwell",
         "data": {
             "title": "The Maxwell - Premium Handmade Djembes",
             "name": "The Maxwell",
@@ -100,7 +100,7 @@
             "images": [
                 "img/maxwell.jpg"
             ],
-            "price": "£400",
+            "price": "£380",
             "featured": true,
 			"sold": false,
             "diameter": "13\"",
@@ -114,7 +114,7 @@
 			"video": false
         }
     }, {
-        "filename": "djembe-alseny6",
+        "filename": "djembe-euclid",
         "data": {
             "title": "The Euclid - Premium Handmade Djembes",
             "name": "The Euclid",
@@ -122,7 +122,7 @@
             "images": [
                 "img/pythagoras.jpg"
             ],
-            "price": "£375",
+            "price": "£360",
             "featured": true,
 			"sold": false,
             "diameter": "13\"",
@@ -138,7 +138,7 @@
         }
 
     }, {
-        "filename": "djembe-alseny7",
+        "filename": "djembe-pythagoras",
         "data": {
             "title": "The Pythagoras - Premium Handmade Djembes",
             "name": "The Pythagoras",
@@ -182,7 +182,7 @@
 			"video": false
         }
     }, {
-        "filename": "djembe-tweneboa",
+        "filename": "djembe-13tweneboa",
         "data": {
             "title": "13\" Tweneboa Ghana Djembe - Handmade Djembes",
             "name": "13\" Tweneboa Ghana Djembe",
@@ -196,7 +196,7 @@
             "diameter": "13\"",
             "height": "24\"",
             "wood": "Tweneboa",
-            "skin": "Medium Goat",
+            "skin": "",
             "finish": "",
             "description": "13\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this pretty drum would be the perfect first djembe for a beginner drummer wanting experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on.",
             "showEnquireButton": true,
@@ -236,7 +236,7 @@
                 "img/13beteshape.jpg",
                 "img/reshape.jpg"
             ],
-            "price": "£180",
+            "price": "£150",
             "featured": false,
 			"sold": false,
             "diameter": "13\"",
@@ -293,7 +293,7 @@
         }
     },
 	{
-        "filename": "abdoulaye",
+        "filename": "djembe-abdoulaye",
         "data": {
             "title": "12.5\" Balafon Wood Guinean Djembe - Handmade Djembes",
             "name": "12.5\" Balafon Wood Guinean Djembe",

@@ -10,7 +10,7 @@
 
     {{> global-header }}
 
-    <section class="hero-image-bg light-typo welcome-section">
+   <!--<section class="hero-image-bg light-typo welcome-section">
         <div class="overlay-bg"></div>
         <div class="container">
             <div class="row">
@@ -19,12 +19,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <div class="wrapper">
 
-      <section class="padding-top-bottom">
-          <div class="container">
+      <section class="padding-top-bottom" >
+          <div class="container" style="padding-top:40px">
               <div class="row">
                   <div class="col-md-4 wow fadeInLeft text-center">
                       <header class="section-header cta-message">
@@ -40,6 +40,7 @@
                         <div class="small">
             					     <p>{{ description2 }}</p>
 					             </div>
+								 
 								 </div>
 								
 
@@ -56,29 +57,36 @@
                         </div>
                       </div>
                       {{> body }}
-
-                  
-				  
-				  
-								 {{#unless sold}}
-                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin-top:5px">Enquire</a>
-								 
-								 <br>
-								 
-						<a href="{{{etsy-link}}}" class="btn btn-primary" style="margin-top:5px"><font size="4.5em">Buy on Etsy</font></a>
-								 {{/unless}}
-								 
-					</div>
+					  </div>
               </div>	
-			{{#if video}}
-			  <div class="row" style="padding-top:20px">	
-				<div class="col-md-6 col-md-offset-5 col-sm-8 col-sm-offset-2">
-					{{{ videoCode }}}
+			
+			  <div class="row">	
+<!--The column structure here makes the buttons sit in the middle of the left column and the column height is the same as the video height. At least it will soon! -->
+			  
+			  {{#if video}}
+				<div class="col-md-6 col-md-push-4 col-md-offset-1 col-sm-8 col-sm-offset-2" style="padding:5px">
+					<center>{{{ videoCode }}}</center>
 				</div>
+				{{/if}}
+				
+				
+			  <div class="col-md-4 col-md-pull-7 col-sm-12" style="padding:5px">			  
+						<div style="vertical-align:middle margin:auto">
+                       <center>					   
+					   <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
+						 {{#unless sold}}
+						 <br>
+						 <a href="{{{etsy-link}}}" class="btn btn-primary" style="margin:5px"><font size="4.5em">Buy on Etsy</font></a>
+						
+						</center>
+						 {{/unless}}
+						 </div>
+			   </div>
+				 
 			  </div>
-			  {{/if}}
+			  
       </section>
-
+	</div>
     </div>
 
     {{> global-footer }}
