@@ -53,7 +53,7 @@
             "name": "The Pascal",
             "thumb": "img/thumbs/pascal.jpg",
             "images": [
-                "img/pascal.jpg"
+                "img/thumbs/pascal.jpg"
             ],
             "price": "£400",
             "featured": true,

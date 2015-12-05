@@ -56,3 +56,32 @@
     width: 100%;
     height: auto;
 }
+.buttons-center{
+	height: inherit;
+}
+.buttons-center:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.centered-buttons{
+	display: inline-block;
+	vertical-align: middle;
+}
+.flexBox
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+@media all and ( min-width: 768px ) {
+    .flexBox .a { order:1; }
+    .flexBox .b { order:3; }
+    .flexBox .c { order:2; }
+	.flexBox .d { order:4; }
+}
+
+
+h1.boris {
+	font-family: 'BorisBlackBloxx Regular';
+}
