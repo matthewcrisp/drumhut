@@ -70,15 +70,71 @@ h3.center {
 	margin-top: -10em;
 	z-index: 12;
 }
-.hero-image-bg {
+.hero-image-bg-Djembes {
 	overflow: hidden;
 	background-size: cover;
-	background-image: url('../img/01.jpg');
+	background-image: url('../img/djembesbanner.jpg');
 	background-position: center 16%;
 	position: relative;
 	padding: 180px 0 120px 0;
 }
-
+.hero-image-bg-Dunun {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/dununbanner.jpg');
+	background-position: center 16%;
+	position: relative;
+	padding: 180px 0 120px 0;
+}
+.hero-image-bg-Accessories {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/accessoriesbanner.jpg');
+	background-position: center 16%;
+	position: relative;
+	padding: 180px 0 120px 0;
+}
+.hero-image-bg {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/npbanner.jpg');
+	background-position: center 16%;
+	position: relative;
+	padding: 180px 0 120px 0;
+}
+.ban-lg{
+	max-height:200px;
+	
+}
+@media screen and (min-width:1200px){
+	.ban-lg{
+		max-height:320px;
+	}
+}
+.ban-md{
+	max-height:200px;
+}
+@media screen and (min-width:992px){
+	.ban-md{
+		max-height:280px;
+	}
+}
+.ban-sm{
+	max-height:200px;
+}
+@media screen and (min-width:768px){
+	.ban-sm{
+		max-height:230px;
+	}
+}
+.ban-xs{
+	max-height:200px;
+}
+@media screen and (max-width:768px){
+	.ban-xs{
+		max-height:200px;
+	}
+}
 #hero h2 {
 	font-size: 18px;
 }	
@@ -171,8 +227,13 @@ footer {
 
 .navbar-nav {
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 12px;
 	/*padding: 5px 0;*/
+}
+@media screen and (min-width: 992px){
+	.navbar-nav{
+		font-size:14px;
+	}
 }
 
 .navbar-inverse .navbar-nav>li>a,

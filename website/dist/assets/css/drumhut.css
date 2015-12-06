@@ -80,6 +80,15 @@
     .flexBox .c { order:2; }
 	.flexBox .d { order:4; }
 }
+.nav-font {
+	font-size:1em;
+}
+}
+@media screen only and (max-width: 1000px){
+	.nav-font{
+		font-size:0.9em;
+	}
+}
 
 
 h1.boris {
