@@ -8,19 +8,19 @@
     background: #F2F2F2;
 }
 
-.hero-image-bg {
+/*.hero-image-bg {
     padding: 120px 0;
     background-image: url(../img/Guinea1Full.jpg);
     background-position: 50% 40%;	
-}
+}*/
 
 .welcome-section .container {
     position: relative;
     z-index: 20;	
 }
 
-.welcome-section h1 {
-    font-size: 60px;
+.welcome-section  {
+    font-size: 50px;
 }
 .social-links li a:hover::after {
 	content:""attr(alt)"";
