@@ -51,6 +51,9 @@ h3.center {
 .dark-bg {
 	background-color: #323A42;
 }
+.light-bg{
+	background-color: #ffffff;
+}
 
 
 /* ------------------------ hero slider ------------------------ */
@@ -89,12 +92,12 @@ h3.center {
 .hero-image-bg-Accessories {
 	overflow: hidden;
 	background-size: cover;
-	background-image: url('../img/accessoriesbanner.jpg');
+	background-image: url('../img/bags.jpg');
 	background-position: center 16%;
 	position: relative;
 	padding: 180px 0 120px 0;
 }
-.hero-image-bg {
+.hero-image-bg- {
 	overflow: hidden;
 	background-size: cover;
 	background-image: url('../img/npbanner.jpg');
@@ -102,37 +105,88 @@ h3.center {
 	position: relative;
 	padding: 180px 0 120px 0;
 }
-.ban-lg{
-	max-height:200px;
-	
-}
-@media screen and (min-width:1200px){
-	.ban-lg{
-		max-height:320px;
+
+@media (min-width:1200px){
+	.hero-image-bg-Djembes{
+		padding: 120px 0 60px 0;	
+	}
+	.hero-image-bg-Dunun{
+		padding: 120px 0 60px 0;
+	}
+	.hero-image-bg-Accessories{
+		padding: 120px 0 60px 0;
+	}
+	.hero-image-bg-{
+		padding: 120px 0 60px 0;
+	}
+	.welcome-section h1 {
+		font-size:60px;
+	}
+	.welcome-section h3 {
+		font-size:20px;
 	}
 }
-.ban-md{
-	max-height:200px;
-}
-@media screen and (min-width:992px){
-	.ban-md{
-		max-height:280px;
+
+@media (min-width:992px) and (max-width:1199px){
+	.hero-image-bg-Djembes{
+		padding: 100px 0 40px 0;
+	}
+	.hero-image-bg-Dunun{
+		padding: 100px 0 40px 0;
+	}
+	.hero-image-bg-Accessories{
+		padding: 100px 0 40px 0;
+	}
+	.hero-image-bg-{
+		padding: 100px 0 40px 0;
+	}
+	.welcome-section h1 {
+		font-size:50px;
+	}
+	.welcome-section h3 {
+		font-size:18px;
 	}
 }
-.ban-sm{
-	max-height:200px;
-}
-@media screen and (min-width:768px){
-	.ban-sm{
-		max-height:230px;
+
+@media (min-width:768px) and (max-width:991px){
+	.hero-image-bg-Djembes{
+		padding: 80px 0 20px 0;
+	}
+	.hero-image-bg-Dunun{
+		padding: 80px 0 20px 0;
+	}
+	.hero-image-bg-Accessories{
+		padding: 80px 0 20px 0;
+	}
+	.hero-image-bg-{
+		padding: 80px 0 20px 0;
+	}
+	.welcome-section h1 {
+		font-size:40px;
+	}
+	.welcome-section h3 {
+		font-size:16px;
 	}
 }
-.ban-xs{
-	max-height:200px;
-}
-@media screen and (max-width:768px){
-	.ban-xs{
-		max-height:200px;
+
+@media (max-width:767px){
+	.hero-image-bg-Djembes{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-Dunun{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-Accessories{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-{
+		padding: 70px 0 10px 0;
+	}
+	.welcome-section h1 {
+		font-size:30px;
+	}
+	.welcome-section h3 {
+		font-size:14px;
 	}
 }
 #hero h2 {
@@ -170,7 +224,7 @@ h3.center {
 }
 
 
-.overlay-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0;  opacity: 0.3;
+.overlay-bg {position: absolute; top: 0; left: 0; right: 0; bottom: 0;  opacity: 0.25;
 	background-color: #000;
 	z-index: 10;}
 
