@@ -217,7 +217,7 @@
             "images": [
                 "img/13twene.jpg"
             ],
-            "price": "£140",
+            "price": "£130",
             "featured": false,
 			"sold": false,
             "diameter": "13\"",
@@ -266,7 +266,7 @@
                 "img/13beteshape.jpg",
                 "img/reshape.jpg"
             ],
-            "price": "£150",
+            "price": "£160",
             "featured": false,
 			"sold": false,
             "diameter": "13\"",
