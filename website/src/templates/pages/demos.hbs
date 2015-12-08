@@ -10,15 +10,15 @@ showInNav: true
 navOrder: 5
 
 ---
-<!--<div class="row">
-<center><h2>Because you should never buy a djembe without hearing it first!</h2></center>
-</div>-->
+<div class="row">
+<center><h3>These are all just video tests. There will be some much prettier videos with much nicer playing shortly.</h3></center>
+</div>
 <section id="demos" class="padding-top-bottom"> 
         <div id="projects-container" class="row">
             
             {{#each djembes}}
             {{#if this.data.videoCode}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp img-rounded" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
 				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
             </article> 

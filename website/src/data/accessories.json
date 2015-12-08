@@ -11,7 +11,11 @@
           
         ],
         "price": "£30",
-        "showEnquireButton": true
+		"description": "Lightweight, but strong djembe bags from Ghana. These bags have a drawstring top, meaning that there's no zip to break, they're comfortable, they're strong enough for even the heaviest of djembes and they look fantastic. For a simple, no-frills, reliable djembe bag at a fraction of the cost of their \"professional\" counterparts, these bags really are perfect.",
+		"description2":"Currently only 2 left in stock. I'm talking with new suppliers currently and more (improved!) bags will be available in early 2016.",
+        "showEnquireButton": true,
+		"available": true,
+		"etsy-link": ""
     },
     "content": "Ghanaian patterned djembe bag"
 },
@@ -27,7 +31,8 @@
         ],
         "price": "£tba",
 		"description": "Iron banana bells for trad-style dunun playing. The favoured style of bell for many dununfola; they sound great and do far less damage to your dunun ropes than most other bells.",
-        "showEnquireButton": false
+        "showEnquireButton": true,
+		"available": false
     }
 },
 {
@@ -42,7 +47,8 @@
         ],
         "price": "£tba",
 		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look.",
-        "showEnquireButton": false
+        "showEnquireButton": true,
+		"available": false
     }
 },
 {
@@ -57,6 +63,7 @@
         ],
         "price": "£tba",
 		"description": "100ml tubs of fortified shea butter. All our blends include skin strengthening tincture of benzoin that helps prevent damage and speeds up the healing process when damage does occur. <br><br>Our blends include:<br>Warming Ginger<br>Fragrance of the Forest<br>Invigorating Citrus<br>Relaxing Bergamot",
-        "showEnquireButton": false
+        "showEnquireButton": true,
+		"available": false
     }
 }]

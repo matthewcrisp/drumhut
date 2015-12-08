@@ -1,5 +1,5 @@
 [{
-    "filename": "demo1",
+    "filename": "sierpinski-demo",
     "data": {
         "name": "The Sierpinski",
         "thumb": "img/thumbs/sierpinski.jpg",
@@ -12,7 +12,7 @@
     
 },
 {
-    "filename": "demo2",
+    "filename": "abdoulaye-demo",
     "data": {
         "name": "12.5\" Balafon Wood Guinea Djembe - Calf Skin",
         "thumb": "img/thumbs/sierpinski.jpg",
@@ -25,7 +25,7 @@
     
 },
 {
-    "filename": "demo3",
+    "filename": "ramanujan-demo",
     "data": {
         "name": "The Ramanujan",
         "thumb": "img/thumbs/ramanujan.jpg",

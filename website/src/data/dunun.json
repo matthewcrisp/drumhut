@@ -8,10 +8,13 @@
             "img/dununcs.jpg"
         ],
         "price": "£tba",
-        "showEnquireButton": false
+		"description": "The largest of the three Malinke bass drums.",
+        "showEnquireButton": true,
+		"available": false
     },
     "content": "Dununba"
-}, {
+},
+{
     "filename": "dunun-sangban",
     "data": {
         "name": "Sangban",
@@ -22,10 +25,13 @@
 
         ],
         "price": "£tba",
-        "showEnquireButton": false
+		"description": "The medium sized Malinke bass drum.",
+        "showEnquireButton": true,
+		"available": false
     },
     "content": "Sangban"
-}, {
+},
+{
     "filename": "dunun-kenkeni",
     "data": {
         "name": "Kenkeni",
@@ -36,7 +42,27 @@
 
         ],
         "price": "£tba",
-        "showEnquireButton": false
+		"description": "The smallest of the three Malinke bass drums.",
+        "showEnquireButton": true,
+		"available": false
     },
     "content": "Kenkeni"
-}]
+},
+{
+    "filename": "dunun-set",
+    "data": {
+        "name": "Dunun - Set of Three",
+        "title": "Dunun - Set of Three - Premium Handmade Dunun",
+        "thumb": "img/dununcs.jpg",
+        "images": [
+            "img/dununcs.jpg"
+
+        ],
+        "price": "£tba",
+		"description": "A complete set of matching dunun.",
+        "showEnquireButton": true,
+		"available": false
+    },
+    "content": "Set of Three"
+}
+]

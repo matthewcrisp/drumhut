@@ -10,55 +10,54 @@
 
     {{> global-header }}
 
-    <section class="hero-image-bg-dunun light-typo welcome-section">
-        <div class="overlay-bg"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">                                 
-
-                </div>
-            </div>
-        </div>
-    </section>
-
     <div class="wrapper">
 
       <section class="padding-top-bottom">
-          <div class="container">
+          <div class="container" style="padding-top:30px">
               <div class="row">
-                  <div class="col-md-4 wow fadeInLeft text-center">
+				<div class="flexBox">
+                  <div class="col-xs-12 col-sm-4 a wow fadeInLeft text-center">
                       <header class="section-header cta-message">
                           <h1>{{ name }}</h1>
-                          <h3>{{ price }}</h3>
+                          <h2>{{ price }}</h2>
                           </header>
             					  <p>{{{ description }}}</p>
                         <div class="small">
                            <p>{{ description2 }}</p>
                        </div>
 
-                       {{#if showEnquireButton}}
-                       <a href="mailto:crispy@thedrumhut.co.uk?Subject=Dunun: {{ name }}" class="btn btn-primary">Enquire</a>
-                       {{/if}}
+                        <div class="col-xs-12 col-sm-12 b fadeInLeft text-center">	 
+							{{#if showEnquireButton}}
+					   <a href="mailto:crispy@thedrumhut.co.uk?Subject=Accessories: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
+							{{/if}}
+						 {{#if available}}
+						 <br>
+						 <a href="{{{etsy-link}}}" class="btn btn-primary" style="margin:5px"><font size="4.5em">Buy on Etsy</font></a>			
+						 {{/if}}						 
+						</div>
                   </div>
-                  <div class="col-md-8 cta-message wow fadeInUp">
+				  
+                  <div class="col-xs-12 col-sm-8 cta-message c wow fadeInUp">
                       <div class="slide-wrapper" id="product-slides-container">
                          <div id="product-slides">
                             <div class="slides-container">
                                 {{#each images}}
-                                <img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image">
+                                <img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded">
                                 {{/each}}
                             </div>
                         </div>
                       </div>
-                      {{> body }}
+					  
+                      
 
                   </div>
-
+ 
+				</div>
               </div>
           </div>
       </section>
-
-    </div>
+	  
+	 </div>
 
     {{> global-footer }}
 
