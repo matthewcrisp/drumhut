@@ -213,9 +213,14 @@
         "data": {
             "title": "13\" Tweneboa Ghana Djembe - Handmade Djembes",
             "name": "13\" Tweneboa Ghana Djembe",
-            "thumb": "img/thumbs/13twene.jpg",
+            "thumb": "img/thumbs/colour-twene-profile.jpg",
             "images": [
-                "img/13twene.jpg"
+                "img/slides/colour-twene-landscape.jpg",
+				"img/slides/colour-twene-bowl.jpg",
+				"img/slides/colour-twene-carving.jpg",
+				"img/slides/colour-twene-chip.jpg",
+				"img/slides/colour-twene-paint.jpg"
+				
             ],
             "price": "£130",
             "featured": false,
@@ -226,7 +231,7 @@
 			"weight": "kg",
             "skin": "",
             "finish": "",
-            "description": "13\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this pretty drum would be the perfect first djembe for a beginner drummer wanting to experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on.",
+            "description": "13\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this colourful drum would be the perfect first djembe for a beginner drummer wanting to experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on.",
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": false
@@ -261,9 +266,10 @@
         "data": {
             "title": "13\" Bete Ghana Djembe - Reshaped - Handmade Djembes",
             "name": "13\" Bete Ghana Djembe - Reshaped",
-            "thumb": "img/thumbs/13betereshape.jpg",
+            "thumb": "img/thumbs/reshape-profile.jpg",
             "images": [
-                "img/13beteshape.jpg",
+                "img/slides/reshape-landscape.jpg",
+				"img/slides/reshape-carving.jpg",
                 "img/repairs.jpg"
             ],
             "price": "£160",
@@ -374,7 +380,61 @@
 			"video": false,
 			"videoCode": ""
         }
+    },
+	{
+        "filename": "djembe-hourglass-senegalese",
+        "data": {
+            "title": "13\" Senegalese Djembe - Handmade Djembes",
+            "name": "13\" Senegalese Djembe",
+            "thumb": "img/thumbs/fat-senegalese-profile.jpg",
+            "images": [
+				"img/slides/fat-senegalese-landscape.jpg"				
+			],
+            "price": "£270",
+            "featured": false,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Dimba?",
+			"weight": "kg",
+            "skin": "",
+            "finish": "",
+            "description": "A beautifully proportioned and excellently made Senegalese djembe, this drum will soon be among the best drums to have passed through The Drum Hut. It's made of good wood and it's well carved, so once it has a skin, it'll be a fantastic djembe. Get in quick and you can have it with your choice of rope and skin! Don't wait too long though; I'm planning to skin this one quite soon.",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+    },
+	{
+        "filename": "djembe-ironwood-cracked",
+        "data": {
+            "title": "13\" Cracked Ironwood Djembe - Handmade Djembes",
+            "name": "13\" Cracked Ironwood Djembe",
+            "thumb": "img/thumbs/ironwood-profile.jpg",
+            "images": [
+				"img/slides/ironwood-landscape.jpg",
+				"img/slides/ironwood-carving.jpg",
+				"img/slides/ironwood-crack.jpg"
+			],
+            "price": "£160",
+            "featured": false,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Ironwood?",
+			"weight": "kg",
+            "skin": "",
+            "finish": "",
+            "description": "This djembe has the potential to be an excellent mid-range drum - for an intermediate player looking for an upgrade to a proper djembe or a beginner who wants to invest in something a little more substantial than a Tweneboa djembe. Unfortunately though, at some point in this djembe's past, the side of the bowl has cracked, meaning I'm going to have to place a few butterfly keys in to repair the crack. So this djembe that would normally retail for around £200 will be leaving my workshop for £160 due to the damage. Perfect for you to grab yourself a bargain!",
+			"description2": "I'm afraid to say this djembe has been reserved, pending final skinning results. There will be plenty more like it though! Keep checking back to see what's available.",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
     }
+	
 
 
 
