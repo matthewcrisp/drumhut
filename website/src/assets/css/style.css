@@ -562,7 +562,8 @@ table {
 
 .product {
 	position:relative;
-	 
+	font-size: 18px;
+	font-weight: 500;
 	margin-bottom: 30px;
 	 overflow: hidden;
 	 display:block;
