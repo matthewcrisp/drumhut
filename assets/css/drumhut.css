@@ -33,7 +33,8 @@
 	margin-right: auto;
 	z-index:-1;
 	font-size:1.3em;
-
+	-webkit-transition:.3s;
+	transition:.3s;
 	
 }
 
