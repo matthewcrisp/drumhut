@@ -89,7 +89,7 @@
 				"img/slides/maxwell-carving.jpg",
 				"img/slides/maxwell-rim.jpg"
             ],
-            "price": "£380",
+            "price": "£390",
             "featured": true,
 			"sold": false,
             "diameter": "13\"",
@@ -117,7 +117,7 @@
 				"img/slides/pythagoras-carving.jpg"
 				
             ],
-            "price": "£390",
+            "price": "£380",
             "featured": true,
 			"sold": false,
             "diameter": "13\"",
@@ -287,7 +287,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/260742341/13-bete-wood-ghanaian-djembe",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149464673?color=000000&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149464673?color=ffffff&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     }, {
         "filename": "djembe-ghana",
