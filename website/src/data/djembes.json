@@ -206,7 +206,8 @@
             "description": "Daring in colour, once described by one person as \"disgusting\" and instantly by another as \"gorgeous\", this is a djembe that splits opinions! It comes from Senegal and has been lovingly restored here at The Drum Hut. A crack in the foot has been repaired and the whole drum has been sanded smooth and waxed to a shine. It's tuned high and has some of the sharpest and most piercing slaps around. Made from lightweight wood but well shaped on the inside, this djembe is both easily transportable and true to the proper sound of a djembe.",
             "showEnquireButton": true,
 			"etsy-link": "",
-			"video": false
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/150053516?color=f531eb&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     }, 
 	{
