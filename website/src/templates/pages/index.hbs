@@ -110,16 +110,37 @@ navOrder: 1
             <h2>Sound Demos</h2>
         </header>
     </div>
-    <div class="container">
-        <div id="projects-container" class="row">
+    <div class="container text-center">
+	<h3>Premium Djembes</h3>
+        <div id="projects-container" class="row" style="padding-top:20px">
             
             {{#each djembes}}
+			{{#if data.featured}}
             {{#if this.data.videoCode}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
 				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
-            </article> 
+            </article>
+			{{/if}}
             {{/if}}
+            {{/each}}
+
+        </div>
+    </div>
+	
+	<div class="container text-center">
+	<h3>Beginner and Intermediate Djembes</h3>
+        <div id="projects-container" class="row" style="padding-top:20px">
+            
+            {{#each djembes}}
+			{{#unless data.featured}}
+            {{#if this.data.videoCode}}
+            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+				{{{ this.data.videoCode }}}
+				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
+            </article>
+			{{/if}}
+            {{/unless}}
             {{/each}}
 
         </div>
