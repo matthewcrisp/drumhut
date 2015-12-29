@@ -1,7 +1,7 @@
 ---
 
-title: Sound Demos
-heading: DEMOS
+title: Demos
+heading: DEMO VIDEOS
 lead: Because you should never buy a djembe without hearing it first!
 
 layout: non-products.hbs
@@ -10,10 +10,9 @@ showInNav: true
 navOrder: 5
 
 ---
-<section id="demos"> 
-        <div class="container text-center">
-	<h3>Premium Djembes</h3>
-        <div id="projects-container" class="row" style="padding-top:20px">
+
+	<center><h3>Premium Djembes</h3></center>
+        <div class="row" style="padding-top:20px">
             
             {{#each djembes}}
 			{{#if data.featured}}
@@ -27,11 +26,11 @@ navOrder: 5
             {{/each}}
 
         </div>
-    </div>
+    
 	
-	<div class="container text-center">
-	<h3>Beginner and Intermediate Djembes</h3>
-        <div id="projects-container" class="row" style="padding-top:20px">
+	
+	<center><h3>Beginner and Intermediate Djembes</h3></center>
+        <div class="row" style="padding-top:20px">
             
             {{#each djembes}}
 			{{#unless data.featured}}
@@ -45,4 +44,3 @@ navOrder: 5
             {{/each}}
 
         </div>
-</section>

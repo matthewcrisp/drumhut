@@ -7,12 +7,13 @@
         "thumb": "img/bags.jpg",
         "images": [
 			"img/bags.jpg",
-			"img/bag.jpg"
+			"img/slides/bag-landscape.jpg",
+			"img/slides/bag-top.jpg"
           
         ],
         "price": "£30",
 		"description": "Lightweight, but strong djembe bags from Ghana. These bags have a drawstring top, meaning that there's no zip to break. They're comfortable, they're strong enough for even the heaviest of djembes and they look fantastic. For a simple, no-frills, reliable djembe bag at a fraction of the cost of their \"professional\" counterparts, these bags really are perfect.",
-		"description2":"Currently only 2 left in stock. I'm talking with new suppliers currently and more (improved!) bags will be available in early 2016.",
+		"description2":"Currently only 1 left in stock. I'm talking with new suppliers in Ghana and more bags will be available in early 2016.",
         "showEnquireButton": true,
 		"available": true,
 		"etsy-link": ""

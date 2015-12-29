@@ -88,17 +88,53 @@ h3.center {
 	overflow: hidden;
 	background-size: cover;
 	background-image: url('../img/dununbanner.jpg');
-	background-position: center 16%;
+	background-position: center 50%;
 	position: relative;
 	padding: 180px 0 120px 0;
 }
 .hero-image-bg-Accessories {
 	overflow: hidden;
 	background-size: cover;
-	background-image: url('../img/bags.jpg');
+	background-image: url('../img/accessoriesbanner.jpg');
+	background-position: center 30%;
+	position: relative;
+	padding: 180px 0 120px 0;
+}
+.hero-image-bg-Demos {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/demosbanner.jpg');
+	background-position: center 35%;
+	position: relative;
+	padding: 180px 0 120px 0;
+	
+}
+.hero-image-bg-Repairs {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/repairsbanner.jpg');
+	background-position: center 5%;
+	position: relative;
+	padding: 180px 0 120px 0;
+	
+}
+.hero-image-bg-Events {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/eventsbanner.jpg');
+	background-position: center 10%;
+	position: relative;
+	padding: 180px 0 120px 0;
+	
+}
+.hero-image-bg-Contact {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('../img/contactbanner.jpg');
 	background-position: center 16%;
 	position: relative;
 	padding: 180px 0 120px 0;
+	
 }
 .hero-image-bg- {
 	overflow: hidden;
@@ -117,6 +153,18 @@ h3.center {
 		padding: 120px 0 60px 0;
 	}
 	.hero-image-bg-Accessories{
+		padding: 120px 0 60px 0;
+	}
+	.hero-image-bg-Demos{
+		padding: 120px 0 60px 0;
+	}
+	.hero-image-bg-Repairs{
+		padding: 120px 0 60px 0;
+	}
+	.hero-image-bg-Events{
+		padding: 120px 0 60px 0;
+	}
+	.hero-image-bg-Contact{
 		padding: 120px 0 60px 0;
 	}
 	.hero-image-bg-{
@@ -140,6 +188,18 @@ h3.center {
 	.hero-image-bg-Accessories{
 		padding: 100px 0 40px 0;
 	}
+	.hero-image-bg-Demos{
+		padding: 100px 0 40px 0;
+	}
+	.hero-image-bg-Repairs{
+		padding: 100px 0 40px 0;
+	}
+	.hero-image-bg-Events{
+		padding: 100px 0 40px 0;
+	}
+	.hero-image-bg-Contact{
+		padding: 100px 0 40px 0;
+	}
 	.hero-image-bg-{
 		padding: 100px 0 40px 0;
 	}
@@ -161,6 +221,18 @@ h3.center {
 	.hero-image-bg-Accessories{
 		padding: 80px 0 20px 0;
 	}
+	.hero-image-bg-Demos{
+		padding: 80px 0 20px 0;
+	}
+	.hero-image-bg-Repairs{
+		padding: 80px 0 20px 0;
+	}
+	.hero-image-bg-Events{
+		padding: 80px 0 20px 0;
+	}
+	.hero-image-bg-Contact{
+		padding: 80px 0 20px 0;
+	}
 	.hero-image-bg-{
 		padding: 80px 0 20px 0;
 	}
@@ -180,6 +252,18 @@ h3.center {
 		padding: 70px 0 10px 0;
 	}
 	.hero-image-bg-Accessories{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-Demos{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-Repairs{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-Events{
+		padding: 70px 0 10px 0;
+	}
+	.hero-image-bg-Contact{
 		padding: 70px 0 10px 0;
 	}
 	.hero-image-bg-{

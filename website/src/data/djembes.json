@@ -186,13 +186,14 @@
         }
     },
 	{
-        "filename": "djembe-senegalese",
+        "filename": "djembe-13-senegal-pink",
         "data": {
             "title": "13\" Senegalese Djembe - Handmade Djembes",
             "name": "13\" Senegalese Djembe",
             "thumb": "img/thumbs/pinkone.jpg",
             "images": [
-                "img/pinkone.jpg"
+                "img/slides/pinkone.jpg",
+				"img/slides/pinkone-2.jpg"
             ],
             "price": "£180",
             "featured": false,
@@ -211,7 +212,7 @@
         }
     }, 
 	{
-        "filename": "djembe-13tweneboa",
+        "filename": "djembe-13-kente-tweneboa",
         "data": {
             "title": "13\" Tweneboa Ghanaian Djembe - Handmade Djembes",
             "name": "13\" Tweneboa Ghanaian Djembe",
@@ -291,7 +292,7 @@
 			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149464673?color=ffffff&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     }, {
-        "filename": "djembe-ghana",
+        "filename": "djembe-ghana-refinished",
         "data": {
             "title": "13\" Bete Ghanaian Djembe - Handmade Djembes",
             "name": "13\" Bete Ghanaian Djembe",
@@ -336,7 +337,7 @@
         }
     },
 	{
-        "filename": "djembe-abdoulaye",
+        "filename": "djembe-balafon-12-guinea",
         "data": {
             "title": "12.5\" Balafon Wood Guinean Djembe - Handmade Djembes",
             "name": "12.5\" Balafon Wood Guinean Djembe",
@@ -386,7 +387,7 @@
         }
     },
 	{
-        "filename": "djembe-hourglass-senegalese",
+        "filename": "djembe-13-senegal-dimba",
         "data": {
             "title": "13\" Senegalese Djembe - Handmade Djembes",
             "name": "13\" Senegalese Djembe",
@@ -399,7 +400,7 @@
 			"sold": false,
             "diameter": "13\"",
             "height": "24\"",
-            "wood": "Dimba?",
+            "wood": "Dimba",
 			"weight": "kg",
             "skin": "",
             "finish": "",
@@ -411,10 +412,10 @@
         }
     },
 	{
-        "filename": "djembe-ironwood-cracked",
+        "filename": "djembe-ironwood-crackrepair",
         "data": {
             "title": "13\" Cracked Ironwood Djembe - Handmade Djembes",
-            "name": "13\" Cracked Ironwood Djembe",
+            "name": "13\" Ironwood Djembe with repaired crack",
             "thumb": "img/thumbs/ironwood-profile.jpg",
             "images": [
 				"img/slides/ironwood-landscape.jpg",
