@@ -10,19 +10,38 @@ showInNav: true
 navOrder: 5
 
 ---
-<div class="row">
-<center><h3>These are all just video tests. There will be some much prettier videos with much nicer playing shortly.</h3></center>
-</div>
-<section id="demos" class="padding-top-bottom"> 
-        <div id="projects-container" class="row">
+<section id="demos"> 
+        <div class="container text-center">
+	<h3>Premium Djembes</h3>
+        <div id="projects-container" class="row" style="padding-top:20px">
             
             {{#each djembes}}
+			{{#if data.featured}}
             {{#if this.data.videoCode}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
 				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
-            </article> 
+            </article>
+			{{/if}}
             {{/if}}
+            {{/each}}
+
+        </div>
+    </div>
+	
+	<div class="container text-center">
+	<h3>Beginner and Intermediate Djembes</h3>
+        <div id="projects-container" class="row" style="padding-top:20px">
+            
+            {{#each djembes}}
+			{{#unless data.featured}}
+            {{#if this.data.videoCode}}
+            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+				{{{ this.data.videoCode }}}
+				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
+            </article>
+			{{/if}}
+            {{/unless}}
             {{/each}}
 
         </div>

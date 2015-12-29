@@ -30,7 +30,11 @@
                   <div class="col-xs-12 col-sm-4 a wow fadeInLeft text-center">
                       <header class="section-header cta-message">
                           <h1>{{ name }}</h1>
-                          <h3>{{ price }}</h3>
+                          {{#if sold}}
+						  <h3>SOLD</h3>
+						  {{else}}
+						  <h3>{{ price }}</h3>
+						  {{/if}}
                           <h4>Height: {{ height }}</h4>
             						  <h4>Diameter: {{ diameter }}</h4>
             						  <h4>Wood: {{ wood }}</h4>
