@@ -35,12 +35,12 @@
 						  {{else}}
 						  <h3>{{ price }}</h3>
 						  {{/if}}
-                          <h4>Height: {{ height }}</h4>
-            						  <h4>Diameter: {{ diameter }}</h4>
-            						  <h4>Wood: {{ wood }}</h4>
-									  <h4>Weight: {{weight}}</h4>
-            						  <h4>Skin: {{ skin }}</h4>
-            						  <h4>Finish: {{ finish }}</h4>						   
+                          {{#if height}}<h4>Height: {{ height }}</h4>{{/if}}
+            			  {{#if diameter}}<h4>Diameter: {{ diameter }}</h4>{{/if}}
+            			  {{#if wood}}<h4>Wood: {{ wood }}</h4>{{/if}}
+						  {{#if weight}}<h4>Weight: {{weight}}</h4>{{/if}}
+            			  {{#if skin}}<h4>Skin: {{ skin }}</h4>{{/if}}
+            			  {{#if finish}}<h4>Finish: {{ finish }}</h4>{{/if}}					   
                         </header>
             					  <p>{{{ description }}}</p>
                         <div class="small">
@@ -54,10 +54,10 @@
 						
                        					   
 					   <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
-						 {{#unless sold}}
+						 {{#unless sold}}{{#if available}}
 						 <br>
 						 <a href="{{{etsy-link}}}" class="btn btn-primary" style="margin:5px"><font size="4.5em">Buy on Etsy</font></a>			
-						 {{/unless}}
+						 {{/if}}{{/unless}}
 						 
 						 
 			   </div>

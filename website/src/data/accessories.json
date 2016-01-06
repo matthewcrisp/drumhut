@@ -15,13 +15,13 @@
 		"description": "Lightweight, but strong djembe bags from Ghana. These bags have a drawstring top, meaning that there's no zip to break. They're comfortable, they're strong enough for even the heaviest of djembes and they look fantastic. For a simple, no-frills, reliable djembe bag at a fraction of the cost of their \"professional\" counterparts, these bags really are perfect.",
 		"description2":"Currently only 1 left in stock. I'm talking with new suppliers in Ghana and more bags will be available in early 2016.",
         "showEnquireButton": true,
-		"available": true,
+		"available": false,
 		"etsy-link": ""
     },
     "content": "Ghanaian patterned djembe bag"
 },
 {
-    "filename": "accessory-bells1",
+    "filename": "accessory-bells",
     "data": {
         "name": "Banana Bells",
         "title": "Banana Bells - Djembe Accessories",
@@ -37,7 +37,7 @@
     }
 },
 {
-    "filename": "accessory-ksinkksink1",
+    "filename": "accessory-ksinkksink",
     "data": {
         "name": "Ksink Ksink",
         "title": "Ksink Ksink - Djembe Accessories",
@@ -53,10 +53,10 @@
     }
 },
 {
-    "filename": "accessory-beatbutter",
+    "filename": "accessory-sheabutter",
     "data": {
-        "name": "Beat Butter - Hand Nourishment",
-        "title": "Beat Butter - Hand Nourishment - Djembe Accessories",
+        "name": "Shea Butter - Hand Nourishment",
+        "title": "Shea Butter - Hand Nourishment - Djembe Accessories",
         "thumb": "img/comingsoon.jpg",
         "images": [
 			"img/comingsoon.jpg"
