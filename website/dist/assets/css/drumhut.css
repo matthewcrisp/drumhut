@@ -37,6 +37,12 @@
 	transition:.3s;
 	
 }
+@media screen and ( max-width: 768px ) {
+	.social-links .retina { 
+	position: relative;
+	left: -6px;
+	}
+}
 
 .slide-wrapper {
     max-height: 500px;

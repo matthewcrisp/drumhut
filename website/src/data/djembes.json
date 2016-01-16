@@ -21,7 +21,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/257967301/the-sierpinski-13-djembe-from-the-drum?ref=listing-shop-header-0",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/140822220?color=275fcf&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/151905108?color=275fcf&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
 
         }
 
@@ -237,13 +237,13 @@
             "featured": false,
 			"available": true,
 			"sold": false,
-            "diameter": "13\"",
-            "height": "24\"",
+            "diameter": "12.5\"",
+            "height": "24.5\"",
             "wood": "Tweneboa",
 			"weight": "",
             "skin": "",
             "finish": "",
-            "description": "13\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this colourful drum would be the perfect first djembe for a beginner drummer wanting to experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on.",
+            "description": "12.5\" diameter Ghanaian djembe made from soft, lightweight Tweneboa wood - this colourful drum would be the perfect first djembe for a beginner drummer wanting to experience drum circles with a beautiful full-sized djembe. Though lacking the complex sound profile of it's Guinean and Malian cousins, this djembe will still sing out in a drum circle and will be a great drum to learn on.",
 			"description2": "There are some small amounts of damage to the wood in the foot of this djembe. There's a chip, some damaged paintwork and a repaired hole. These are all cosmetic and will not affect the sound of the drum.",
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/260851204/13-ghanaian-kente-decorated-djembe",
@@ -291,7 +291,7 @@
             "featured": false,
 			"available": true,
 			"sold": false,
-            "diameter": "13\"",
+            "diameter": "12.5\"",
             "height": "24\"",
             "wood": "Bete",
 			"weight": "",
@@ -388,7 +388,7 @@
 			],
             "price": "£100",
             "featured": false,
-			"available": true,
+			"available": false,
 			"sold": false,
             "diameter": "11\"",
             "height": "23\"",
