@@ -389,7 +389,7 @@
             "price": "£100",
             "featured": false,
 			"available": false,
-			"sold": false,
+			"sold": true,
             "diameter": "11\"",
             "height": "23\"",
             "wood": "Tweneboa",
