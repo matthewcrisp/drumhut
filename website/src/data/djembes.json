@@ -330,8 +330,8 @@
     }, {
         "filename": "djembe-indonesian-mahogany",
         "data": {
-            "title": "13\" Decorative Indonesian Mahogany Djembe - Handmade Djembes",
-            "name": "13\" Decorative Indonesian Mahogany Djembe",
+            "title": "13\" Indonesian Mahogany Djembe - Handmade Djembes",
+            "name": "13\" Indonesian Mahogany Djembe",
             "thumb": "img/thumbs/indonesian.jpg",
             "images": ["img/indonesian.jpg"],
             "price": "£160",
@@ -443,7 +443,7 @@
             "price": "£160",
             "featured": false,
 			"available": false,
-			"sold": false,
+			"sold": true,
             "diameter": "13\"",
             "height": "24\"",
             "wood": "Ironwood",
