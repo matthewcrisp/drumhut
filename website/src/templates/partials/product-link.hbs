@@ -2,7 +2,11 @@
     <span class="img-box">
         <span class="hover-mask2"></span>
         <span class="product-icon icon-eye"></span>
-        <img class="img-responsive project-image" src="assets/{{ this.data.thumb }}" alt="">
+        <span class="img-wrapper"><img class="img-responsive project-image" src="assets/{{ this.data.thumb }}" alt="">
+        {{#if this.data.sold}}
+        <img src="../assets/img/sold.png" class="sold">
+        {{/if}}
+        </span>
     </span>
     <span class="product-info col-md-12">
         <span class="project-price">{{ this.data.price }}</span>
@@ -13,7 +17,5 @@
     <span class="sr-only project-description">
         {{ this.content }}
     </span>
-    {{#if this.data.sold}}
-        <img src="../assets/img/sold.png" class="sold">
-    {{/if}}
+    
 </a>
