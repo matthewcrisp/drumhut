@@ -179,7 +179,7 @@
             "price": "£450",
             "featured": true,
 			"available": true,
-			"sold": false,
+			"sold": true,
             "diameter": "13\"",
             "height": "24\"",
             "wood": "Lenke",
