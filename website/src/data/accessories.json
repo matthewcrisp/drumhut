@@ -21,17 +21,17 @@
     "content": "Ghanaian patterned djembe bag"
 },
 {
-    "filename": "accessory-bells",
+    "filename": "accessory-bells-sticks",
     "data": {
-        "name": "Banana Bells",
-        "title": "Banana Bells - Djembe Accessories",
+        "name": "Bells and Sticks",
+        "title": "Bells and Sticks - Djembe Accessories",
         "thumb": "img/bells.jpg",
         "images": [
 			"img/bells.jpg"
           
         ],
         "price": "£tba",
-		"description": "Iron banana bells for trad-style dunun playing. The favoured style of bell for many dununfola; they sound great and do far less damage to your dunun ropes than most other bells.",
+		"description": "Iron bells and wooden sticks for ballet or trad-style dunun playing.",
         "showEnquireButton": true,
 		"available": false
     }

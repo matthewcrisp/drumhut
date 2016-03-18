@@ -279,8 +279,8 @@
     }, {
         "filename": "djembe-ghana-reshaped",
         "data": {
-            "title": "13\" Ghanaian Djembe - Bete Wood - Handmade Djembes",
-            "name": "13\" Ghanaian Djembe - Bete Wood",
+            "title": "13\" Ghanaian Djembe - Red Tweneboa Wood - Handmade Djembes",
+            "name": "13\" Ghanaian Djembe - Red Tweneboa Wood",
             "thumb": "img/thumbs/reshape-profile.jpg",
             "images": [
                 "img/slides/reshape-landscape.jpg",
@@ -293,7 +293,7 @@
 			"sold": false,
             "diameter": "12.5\"",
             "height": "24\"",
-            "wood": "Bete",
+            "wood": "Red Tweneboa",
 			"weight": "",
             "skin": "Medium Goat Skin",
             "finish": "Fold-over",
@@ -306,8 +306,8 @@
     }, {
         "filename": "djembe-ghana-refinished",
         "data": {
-            "title": "13\" Bete Ghanaian Djembe - Handmade Djembes",
-            "name": "13\" Bete Ghanaian Djembe",
+            "title": "13\" Red Tweneboa Ghanaian Djembe - Handmade Djembes",
+            "name": "13\" Red Tweneboa Ghanaian Djembe",
             "thumb": "img/thumbs/marsha.jpg",
             "images": [
                 "img/marsha.jpg"
@@ -318,11 +318,11 @@
 			"sold": true,
             "diameter": "13\"",
             "height": "24\"",
-            "wood": "Bete",
+            "wood": "Red Tweneboa",
 			"weight": "",
             "skin": "Medium Goat",
             "finish": "Clean Cut",
-            "description": "Another 13\" diameter Ghanaian djembe made from an attractive sample of bete wood (African walnut). Nicely carved and finished to an extremely smooth matt shine, this is a beautiful example of decorative Ghanaian djembes. Ideal for beginner djembefolas, Ghanaian djembes lack the true sound profile of a Malinke djembe, but serve as a good budget option for someone wanting to practice in drum circles with a full sized djembe that won't break the bank.",
+            "description": "Another 13\" diameter Ghanaian djembe made from an attractive sample of Red Tweneboa wood. Nicely carved and finished to an extremely smooth matt shine, this is a beautiful example of decorative Ghanaian djembes. Ideal for beginner djembefolas, Ghanaian djembes lack the true sound profile of a Malinke djembe, but serve as a good budget option for someone wanting to practice in drum circles with a full sized djembe that won't break the bank.",
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": false
