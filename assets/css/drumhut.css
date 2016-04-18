@@ -44,8 +44,17 @@
 	}
 }
 
+.slide-wrapper-horizontal {
+    height:533px;
+	width: 800px;
+}
+.slide-wrapper-vertical {
+    height:800px;
+	width: 533px;
+}
 .slide-wrapper {
-    max-height: 500px;
+	max-height:800px;
+	max-width:800px;
 }
 
 .text-center {
