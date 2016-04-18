@@ -7,6 +7,8 @@
             "images": [
                 "img/sierpinski2.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£420",
             "featured": true,
 			"available": true,
@@ -38,6 +40,8 @@
 				"img/slides/ramanujan-carving.jpg",
 				"img/slides/ramanujan-ropes.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£420",
             "featured": true,
 			"available": true,
@@ -64,6 +68,8 @@
             "images": [
                 "img/thumbs/pascal.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£400",
             "featured": true,
 			"available": false,
@@ -92,6 +98,8 @@
 				"img/slides/maxwell-carving.jpg",
 				"img/slides/maxwell-rim.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£390",
             "featured": true,
 			"available": true,
@@ -121,9 +129,11 @@
 				"img/slides/pythagoras-carving.jpg"
 				
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£380",
             "featured": true,
-			"available": true,
+			"available": false,
 			"sold": false,
             "diameter": "13\"",
             "height": "24\"",
@@ -149,6 +159,8 @@
 				"img/slides/euclid-hole.jpg"
 				
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£360",
             "featured": true,
 			"available": true,
@@ -176,6 +188,8 @@
 				"img/slides/escher-landscape.jpg",
 				"img/slides/escher-carving.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£450",
             "featured": true,
 			"available": true,
@@ -202,6 +216,8 @@
                 "img/slides/pinkone.jpg",
 				"img/slides/pinkone-2.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£180",
             "featured": false,
 			"available": false,
@@ -233,6 +249,8 @@
 				"img/slides/colour-twene-paint.jpg"
 				
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£130",
             "featured": false,
 			"available": true,
@@ -259,6 +277,8 @@
             "images": [
                 "img/thumbs/125irokokam.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£220",
             "featured": false,
 			"available": false,
@@ -287,6 +307,8 @@
 				"img/slides/reshape-carving.jpg",
                 "img/repairs.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£160",
             "featured": false,
 			"available": true,
@@ -312,6 +334,8 @@
             "images": [
                 "img/marsha.jpg"
             ],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£140",
             "featured": false,
 			"available": false,
@@ -334,6 +358,8 @@
             "name": "13\" Indonesian Mahogany Djembe",
             "thumb": "img/thumbs/indonesian.jpg",
             "images": ["img/indonesian.jpg"],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£160",
             "featured": false,
 			"available": false,
@@ -357,6 +383,8 @@
             "name": "12.5\" Balafon Wood Guinean Djembe",
             "thumb": "img/thumbs/abdoulaye.jpg",
             "images": ["img/thumbs/abdoulaye.jpg"],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£250",
             "featured": false,
 			"available": false,
@@ -386,6 +414,8 @@
 				"img/slides/narrow-twene-rope.jpg"
 				
 			],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£100",
             "featured": false,
 			"available": false,
@@ -412,6 +442,8 @@
             "images": [
 				"img/slides/fat-senegalese-landscape.jpg"				
 			],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£270",
             "featured": false,
 			"available": false,
@@ -440,6 +472,8 @@
 				"img/slides/ironwood-carving.jpg",
 				"img/slides/ironwood-crack.jpg"
 			],
+			"imgHor": true,
+			"imgVert": false,
             "price": "£160",
             "featured": false,
 			"available": false,
@@ -457,7 +491,496 @@
 			"video": false,
 			"videoCode": ""
         }
-    }
+    },
+{
+        "filename": "djembe-Mali-1",
+        "data": {
+            "title": "DH1",
+            "name": "DH1",
+            "thumb": "img/slides/vertical/DH1a.jpg",
+            "images": [
+				"img/slides/vertical/DH1a.jpg",
+				"img/slides/vertical/DH1b.jpg",
+				"img/slides/vertical/DH1c.jpg",
+				"img/slides/vertical/DH1d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£285",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Dugura",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-2",
+        "data": {
+            "title": "DH2",
+            "name": "DH2",
+            "thumb": "img/slides/vertical/DH2a.jpg",
+            "images": [
+				"img/slides/vertical/DH2a.jpg",
+				"img/slides/vertical/DH2b.jpg",
+				"img/slides/vertical/DH2c.jpg",
+				"img/slides/vertical/DH2d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£305",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-3",
+        "data": {
+            "title": "DH3",
+            "name": "DH3",
+            "thumb": "img/slides/vertical/DH3a.jpg",
+            "images": [
+				"img/slides/vertical/DH3a.jpg",
+				"img/slides/vertical/DH3b.jpg",
+				"img/slides/vertical/DH3c.jpg",
+				"img/slides/vertical/DH3d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£280",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Dugura",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-4",
+        "data": {
+            "title": "DH4",
+            "name": "DH4",
+            "thumb": "img/slides/vertical/DH4a.jpg",
+            "images": [
+				"img/slides/vertical/DH4a.jpg",
+				"img/slides/vertical/DH4b.jpg",
+				"img/slides/vertical/DH4c.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£320",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Khadi",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-5",
+        "data": {
+            "title": "DH5",
+            "name": "DH5",
+            "thumb": "img/slides/vertical/DH5a.jpg",
+            "images": [
+				"img/slides/vertical/DH5a.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£285",
+            "featured": false,
+			"mali": true,
+			"available": false,
+			"sold": true,
+            "diameter": "13\"",
+            "height": "25\"",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "Medium Goat",
+            "finish": "Smooth Fold-over",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-6",
+        "data": {
+            "title": "DH6",
+            "name": "DH6",
+            "thumb": "img/slides/vertical/DH6a.jpg",
+            "images": [
+				"img/slides/vertical/DH6a.jpg",
+				"img/slides/vertical/DH6b.jpg",
+				"img/slides/vertical/DH6c.jpg",
+				"img/slides/vertical/DH6d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£275",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-7",
+        "data": {
+            "title": "DH7",
+            "name": "DH7",
+            "thumb": "img/slides/vertical/DH7a.jpg",
+            "images": [
+				"img/slides/vertical/DH7a.jpg",
+				"img/slides/vertical/DH7b.jpg",
+				"img/slides/vertical/DH7c.jpg",
+				"img/slides/vertical/DH7d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£280",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-8",
+        "data": {
+            "title": "DH8",
+            "name": "DH8",
+            "thumb": "img/slides/vertical/DH8a.jpg",
+            "images": [
+				"img/slides/vertical/DH8a.jpg",
+				"img/slides/vertical/DH8b.jpg",
+				"img/slides/vertical/DH8c.jpg",
+				"img/slides/vertical/DH8d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£295",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Khadi",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-9",
+        "data": {
+            "title": "DH9",
+            "name": "DH9",
+            "thumb": "img/slides/vertical/DH9a.jpg",
+            "images": [
+				"img/slides/vertical/DH9a.jpg",
+				"img/slides/vertical/DH9b.jpg",
+				"img/slides/vertical/DH9c.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£285",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-10",
+        "data": {
+            "title": "DH10",
+            "name": "DH10",
+            "thumb": "img/slides/vertical/DH10a.jpg",
+            "images": [
+				"img/slides/vertical/DH10a.jpg",
+				"img/slides/vertical/DH10b.jpg",
+				"img/slides/vertical/DH10c.jpg",
+				"img/slides/vertical/DH10d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£275",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-11",
+        "data": {
+            "title": "DH11",
+            "name": "DH11",
+            "thumb": "img/slides/vertical/DH11a.jpg",
+            "images": [
+				"img/slides/vertical/DH11a.jpg",
+				"img/slides/vertical/DH11b.jpg",
+				"img/slides/vertical/DH11c.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£280",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Khadi",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-12",
+        "data": {
+            "title": "DH12",
+            "name": "DH12",
+            "thumb": "img/slides/vertical/DH12a.jpg",
+            "images": [
+				"img/slides/vertical/DH12a.jpg",
+				"img/slides/vertical/DH12b.jpg",
+				"img/slides/vertical/DH12c.jpg",
+				"img/slides/vertical/DH12d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£290",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Khadi",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-13",
+        "data": {
+            "title": "DH13",
+            "name": "DH13",
+            "thumb": "img/slides/vertical/DH13a.jpg",
+            "images": [
+				"img/slides/vertical/DH13a.jpg",
+				"img/slides/vertical/DH13b.jpg",
+				"img/slides/vertical/DH13c.jpg",
+				"img/slides/vertical/DH13d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£280",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-14",
+        "data": {
+            "title": "DH14",
+            "name": "DH14",
+            "thumb": "img/slides/vertical/DH14a.jpg",
+            "images": [
+				"img/slides/vertical/DH14a.jpg",
+				"img/slides/vertical/DH14b.jpg",
+				"img/slides/vertical/DH14c.jpg",
+				"img/slides/vertical/DH14d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£320",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Khadi",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  },
+  {
+        "filename": "djembe-Mali-15",
+        "data": {
+            "title": "DH15",
+            "name": "DH15",
+            "thumb": "img/slides/vertical/DH15a.jpg",
+            "images": [
+				"img/slides/vertical/DH15a.jpg",
+				"img/slides/vertical/DH15b.jpg",
+				"img/slides/vertical/DH15c.jpg",
+				"img/slides/vertical/DH15d.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": "£285",
+            "featured": false,
+			"mali": true,
+			"available": true,
+			"sold": false,
+            "diameter": "",
+            "height": "",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "",
+            "finish": "",
+            "description": "",
+			"description2": "",
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+  }
 	
 
 

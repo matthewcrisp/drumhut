@@ -28,6 +28,24 @@ navOrder: 2
 
 </section>
 
+<section id="malidjembes" class="gray-bg padding-top-bottom ">
+
+<header class="section-header text-center wow fadeInUp">
+            <h2>Drum Hut djembes from Mali</h2>
+			<p>Mali Djembes</p>
+        </header>		
+{{#each djembes}}
+{{#unless data.featured}}
+{{#if data.mali}}
+<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+	{{> product-link this }}
+</article> 
+{{/if}}
+{{/unless}}
+{{/each}}
+<div class="clearfix"></div>
+
+</section>
 
 <section id="otherdjembes" class="gray-bg padding-top-bottom ">
 
@@ -38,9 +56,11 @@ navOrder: 2
 {{#each djembes}}
 {{#unless data.featured}}
 {{#unless data.sold}}
+{{#unless data.mali}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
+{{/unless}}
 {{/unless}}
 {{/unless}}
 {{/each}}
