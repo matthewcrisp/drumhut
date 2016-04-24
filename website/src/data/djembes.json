@@ -426,7 +426,7 @@
 			"weight": "",
             "skin": "Thin Goat",
             "finish": "Fold-over",
-            "description": "A small and pretty djembe that weighs very little. With it's sharp sound and surprisingly large bass, this makes a perfect drum for the djembefola who wants good sound at a very low price. Your back will thank you for choosing this lightweight djembe!<br><br>An unfortunate accident with a pair of scissors whilst skinning this djembe resulted in the need for two lengths of rope to be used, so the final few Verticals are roped with striped white rope.",
+            "description": "A small and pretty djembe that weighs very little. With it's sharp sound and surprisingly large bass, this makes a perfect drum for the djembefola who wants good sound at a very low price. Your back will thank you for choosing this lightweight djembe!<br><br>An unfortunate accident with a pair of scissors whilst skinning this djembe resulted in the need for two lengths of rope to be used, so the final few verticals are roped with striped white rope.",
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/262740221/11-ghanaian-tweneboa-djembe",
 			"video": true,
@@ -497,12 +497,12 @@
         "data": {
             "title": "Mali001",
             "name": "Mali Djembe - 001",
-            "thumb": "img/slides/Vertical/DH1a.jpg",
+            "thumb": "img/slides/vertical/DH1a.jpg",
             "images": [
-				"img/slides/Vertical/DH1a.jpg",
-				"img/slides/Vertical/DH1b.jpg",
-				"img/slides/Vertical/DH1c.jpg",
-				"img/slides/Vertical/DH1d.jpg"
+				"img/slides/vertical/DH1a.jpg",
+				"img/slides/vertical/DH1b.jpg",
+				"img/slides/vertical/DH1c.jpg",
+				"img/slides/vertical/DH1d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -530,12 +530,12 @@
         "data": {
             "title": "Mali002",
             "name": "Mali Djembe - 002",
-            "thumb": "img/slides/Vertical/DH2a.jpg",
+            "thumb": "img/slides/vertical/DH2a.jpg",
             "images": [
-				"img/slides/Vertical/DH2a.jpg",
-				"img/slides/Vertical/DH2b.jpg",
-				"img/slides/Vertical/DH2c.jpg",
-				"img/slides/Vertical/DH2d.jpg"
+				"img/slides/vertical/DH2a.jpg",
+				"img/slides/vertical/DH2b.jpg",
+				"img/slides/vertical/DH2c.jpg",
+				"img/slides/vertical/DH2d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -563,12 +563,12 @@
         "data": {
             "title": "Mali003",
             "name": "Mali Djembe - 003",
-            "thumb": "img/slides/Vertical/DH3a.jpg",
+            "thumb": "img/slides/vertical/DH3a.jpg",
             "images": [
-				"img/slides/Vertical/DH3a.jpg",
-				"img/slides/Vertical/DH3b.jpg",
-				"img/slides/Vertical/DH3c.jpg",
-				"img/slides/Vertical/DH3d.jpg"
+				"img/slides/vertical/DH3a.jpg",
+				"img/slides/vertical/DH3b.jpg",
+				"img/slides/vertical/DH3c.jpg",
+				"img/slides/vertical/DH3d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -596,11 +596,11 @@
         "data": {
             "title": "Mali004",
             "name": "Mali Djembe - 004",
-            "thumb": "img/slides/Vertical/DH4a.jpg",
+            "thumb": "img/slides/vertical/DH4a.jpg",
             "images": [
-				"img/slides/Vertical/DH4a.jpg",
-				"img/slides/Vertical/DH4b.jpg",
-				"img/slides/Vertical/DH4c.jpg"
+				"img/slides/vertical/DH4a.jpg",
+				"img/slides/vertical/DH4b.jpg",
+				"img/slides/vertical/DH4c.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -628,9 +628,9 @@
         "data": {
             "title": "Mali005",
             "name": "Mali Djembe - 005",
-            "thumb": "img/slides/Vertical/DH5a.jpg",
+            "thumb": "img/slides/vertical/DH5a.jpg",
             "images": [
-				"img/slides/Vertical/DH5a.jpg"
+				"img/slides/vertical/DH5a.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -658,12 +658,12 @@
         "data": {
             "title": "Mali006",
             "name": "Mali Djembe - 006",
-            "thumb": "img/slides/Vertical/DH6a.jpg",
+            "thumb": "img/slides/vertical/DH6a.jpg",
             "images": [
-				"img/slides/Vertical/DH6a.jpg",
-				"img/slides/Vertical/DH6b.jpg",
-				"img/slides/Vertical/DH6c.jpg",
-				"img/slides/Vertical/DH6d.jpg"
+				"img/slides/vertical/DH6a.jpg",
+				"img/slides/vertical/DH6b.jpg",
+				"img/slides/vertical/DH6c.jpg",
+				"img/slides/vertical/DH6d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -691,12 +691,12 @@
         "data": {
             "title": "Mali007",
             "name": "Mali Djembe - 007",
-            "thumb": "img/slides/Vertical/DH7a.jpg",
+            "thumb": "img/slides/vertical/DH7a.jpg",
             "images": [
-				"img/slides/Vertical/DH7a.jpg",
-				"img/slides/Vertical/DH7b.jpg",
-				"img/slides/Vertical/DH7c.jpg",
-				"img/slides/Vertical/DH7d.jpg"
+				"img/slides/vertical/DH7a.jpg",
+				"img/slides/vertical/DH7b.jpg",
+				"img/slides/vertical/DH7c.jpg",
+				"img/slides/vertical/DH7d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -724,12 +724,12 @@
         "data": {
             "title": "Mali008",
             "name": "Mali Djembe - 008",
-            "thumb": "img/slides/Vertical/DH8a.jpg",
+            "thumb": "img/slides/vertical/DH8a.jpg",
             "images": [
-				"img/slides/Vertical/DH8a.jpg",
-				"img/slides/Vertical/DH8b.jpg",
-				"img/slides/Vertical/DH8c.jpg",
-				"img/slides/Vertical/DH8d.jpg"
+				"img/slides/vertical/DH8a.jpg",
+				"img/slides/vertical/DH8b.jpg",
+				"img/slides/vertical/DH8c.jpg",
+				"img/slides/vertical/DH8d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -757,11 +757,11 @@
         "data": {
             "title": "Mali009",
             "name": "Mali Djembe - 009",
-            "thumb": "img/slides/Vertical/DH9a.jpg",
+            "thumb": "img/slides/vertical/DH9a.jpg",
             "images": [
-				"img/slides/Vertical/DH9a.jpg",
-				"img/slides/Vertical/DH9b.jpg",
-				"img/slides/Vertical/DH9c.jpg"
+				"img/slides/vertical/DH9a.jpg",
+				"img/slides/vertical/DH9b.jpg",
+				"img/slides/vertical/DH9c.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -789,12 +789,12 @@
         "data": {
             "title": "Mali010",
             "name": "Mali Djembe - 010",
-            "thumb": "img/slides/Vertical/DH10a.jpg",
+            "thumb": "img/slides/vertical/DH10a.jpg",
             "images": [
-				"img/slides/Vertical/DH10a.jpg",
-				"img/slides/Vertical/DH10b.jpg",
-				"img/slides/Vertical/DH10c.jpg",
-				"img/slides/Vertical/DH10d.jpg"
+				"img/slides/vertical/DH10a.jpg",
+				"img/slides/vertical/DH10b.jpg",
+				"img/slides/vertical/DH10c.jpg",
+				"img/slides/vertical/DH10d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -822,11 +822,11 @@
         "data": {
             "title": "Mali011",
             "name": "Mali Djembe - 011",
-            "thumb": "img/slides/Vertical/DH11a.jpg",
+            "thumb": "img/slides/vertical/DH11a.jpg",
             "images": [
-				"img/slides/Vertical/DH11a.jpg",
-				"img/slides/Vertical/DH11b.jpg",
-				"img/slides/Vertical/DH11c.jpg"
+				"img/slides/vertical/DH11a.jpg",
+				"img/slides/vertical/DH11b.jpg",
+				"img/slides/vertical/DH11c.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -854,12 +854,12 @@
         "data": {
             "title": "Mali012",
             "name": "Mali Djembe - 012",
-            "thumb": "img/slides/Vertical/DH12a.jpg",
+            "thumb": "img/slides/vertical/DH12a.jpg",
             "images": [
-				"img/slides/Vertical/DH12a.jpg",
-				"img/slides/Vertical/DH12b.jpg",
-				"img/slides/Vertical/DH12c.jpg",
-				"img/slides/Vertical/DH12d.jpg"
+				"img/slides/vertical/DH12a.jpg",
+				"img/slides/vertical/DH12b.jpg",
+				"img/slides/vertical/DH12c.jpg",
+				"img/slides/vertical/DH12d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -887,12 +887,12 @@
         "data": {
             "title": "Mali013",
             "name": "Mali Djembe - 013",
-            "thumb": "img/slides/Vertical/DH13a.jpg",
+            "thumb": "img/slides/vertical/DH13a.jpg",
             "images": [
-				"img/slides/Vertical/DH13a.jpg",
-				"img/slides/Vertical/DH13b.jpg",
-				"img/slides/Vertical/DH13c.jpg",
-				"img/slides/Vertical/DH13d.jpg"
+				"img/slides/vertical/DH13a.jpg",
+				"img/slides/vertical/DH13b.jpg",
+				"img/slides/vertical/DH13c.jpg",
+				"img/slides/vertical/DH13d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -920,12 +920,12 @@
         "data": {
             "title": "Mali014",
             "name": "Mali Djembe - 014",
-            "thumb": "img/slides/Vertical/DH14a.jpg",
+            "thumb": "img/slides/vertical/DH14a.jpg",
             "images": [
-				"img/slides/Vertical/DH14a.jpg",
-				"img/slides/Vertical/DH14b.jpg",
-				"img/slides/Vertical/DH14c.jpg",
-				"img/slides/Vertical/DH14d.jpg"
+				"img/slides/vertical/DH14a.jpg",
+				"img/slides/vertical/DH14b.jpg",
+				"img/slides/vertical/DH14c.jpg",
+				"img/slides/vertical/DH14d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -953,12 +953,12 @@
         "data": {
             "title": "Mali015",
             "name": "Mali Djembe - 015",
-            "thumb": "img/slides/Vertical/DH15a.jpg",
+            "thumb": "img/slides/vertical/DH15a.jpg",
             "images": [
-				"img/slides/Vertical/DH15a.jpg",
-				"img/slides/Vertical/DH15b.jpg",
-				"img/slides/Vertical/DH15c.jpg",
-				"img/slides/Vertical/DH15d.jpg"
+				"img/slides/vertical/DH15a.jpg",
+				"img/slides/vertical/DH15b.jpg",
+				"img/slides/vertical/DH15c.jpg",
+				"img/slides/vertical/DH15d.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
