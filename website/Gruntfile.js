@@ -136,9 +136,28 @@ module.exports = function(grunt) {
       }
     },
 
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:matthewcrisp/drumhut.git',
+          branch: 'gh-pages'
+        }
+      }
+    },
+
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*']
+    clean: [
+      '!<%= config.dist %>/.git*',
+      '<%= config.dist %>/**/*'
+    ]
+
 
   });
 
@@ -158,6 +177,11 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'build'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'build',
+    'buildcontrol:pages'
   ]);
 
 };
