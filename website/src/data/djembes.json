@@ -532,12 +532,12 @@
             "name": "Mali Djembe 2",
             "thumb": "img/slides/Vertical/DH2a.jpg",
             "images": [
-				"img/slides/Vertical/DH2a.jpg",
-				"img/slides/Vertical/DH2b.jpg",
+				"img/slides/Vertical/DH2e.jpg",
+				"img/slides/Vertical/DH2f.jpg",
 				"img/slides/Vertical/DH2c.jpg",
 				"img/slides/Vertical/DH2d.jpg",
-				"img/slides/vertical/DH2e.jpg",
-				"img/slides/vertical/DH2f.jpg"
+				"img/slides/vertical/DH2a.jpg",
+				"img/slides/vertical/DH2b.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -567,11 +567,11 @@
             "name": "Mali Djembe 3",
             "thumb": "img/slides/Vertical/DH3a.jpg",
             "images": [
-				"img/slides/Vertical/DH3a.jpg",
+				"img/slides/Vertical/DH3e.jpg",
 				"img/slides/Vertical/DH3b.jpg",
 				"img/slides/Vertical/DH3c.jpg",
 				"img/slides/Vertical/DH3d.jpg",
-				"img/slides/vertical/DH3e.jpg"
+				"img/slides/vertical/DH3a.jpg"
 			],
 			"imgHor": false,
 			"imgVert": true,
