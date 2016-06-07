@@ -37,6 +37,40 @@
     }
 },
 {
+    "filename": "accessory-12-key-balafon",
+    "data": {
+        "name": "12 Key Balafons",
+        "title": "12 Key Balafons",
+        "thumb": "img/slides/bala-12-1.jpg",
+        "images": [
+			"img/slides/bala-12-1.jpg",
+			"img/slides/bala-12-2.jpg"
+          
+        ],
+        "price": "£120",
+		"description": "High quality tuned 12 key wooden balafons. The keys are made from Khadi wood - often referred to as Balafon Wood - and each key has a resonator gourd beneath it. The music they produce is earthy, warm and cheerful. <br><br>Each balafon sold comes with a pair of gum-rubber mallets.",
+        "showEnquireButton": true,
+		"available": false
+    }
+},
+{
+    "filename": "accessory-8-key-balafon",
+    "data": {
+        "name": "8 Key Balafons",
+        "title": "8 Key Balafons",
+        "thumb": "img/slides/bala-8.jpg",
+        "images": [
+			"img/slides/bala-8.jpg"
+			
+          
+        ],
+        "price": "£50",
+		"description": "8 key wooden balafons. The keys are made from Khadi wood - often referred to as Balafon Wood - and each key has a resonator gourd beneath it. The music they produce is earthy, warm and cheerful. <br><br>Each balafon sold comes with a pair of gum-rubber mallets.",
+        "showEnquireButton": true,
+		"available": false
+    }
+},
+{
     "filename": "accessory-ksinkksink",
     "data": {
         "name": "Ksink Ksink",
@@ -67,4 +101,6 @@
         "showEnquireButton": true,
 		"available": false
     }
-}]
+}
+
+]
