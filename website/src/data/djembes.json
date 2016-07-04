@@ -530,14 +530,13 @@
         "data": {
             "title": "Mali002",
             "name": "Mali Djembe 2",
-            "thumb": "img/slides/Vertical/DH2a.jpg",
+            "thumb": "img/slides/Vertical/DH2-2.jpg",
             "images": [
-				"img/slides/Vertical/DH2e.jpg",
-				"img/slides/Vertical/DH2f.jpg",
+				"img/slides/Vertical/DH2-1.jpg",
+				"img/slides/Vertical/DH2-2.jpg",
 				"img/slides/Vertical/DH2c.jpg",
-				"img/slides/Vertical/DH2d.jpg",
-				"img/slides/vertical/DH2a.jpg",
-				"img/slides/vertical/DH2b.jpg"
+				"img/slides/Vertical/DH2d.jpg"
+				
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -565,11 +564,11 @@
         "data": {
             "title": "Mali003",
             "name": "Mali Djembe 3",
-            "thumb": "img/slides/Vertical/DH3a.jpg",
+            "thumb": "img/slides/Vertical/DH3-1.jpg",
             "images": [
-				"img/slides/Vertical/DH3e.jpg",
-				"img/slides/Vertical/DH3b.jpg",
+				"img/slides/Vertical/DH3-1.jpg",
 				"img/slides/Vertical/DH3c.jpg",
+				"img/slides/Vertical/DH3b.jpg",
 				"img/slides/Vertical/DH3d.jpg",
 				"img/slides/vertical/DH3a.jpg"
 			],
@@ -661,15 +660,14 @@
         "data": {
             "title": "Mali006",
             "name": "Mali Djembe 6",
-            "thumb": "img/slides/Vertical/DH6a.jpg",
+            "thumb": "img/slides/Vertical/DH6-1.jpg",
             "images": [
-				"img/slides/Vertical/DH6a.jpg",
-				"img/slides/Vertical/DH6b.jpg",
-				"img/slides/Vertical/DH6c.jpg",
-				"img/slides/Vertical/DH6d.jpg"
+				"img/slides/DH6-3.jpg",
+				"img/slides/DH6-1.jpg",
+				"img/slides/DH6-2.jpg"				
 			],
-			"imgHor": false,
-			"imgVert": true,
+			"imgHor": true,
+			"imgVert": false,
             "price": "£280",
             "featured": false,
 			"mali": true,
@@ -956,16 +954,16 @@
         "data": {
             "title": "Mali015",
             "name": "Mali Djembe 15",
-            "thumb": "img/slides/Vertical/DH15a.jpg",
+            "thumb": "img/slides/Vertical/DH15-1.jpg",
             "images": [
-				"img/slides/Vertical/DH15a.jpg",
-				"img/slides/Vertical/DH15b.jpg",
-				"img/slides/Vertical/DH15c.jpg",
-				"img/slides/Vertical/DH15d.jpg"
+				"img/slides/DH15-4.jpg",
+				"img/slides/DH15-1.jpg",
+				"img/slides/DH15-2.jpg",
+				"img/slides/DH15-3.jpg"
 			],
-			"imgHor": false,
-			"imgVert": true,
-            "price": "£295",
+			"imgHor": true,
+			"imgVert": false,
+            "price": "£315",
             "featured": false,
 			"mali": true,
 			"available": false,
