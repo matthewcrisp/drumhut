@@ -564,16 +564,16 @@
         "data": {
             "title": "Mali003",
             "name": "Mali Djembe 3",
-            "thumb": "img/slides/vertical/DH3-1.jpg",
+            "thumb": "img/slides/vertical/DH3-v.jpg",
             "images": [
-				"img/slides/vertical/DH3-1.jpg",
-				"img/slides/Vertical/DH3c.jpg",
-				"img/slides/Vertical/DH3b.jpg",
-				"img/slides/Vertical/DH3d.jpg",
-				"img/slides/Vertical/DH3a.jpg"
+				"img/slides/DH3-1.jpg",
+				"img/slides/DH3-2.jpg",
+				"img/slides/DH3-3.jpg",
+				"img/slides/DH3-4.jpg",
+				"img/slides/DH3-5.jpg"
 			],
-			"imgHor": false,
-			"imgVert": true,
+			"imgHor": true,
+			"imgVert": false,
             "price": "£300",
             "featured": false,
 			"mali": true,
