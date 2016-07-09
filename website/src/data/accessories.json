@@ -75,9 +75,13 @@
     "data": {
         "name": "Ksink Ksink",
         "title": "Ksink Ksink - Djembe Accessories",
-        "thumb": "img/comingsoon.jpg",
+        "thumb": "img/slides/ksinkksink-1.jpg",
         "images": [
-			"img/comingsoon.jpg"
+			"img/slides/ksinkksink-1.jpg",
+			"img/slides/ksinkksink-2.jpg",
+			"img/slides/ksinkksink-3.jpg",
+			"img/slides/ksinkksink-4.jpg",
+			"img/slides/ksinkksink-5.jpg"
           
         ],
         "price": "£tba",
