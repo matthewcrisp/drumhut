@@ -21,21 +21,26 @@
     "content": "Ghanaian patterned djembe bag"
 },
 {
-    "filename": "accessory-bells-sticks",
+    "filename": "accessory-ksinkksink",
     "data": {
-        "name": "Bells and Sticks",
-        "title": "Bells and Sticks - Djembe Accessories",
-        "thumb": "img/bells.jpg",
+        "name": "Ksink Ksink",
+        "title": "Ksink Ksink - Djembe Accessories",
+        "thumb": "img/slides/ksinkksink-1.jpg",
         "images": [
-			"img/bells.jpg"
+			"img/slides/ksinkksink-1.jpg",
+			"img/slides/ksinkksink-2.jpg",
+			"img/slides/ksinkksink-3.jpg",
+			"img/slides/ksinkksink-4.jpg",
+			"img/slides/ksinkksink-5.jpg"
           
         ],
         "price": "£tba",
-		"description": "Iron bells and wooden sticks for ballet or trad-style dunun playing.",
+		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look.",
         "showEnquireButton": true,
 		"available": false
     }
 },
+
 {
     "filename": "accessory-12-key-balafon",
     "data": {
@@ -71,21 +76,17 @@
     }
 },
 {
-    "filename": "accessory-ksinkksink",
+    "filename": "accessory-bells-sticks",
     "data": {
-        "name": "Ksink Ksink",
-        "title": "Ksink Ksink - Djembe Accessories",
-        "thumb": "img/slides/ksinkksink-1.jpg",
+        "name": "Bells and Sticks",
+        "title": "Bells and Sticks - Djembe Accessories",
+        "thumb": "img/bells.jpg",
         "images": [
-			"img/slides/ksinkksink-1.jpg",
-			"img/slides/ksinkksink-2.jpg",
-			"img/slides/ksinkksink-3.jpg",
-			"img/slides/ksinkksink-4.jpg",
-			"img/slides/ksinkksink-5.jpg"
+			"img/bells.jpg"
           
         ],
         "price": "£tba",
-		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look.",
+		"description": "Iron bells and wooden sticks for ballet or trad-style dunun playing.",
         "showEnquireButton": true,
 		"available": false
     }
