@@ -11,7 +11,7 @@ navOrder: 5
 
 ---
 
-	<center><h3>Premium Djembes</h3></center>
+	<center><h3 style="font-weight:bold">Premium Djembes</h3></center>
         <div class="row" style="padding-top:20px">
             
             {{#each djembes}}
@@ -26,20 +26,38 @@ navOrder: 5
             {{/each}}
 
         </div>
-    
-	
-	
-	<center><h3>Beginner and Intermediate Djembes</h3></center>
+		
+		<center><h3 style="font-weight:bold">Mali Djembes</h3></center>
         <div class="row" style="padding-top:20px">
             
             {{#each djembes}}
-			{{#unless data.featured}}
+			{{#if data.mali}}
             {{#if this.data.videoCode}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
 				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
             </article>
 			{{/if}}
+            {{/if}}
+            {{/each}}
+
+        </div>
+    
+	
+	
+	<center><h3 style="font-weight:bold">Beginner and Intermediate Djembes</h3></center>
+        <div class="row" style="padding-top:20px">
+            
+            {{#each djembes}}
+			{{#unless data.featured}}
+			{{#unless data.mali}}
+            {{#if this.data.videoCode}}
+            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+				{{{ this.data.videoCode }}}
+				<h4><a href="./{{filename}}.html">{{data.name}}</a></h4>
+            </article>
+			{{/if}}
+			{{/unless}}
             {{/unless}}
             {{/each}}
 

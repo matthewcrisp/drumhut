@@ -134,7 +134,7 @@
             "price": "£380",
             "featured": true,
 			"available": false,
-			"sold": false,
+			"sold": true,
             "diameter": "13\"",
             "height": "24\"",
             "wood": "Lenke",
@@ -203,7 +203,8 @@
             "description": "Delicately, but mesmerisingly carved, this djembe is named after the artist M.C. Escher, who specialised in illusions, patterns and other mathematically inspired artwork. This lightweight djembe is yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials.",
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/258996293/the-escher-premium-13-guinean-lenke?ref=shop_home_active_5",
-			"video": false
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/156155336?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
     },
 	{
@@ -530,12 +531,13 @@
         "data": {
             "title": "Mali002",
             "name": "Mali Djembe 2",
-            "thumb": "img/slides/vertical/DH2-2.jpg",
+            "thumb": "img/slides/vertical/DH2-1.jpg",
             "images": [
 				"img/slides/vertical/DH2-1.jpg",
 				"img/slides/vertical/DH2-2.jpg",
-				"img/slides/Vertical/DH2c.jpg",
-				"img/slides/Vertical/DH2d.jpg"
+				"img/slides/vertical/DH2-3.jpg",
+				"img/slides/vertical/DH2-4.jpg",
+				"img/slides/vertical/DH2-5.jpg"
 				
 			],
 			"imgHor": false,
@@ -589,8 +591,8 @@
 			"description2": "",
             "showEnquireButton": true,
 			"etsy-link": "",
-			"video": false,
-			"videoCode": ""
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/173781589?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
   },
   {
