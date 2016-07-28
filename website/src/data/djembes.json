@@ -132,7 +132,7 @@
 			"imgHor": true,
 			"imgVert": false,
             "price": "£380",
-            "featured": true,
+            "featured": false,
 			"available": false,
 			"sold": true,
             "diameter": "13\"",
