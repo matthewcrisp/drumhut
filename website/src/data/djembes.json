@@ -45,7 +45,7 @@
             "price": "£420",
             "featured": true,
 			"available": false,
-			"sold": false,
+			"sold": true,
             "diameter": "13\"",
             "height": "24.5\"",
             "wood": "Djalla",
