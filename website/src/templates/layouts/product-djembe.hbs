@@ -21,9 +21,92 @@
         </div>
     </section>-->
 
-    <div class="wrapper">
-
-      <section class="padding-top-bottom" >
+<div class="wrapper">
+	<section="gray-bg padding-top-bottom" id="summary">
+		<div class="container" style="padding-top:120px; padding-bottom:80px">
+			<div class="row">
+				<div class="col-xs-12 text-center section-header">
+					<h1>{{ name }}</h1>
+					{{#if sold}}
+						  <h3>SOLD</h3>
+						  {{else}}
+						  <h2>£{{ price }}</h2>
+					{{/if}}
+					<div>
+						 {{#unless sold}}
+						 <button
+						 class="btn btn-primary snipcart-add-item"
+						data-item-id="{{ filename }}"
+						data-item-name="{{ name }}"
+						data-item-price="{{ price }}"						
+						data-item-url="/{{ filename }}.html/"
+						data-item-description="{{ description }}"
+						data-item-max-quantity="1"
+						style="margin:5px"><font size="4.5em">Add To Cart</font></button>			
+						 {{/unless}}
+						 <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
+					 </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-4 col-md-push-8 text-center">
+						  <div class="padding-top-bottom">	
+							<h2 style="strong">SPECS</h2>
+							{{#if height}}<h3>Height: {{ height }}</h3>{{/if}}
+            			    {{#if diameter}}<h3>Diameter: {{ diameter }}</h3>{{/if}}
+            			    {{#if wood}}<h3>Wood: {{ wood }}</h3>{{/if}}
+							{{#if weight}}<h3>Weight: {{weight}}</h3>{{/if}}
+							{{#if skin}}<h3>Skin: {{ skin }}</h3>{{/if}}
+							{{#if finish}}<h3>Finish: {{ finish }}</h3>{{/if}}						  	
+						  </div>
+				</div>
+				<div class="col-xs-12 col-md-8 col-md-pull-4 cta-message wow fadeInRight text-center">
+						{{#if imgHor}}<div class="slide-wrapper-horizontal" id="product-slides-container">{{/if}}
+						{{#if imgVert}}<div class="slide-wrapper-vertical" id="product-slides-container">{{/if}}
+						{{#else}}<div class="slide-wrapper" id="product-slides-container">{{/else}}
+							<div id="product-slides" data-length="{{ images.length }}">
+								<div class="slides-container">
+									{{#each images}}														
+									<img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded">								
+									{{/each}}
+								</div>
+							</div>
+						</div>
+                      
+				</div>				
+			</div>
+		</div>
+	</section>
+	<section id="description" class="light-bg padding-top-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div>
+						<h2 style="margin-top:0;">{{ name }}</h2>
+						<div><p>{{{ description }}}</p></div>
+						<div class="small"><p>{{{ description2 }}}</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{{#if video}}
+	<section id="demo" class="gray-bg padding-top-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					
+					<div class="fadeInUp">
+						{{{ videoCode }}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{{/if}}
+	
+	<!-- **OLD VERSION**
+      <section class="padding-top-bottom" id="summary">
           <div class="container" style="padding-top:40px">
               <div class="row">
 				<div class="flexBox">
@@ -33,7 +116,7 @@
                           {{#if sold}}
 						  <h3>SOLD</h3>
 						  {{else}}
-						  <h3>{{ price }}</h3>
+						  <h3>£{{ price }}</h3>
 						  {{/if}}
                           {{#if height}}<h4>Height: {{ height }}</h4>{{/if}}
             			  {{#if diameter}}<h4>Diameter: {{ diameter }}</h4>{{/if}}
@@ -56,7 +139,15 @@
 					   <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
 						 {{#unless sold}}
 						 <br>
-						 <a href="./contact.html" class="btn btn-primary" style="margin:5px"><font size="4.5em">Get in touch to purchase</font></a>			
+						 <button
+						 class="btn btn-primary snipcart-add-item"
+						data-item-id="{{ filename }}"
+						data-item-name="{{ name }}"
+						data-item-price="{{ price }}"						
+						data-item-url="/{{ filename }}.html/"
+						data-item-description="{{ description }}"
+						data-item-max-quantity="1"
+						style="margin:5px"><font size="4.5em">Add To Cart</font></button>			
 						 {{/unless}}
 						 
 						 
@@ -69,7 +160,15 @@
 					   <a href="mailto:crispy@thedrumhut.co.uk?Subject=Djembe: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
 						 {{#unless sold}}
 						 <br>
-						 <a href="./contact.html" class="btn btn-primary" style="margin:5px"><font size="4.5em">Get in touch to purchase</font></a>			
+						 <button
+						 class="btn btn-primary snipcart-add-item"
+						data-item-id="{{ filename }}"
+						data-item-name="{{ name }}"
+						data-item-price="{{ price }}"						
+						data-item-url="/{{ filename }}.html/"
+						data-item-description="{{ description }}"
+						data-item-max-quantity="1"
+						style="margin:5px"><font size="4.5em">Add To Cart</font></button>			
 						 {{/unless}}
 						 
 						 
@@ -105,11 +204,13 @@
 				
 				</div>
 			 </div>
-			  
+			
+
 			  
       </section>
+	  -->
 	</div>
-    </div>
+    
 
     {{> global-footer }}
 

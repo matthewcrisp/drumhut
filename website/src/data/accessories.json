@@ -2,7 +2,7 @@
     "filename": "accessory-bags",
     "data": {
 
-        "name": "Bags",
+        "name": "Djembe Bags",
         "title": "Bags - Djembe Accessories",
         "thumb": "img/bags.jpg",
         "images": [
@@ -11,10 +11,11 @@
 			"img/slides/bag-top.jpg"
           
         ],
-        "price": "£30",
+        "price": "30",
 		"description": "Lightweight, but strong djembe bags from Ghana. These bags have a drawstring top, meaning that there's no zip to break. They're comfortable; they're strong enough for even the heaviest of djembes and they look fantastic. For a simple, no-frills, reliable djembe bag at a fraction of the cost of their \"professional\" counterparts, these bags really are perfect.",
-		"description2":"Currently out of stock. I'm talking with new suppliers in Ghana and more bags will be available in early 2016.",
+		"description2":"Currently out of stock. I'm talking with new suppliers in Ghana and more bags will be available soon.",
         "showEnquireButton": true,
+		"imgVert": true,
 		"available": false,
 		"etsy-link": ""
     },
@@ -34,9 +35,10 @@
 			"img/slides/ksinkksink-5.jpg"
           
         ],
-        "price": "£tba",
+        "price": "tba",
 		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look.",
         "showEnquireButton": true,
+		"imgHor": true,
 		"available": false
     }
 },
@@ -52,9 +54,10 @@
 			"img/slides/bala-12-2.jpg"
           
         ],
-        "price": "£90",
+        "price": "90",
 		"description": "High quality tuned 12 key wooden balafons. The keys are made from Khadi wood - often referred to as Balafon Wood - and each key has a resonator gourd beneath it. The music they produce is earthy, warm and cheerful.<br><br>Each balafon sold comes with a pair of gum-rubber mallets.",
         "showEnquireButton": true,
+		"imgHor": true,
 		"available": false
     }
 },
@@ -69,9 +72,10 @@
 			
           
         ],
-        "price": "£45",
+        "price": "45",
 		"description": "8 key wooden balafons. The keys are made from Khadi wood - often referred to as Balafon Wood - and each key has a resonator gourd beneath it. The music they produce is earthy, warm and cheerful.<br><br>Each balafon sold comes with a pair of gum-rubber mallets.",
         "showEnquireButton": true,
+		"imgHor": true,
 		"available": false
     }
 },
@@ -85,7 +89,7 @@
 			"img/bells.jpg"
           
         ],
-        "price": "£tba",
+        "price": "tba",
 		"description": "Iron bells and wooden sticks for ballet or trad-style dunun playing.",
         "showEnquireButton": true,
 		"available": false
@@ -101,7 +105,7 @@
 			"img/comingsoon.jpg"
           
         ],
-        "price": "£tba",
+        "price": "tba",
 		"description": "100ml tubs of fortified shea butter. All our blends include skin strengthening tincture of benzoin that helps prevent damage and speeds up the healing process when damage does occur. <br><br>Our blends include:<br>Warming Ginger<br>Fragrance of the Forest<br>Invigorating Citrus<br>Relaxing Bergamot",
         "showEnquireButton": true,
 		"available": false

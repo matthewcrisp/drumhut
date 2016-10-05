@@ -8,31 +8,22 @@ component: navbar
                 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="./">
-                <img id="navlogo" src="{{assets}}/img/navlogo-blue.png" alt="microstore" width="190" height="45">
+                <img id="navlogo" src="{{assets}}/img/navlogo-blue.png" alt="microstore"  height="70">
             </a>
 
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" style="max-height:40px">
             <ul id="navigation" class="nav navbar-nav navbar-right text-center">
 
                 {{#each navigation }}
+				{{#unless hide}}
                 <li>
-                    <a href="{{url}}">{{name}}</a></li>
-                </li>
-                {{/each}}
-
-
+                    <a href="{{url}}" style="padding:5px 15px;">{{name}}</a></li>
+				{{/unless}}
+				{{/each}}
+				</li>				
                 {{!--
                 <!--
-                {{#withSort this.pages 'data.navOrder'}}
-                {{#if data.showInNav}}
-                <li{{#if this.isCurrentPage}} class="active"{{/if}}>
-                  <a href="{{relative dest this.dest}}">{{ data.title }}</a>
-                </li>
-                {{/if}}
-                {{/withSort}}
-
-
                 <li class="dropdown">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">UK</button>
                     <ul class="dropdown-menu">
@@ -44,9 +35,14 @@ component: navbar
                 </li>
                 -->
                 --}}
-
             </ul>
         </div>
+		<div class="snipcart-summary text-right">		
+			Items: <span class="snipcart-total-items"></span>
+			Total: <span class="snipcart-total-price"></span>
+				<div><a href="#" class="snipcart-user-profile"> <span class="snipcart-user-email">LOGIN</span></a><span class="snipcart-user-profile"> | </span><a href="#" class="snipcart-checkout">CHECKOUT</a><span class="snipcart-user-logout"> | </span><a href="#" class="snipcart-user-logout">LOG OUT</a>
+				</div>
+		</div>
 
     </div>
 </div>

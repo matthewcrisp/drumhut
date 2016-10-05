@@ -24,50 +24,69 @@
 
     <div class="wrapper">
 
-      <section class="padding-top-bottom">
-          <div class="container" style="padding-top:30px">
+      <section class="gray-bg" id="summary">
+          <div class="container"  style="padding-top:80px;padding-bottom:80px">
               <div class="row">
-				<div class="flexBox">
-                  <div class="col-xs-12 col-sm-4 a wow fadeInLeft text-center">
-                      <header class="section-header cta-message">
-                          <h1>{{ name }}</h1>
-                          <h2>{{ price }}</h2>
-                          </header>
-            					  <p>{{{ description }}}</p>
-                        <div class="small">
-                           <p>{{ description2 }}</p>
-                       </div>
-
-                        <div class="col-xs-12 col-sm-12 b fadeInLeft text-center">	 
-							{{#if showEnquireButton}}
-					   <a href="mailto:crispy@thedrumhut.co.uk?Subject=Accessories: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
-							{{/if}}
+				<div class="col-xs-12 text-center section-header">
+					<h1>{{ name }}</h1>
+					{{#unless available}}
+						  <h3>Currently out of stock</h3>
+					{{/unless}}
+						  <h2>£{{ price }}</h2>					
+					<div>
 						 {{#if available}}
-						 <br>
-						 <a href="{{{etsy-link}}}" class="btn btn-primary" style="margin:5px"><font size="4.5em">Buy on Etsy</font></a>
+						 <button
+						 class="btn btn-primary snipcart-add-item"
+						data-item-id="{{ filename }}"
+						data-item-name="{{ name }}"
+						data-item-price="{{ price }}"						
+						data-item-url="/{{ filename }}.html/"
+						data-item-description="{{ description }}"						
+						style="margin:5px"><font size="4.5em">Add To Cart</font></button>			
 						 {{/if}}
-						</div>
-                  </div>
-				  
-                  <div class="col-xs-12 col-sm-8 cta-message c wow fadeInUp">
-                      <div class="slide-wrapper" id="product-slides-container">
-                         <div id="product-slides">
-                            <div class="slides-container">
-                                {{#each images}}
-                                <img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded">
-                                {{/each}}
-                            </div>
-                        </div>
-                      </div>
-					  
-                      
-
-                  </div>
- 
+						 <a href="mailto:crispy@thedrumhut.co.uk?Subject=Accessories: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
+					 </div>
 				</div>
-              </div>
-          </div>
-      </section>
+			</div>
+			<div class="row">
+                  <div class="col-xs-12 wow fadeInUp text-center">
+						{{#if imgHor}}
+							<div class="slide-wrapper-horizontal" id="product-slides-container">
+						{{/if}}
+						{{#if imgVert}}
+							<div class="slide-wrapper-vertical" id="product-slides-container">
+						{{/if}}
+						{{#else}}
+							<div class="slide-wrapper" id="product-slides-container">
+						{{/else}}
+							<div id="product-slides" data-length="{{ images.length }}">
+								<div class="slides-container">
+									{{#each images}}														
+									<center><img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded"></center>					
+									{{/each}}
+								</div>
+							</div>
+						</div>
+                      
+				</div>
+ 
+			</div>
+         </div>
+       </div>
+    </section>
+	<section id="description" class="light-bg padding-top-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div>
+						<h2 style="margin-top:0;">{{ name }}</h2>
+						<div><p>{{{ description }}}</p></div>
+						<div class="small"><p>{{{ description2 }}}</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	  
 	 </div>
 

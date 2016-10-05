@@ -3,7 +3,8 @@
     "url": "./djembes.html"
 }, {
     "name": "Dunun",
-    "url": "./dunun.html"
+    "url": "./dunun.html",
+	"hide": true
 }, {
     "name": "Accessories",
     "url": "./accessories.html"
@@ -15,7 +16,8 @@
     "url": "./repairs.html"
 }, {
     "name": "Events",
-    "url": "./events.html"
+    "url": "./events.html",
+	"hide": true
 }, {
     "name": "Contact",
     "url": "./contact.html"
