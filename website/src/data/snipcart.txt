@@ -1,0 +1,12 @@
+[
+  {
+    "id": "djembe-maxwell",
+    "price": 390.00,
+    "url": "https://localhost:9000/djembe-maxwell.html"
+  },
+  {
+    "id": "djembe-euclid",
+    "price": 360.00,
+    "url": "https://localhost:9000/djembe-euclid.html"
+  }
+]
