@@ -1205,11 +1205,8 @@ form p {
 	.modal-header {
 		height: 350px;
 	}
-	.welcome-content {
-
-		
-		margin: auto;
-		
+	.welcome-content {		
+		margin: auto;		
 	}
 	.welcome-content img {
 		padding: 0 15px; 
@@ -1228,7 +1225,12 @@ form p {
 	.news {
 		padding-bottom: 40px;
 	}
-
+	.logo-responsive{
+		width: 60%;
+		height: auto;
+		float: left;
+		margin-top: 15px;
+	}
 }
  @media (max-width: 992px) { 
  	.cta-message {
