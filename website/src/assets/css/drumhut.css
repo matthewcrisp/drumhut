@@ -125,3 +125,9 @@ and (orientation : landscape) {
         max-width: 400px;
     }
 }
+@media all and (max-width: 768px) {
+	.snipcart-summary-mobile {
+		padding-top:20px;
+		text-align: center;
+	}
+}
