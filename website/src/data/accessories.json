@@ -110,6 +110,22 @@
         "showEnquireButton": true,
 		"available": false
     }
+},
+{
+    "filename": "test-item",
+    "data": {
+        "name": "Test Item",
+        "title": "Test Item",
+        "thumb": "img/comingsoon.jpg",
+        "images": [
+			"img/comingsoon.jpg"
+          
+        ],
+        "price": 1,
+		"description": "Testy testy testy.",
+        "showEnquireButton": true,
+		"available": true
+    }
 }
 
 ]
