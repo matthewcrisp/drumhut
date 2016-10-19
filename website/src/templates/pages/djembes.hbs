@@ -18,7 +18,7 @@ navOrder: 2
 			<p>Carved by artisan djembe carver Alseny Camara of Conakry, Guinea, these djembes sound as beautiful as they look.<br>You'll find all the information you need on each djembe, including a demonstration video, on each djembe's page.</p>
         </header>
 {{#each djembes}}
-{{#if data.featured}}
+{{#if data.guinea}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
 	{{> product-link this }}
 </article> 
@@ -35,13 +35,11 @@ navOrder: 2
 			<p>High quality, traditional wood shells from Bamako in the heart of southern Mali. Beautifully designed on the outside and perfectly carved on the inside, these are outstanding djembes.</p>
 </header>		
 {{#each djembes}}
-{{#unless data.featured}}
 {{#if data.mali}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
 {{/if}}
-{{/unless}}
 {{/each}}
 <div class="clearfix"></div>
 
@@ -54,9 +52,9 @@ navOrder: 2
 			<p>Found from across the UK and given a new lease of life in my workshop, these djembes are all pre-loved but have been bought back to as-new standard, using the same skill, expertise and care as the premium djembes. This is the perfect place to grab yourself an excellent sounding and looking djembe. You can hear how each djembe sounds in the demonstration video on each page.</p>
         </header>		
 {{#each djembes}}
-{{#unless data.featured}}
-{{#unless data.sold}}
+{{#unless data.guinea}}
 {{#unless data.mali}}
+{{#unless data.sold}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
