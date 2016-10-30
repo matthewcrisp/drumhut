@@ -49,7 +49,7 @@
 			"guinea": true,
 			"mali": false,
             "featured": true,
-			"available": true,
+			"available": false,
 			"sold": false,
             "diameter": "13\"",
             "height": "24\"",
