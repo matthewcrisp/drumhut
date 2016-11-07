@@ -1,5 +1,5 @@
 [{
-    "filename": "accessory-ksink-ksink",
+    "filename": "ksink-ksink",
     "data": {
         "name": "Ksink Ksink",
         "title": "Ksink Ksink - Djembe Accessories",
@@ -44,7 +44,7 @@
     }
 },
 {
-    "filename": "accessory-bags",
+    "filename": "bags",
     "data": {
 
         "name": "Djembe Bags",
@@ -68,7 +68,7 @@
     "content": "Ghanaian patterned djembe bag"
 },
 {
-    "filename": "accessory-12-key-balafon",
+    "filename": "12-key-balafon",
     "data": {
         "name": "12 Key Balafons",
         "title": "12 Key Balafons",
@@ -86,7 +86,7 @@
     }
 },
 {
-    "filename": "accessory-8-key-balafon",
+    "filename": "8-key-balafon",
     "data": {
         "name": "8 Key Balafons",
         "title": "8 Key Balafons",
@@ -104,7 +104,7 @@
     }
 },
 {
-    "filename": "accessory-bells-sticks",
+    "filename": "bells-sticks",
     "data": {
         "name": "Bells and Sticks",
         "title": "Bells and Sticks - Djembe Accessories",
@@ -120,7 +120,7 @@
     }
 },
 {
-    "filename": "accessory-sheabutter",
+    "filename": "sheabutter",
     "data": {
         "name": "Shea Butter - Hand Nourishment",
         "title": "Shea Butter - Hand Nourishment - Djembe Accessories",
