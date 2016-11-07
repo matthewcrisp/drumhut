@@ -25,7 +25,7 @@
     <div class="wrapper">
 
       <section class="gray-bg" id="summary">
-          <div class="container"  style="padding-top:80px;padding-bottom:80px">
+          <div class="container"  style="padding-top:80px; padding-bottom:80px">
               <div class="row">
 				<div class="col-xs-12 text-center section-header">
 					<h1>{{ name }}</h1>
@@ -34,6 +34,8 @@
 					{{/unless}}
 						  <h2>£{{ price }}</h2>					
 					<div>
+						 <a href="#description" class="btn btn-primary smooth-scroll" style="margin:5px">Info</a>
+						{{#unless ksink}}
 						 {{#if available}}
 						 <button
 						 class="btn btn-primary snipcart-add-item"
@@ -44,12 +46,32 @@
 						data-item-description="{{ description }}"						
 						style="margin:5px"><font size="4.5em">Add To Cart</font></button>			
 						 {{/if}}
+						 {{/unless}}
+						 {{#if ksink}}
+						 {{#if available}}
+						 <button
+						 class="btn btn-primary snipcart-add-item"
+						data-item-id="{{ filename }}"
+						data-item-name="{{ name }}"
+						data-item-price="{{ price }}"						
+						data-item-url="http://www.thedrumhut.co.uk/{{filename}}"
+						data-item-description="{{ description }}"		
+						data-item-custom1-name= "Colour"
+						data-item-custom1-options= "Cracked Blue + Copper Rings|Cracked Blue + Gold Rings|Cracked Copper + Black Rings|Cracked Silver + Silver Rings|Cracked Green + Silver Rings|Chameleon Blue/Green + Black Rings[+4.00]|Chameleon Gold/Green + Gold Rings[+4.00]"
+						data-item-custom2-name= "Size"
+						data-item-custom2-options= "Small|Medium[+5.00]|Large[+10.00]"
+						style="margin:5px"><font size="4.5em">Add To Cart</font></button>			
+						 {{/if}}
+						 {{/if}}
 						 <a href="mailto:crispy@thedrumhut.co.uk?Subject=Accessories: {{ name }}" class="btn btn-primary" style="margin:5px">Enquire</a>
+						 
+						
 					 </div>
 				</div>
 			</div>
 			<div class="row">
-                  <div class="col-xs-12 wow fadeInUp text-center">
+				{{#unless ksink}}
+				 <div class="col-xs-12 wow fadeInUp text-center">
 						{{#if imgHor}}
 							<div class="slide-wrapper-horizontal" id="product-slides-container">
 						{{/if}}
@@ -59,20 +81,44 @@
 						{{#else}}
 							<div class="slide-wrapper" id="product-slides-container">
 						{{/else}}
-							<div id="product-slides" data-length="{{ images.length }}">
-								<div class="slides-container">
-									{{#each images}}														
-									<center><img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded"></center>					
-									{{/each}}
+								<div id="product-slides" data-length="{{ images.length }}">
+									<div class="slides-container">
+										{{#each images}}														
+										<center><img src="{{../assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded"></center>														
+										{{/each}}
+									</div>								
 								</div>
 							</div>
-						</div>
                       
 				</div>
- 
+				{{/unless}}
+				
+				{{#if ksink}}
+				 <div class="col-xs-12 wow fadeInUp text-center">
+						{{#if imgHor}}
+							<div class="slide-wrapper-horizontal" id="product-slides-container">
+						{{/if}}
+						{{#if imgVert}}
+							<div class="slide-wrapper-vertical" id="product-slides-container">
+						{{/if}}
+						{{#else}}
+							<div class="slide-wrapper" id="product-slides-container">
+						{{/else}}
+								<div id="product-slides" data-length="{{ images.length }}">
+									<div class="slides-container">
+										{{#each images}}														
+										<img src="{{../assets}}/{{url}}" alt="{{imgName}}" class="img-rounded">
+																								
+										{{/each}}
+									</div>								
+								</div>
+							</div>
+                      
+				</div>
+				{{/if}}
 			</div>
          </div>
-       </div>
+       
     </section>
 	<section id="description" class="light-bg padding-top-bottom">
 		<div class="container">
@@ -81,7 +127,50 @@
 					<div>
 						<h2 style="margin-top:0;">{{ name }}</h2>
 						<div><p>{{{ description }}}</p></div>
-						<div class="small"><p>{{{ description2 }}}</p></div>
+						<div><p>{{{ description2 }}}</p></div>
+						{{#if ksink}}
+						<div class="row dark-bg img-rounded light-typo">
+							<div class="col-xs-12 col-sm-6 text-center">
+							<h2>Colour Options</h2>
+							<p><br>{{colour1}}<br>
+							{{colour2}}<br>
+							{{colour3}}<br>
+							{{colour4}}<br>
+							{{colour5}}<br>
+							{{colour6}}<br>
+							{{colour7}}<br>
+							{{colour8}}<br>
+							{{colour9}}<br>
+							{{colour10}}</p>
+							</div>
+							<div class="col-xs-12 col-sm-6 text-center">
+							<h2>Size Options</h2>
+								<div class="row">
+									<div class="col-xs-6">
+							<p>
+							Small<br>10cm x 15cm<br><br>
+							Medium<br>12cm x 18cm<br><br>
+							Large<br>14cm x 21cm</p>
+							
+									</div>
+									<div class="col-xs-6">
+							<p style="font-size:1.5em">
+							<br>£35<br><br><br>
+							£40<br><br><br>
+							£45
+							</p>
+									</div>
+									
+								</div>
+								
+							</div>
+							<div class="col-xs-12">
+							<p>
+							Custom colour combinations and sizes available on request.
+							</p>
+							</div>
+						</div>
+						{{/if}}
 					</div>
 				</div>
 			</div>

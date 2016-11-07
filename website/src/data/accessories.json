@@ -1,4 +1,49 @@
 [{
+    "filename": "accessory-ksink-ksink",
+    "data": {
+        "name": "Ksink Ksink",
+        "title": "Ksink Ksink - Djembe Accessories",
+        "thumb": "img/thumbs/ksink-ksink.jpg",
+        "images": [
+			{"url":"img/thumbs/ksink-ksink-1.jpg", "imgName":"Cracked Green + Silver Rings"},
+			{"url":"img/thumbs/ksink-ksink-2.jpg","imgName":"CraTESTings"},
+			{"url":"img/thumbs/ksink-ksink-3.jpg", "imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-4.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-5.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-6.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-7.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-8.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-9.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-10.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-11.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-12.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-13.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-14.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-15.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-16.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-17.jpg","imgName":"TEST"},
+			{"url":"img/thumbs/ksink-ksink-18.jpg","imgName":"TEST"}		
+          
+        ],
+        "price": "35+",
+		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look. Available in \"cracked\" or colour-changing \"Chameleon\" finish.<br><br>Sold in sets of three. Customise your order in the shopping cart.",
+		"colour1": "Cracked Blue + Copper Rings",
+		"colour2": "Cracked Blue + Gold Rings",
+		"colour3": "Cracked Copper + Black Rings",
+		"colour4": "Cracked Silver + Silver Rings",
+		"colour5": "Cracked Green + Silver Rings",
+		"colour6": "Chameleon Blue/Green + Black Rings (+£4)",
+		"colour7": "Chameleon Gold/Green + Gold Rings (+£4)",
+		"colour8": "",
+		"colour9": "",
+		"colour10": "",
+        "showEnquireButton": true,
+		"ksink": true,
+		"imgHor": true,
+		"available": true
+    }
+},
+{
     "filename": "accessory-bags",
     "data": {
 
@@ -15,34 +60,13 @@
 		"description": "Lightweight, but strong djembe bags from Ghana. These bags have a drawstring top, meaning that there's no zip to break. They're comfortable; they're strong enough for even the heaviest of djembes and they look fantastic. For a simple, no-frills, reliable djembe bag at a fraction of the cost of their \"professional\" counterparts, these bags really are perfect.",
 		"description2":"Currently out of stock. I'm talking with new suppliers in Ghana and more bags will be available soon.",
         "showEnquireButton": true,
-		"imgVert": true,
+		"imgVert": false,
+		"imgHor": true,
 		"available": false,
 		"etsy-link": ""
     },
     "content": "Ghanaian patterned djembe bag"
 },
-{
-    "filename": "accessory-ksinkksink",
-    "data": {
-        "name": "Ksink Ksink",
-        "title": "Ksink Ksink - Djembe Accessories",
-        "thumb": "img/slides/ksinkksink-3.jpg",
-        "images": [
-			"img/slides/ksinkksink-1.jpg",
-			"img/slides/ksinkksink-2.jpg",
-			"img/slides/ksinkksink-3.jpg",
-			"img/slides/ksinkksink-4.jpg",
-			"img/slides/ksinkksink-5.jpg"
-          
-        ],
-        "price": "tba",
-		"description": "Percussive djembe decoration for stage performances. Add a little sizzle to your sound and your look.",
-        "showEnquireButton": true,
-		"imgHor": true,
-		"available": false
-    }
-},
-
 {
     "filename": "accessory-12-key-balafon",
     "data": {

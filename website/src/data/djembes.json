@@ -138,8 +138,8 @@
             "images": [
                 "img/thumbs/pascal.jpg"
             ],
-			"imgHor": true,
-			"imgVert": false,
+			"imgHor": false,
+			"imgVert": true,
             "price": 400,
 			"guinea": true,
 			"mali": false,
@@ -331,8 +331,8 @@
             "images": [
                 "img/thumbs/125irokokam.jpg"
             ],
-			"imgHor": true,
-			"imgVert": false,
+			"imgHor": false,
+			"imgVert": true,
             "price": 220,
 			"guinea": false,
 			"mali": false,
