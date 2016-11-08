@@ -37,6 +37,7 @@
 		"colour8": "",
 		"colour9": "",
 		"colour10": "",
+		"weight": 300,
         "showEnquireButton": true,
 		"ksink": true,
 		"imgHor": true,
@@ -63,6 +64,7 @@
 		"imgVert": false,
 		"imgHor": true,
 		"available": false,
+		"weight": 1300,
 		"etsy-link": ""
     },
     "content": "Ghanaian patterned djembe bag"
@@ -82,7 +84,8 @@
 		"description": "High quality tuned 12 key wooden balafons. The keys are made from Khadi wood - often referred to as Balafon Wood - and each key has a resonator gourd beneath it. The music they produce is earthy, warm and cheerful.<br><br>Each balafon sold comes with a pair of gum-rubber mallets.",
         "showEnquireButton": true,
 		"imgHor": true,
-		"available": false
+		"available": false,
+		"weight": 8000
     }
 },
 {
@@ -100,6 +103,7 @@
 		"description": "8 key wooden balafons. The keys are made from Khadi wood - often referred to as Balafon Wood - and each key has a resonator gourd beneath it. The music they produce is earthy, warm and cheerful.<br><br>Each balafon sold comes with a pair of gum-rubber mallets.",
         "showEnquireButton": true,
 		"imgHor": true,
+		"weight": 6000,
 		"available": false
     }
 },
@@ -116,7 +120,8 @@
         "price": "tba",
 		"description": "Iron bells and wooden sticks for ballet or trad-style dunun playing.",
         "showEnquireButton": true,
-		"available": false
+		"available": false,
+		"weight": 1000
     }
 },
 {
@@ -132,7 +137,8 @@
         "price": "tba",
 		"description": "100ml tubs of fortified shea butter. All our blends include skin strengthening tincture of benzoin that helps prevent damage and speeds up the healing process when damage does occur. <br><br>Our blends include:<br>Warming Ginger<br>Fragrance of the Forest<br>Invigorating Citrus<br>Relaxing Bergamot",
         "showEnquireButton": true,
-		"available": false
+		"available": false,
+		"weight": 300
     }
 }
 
