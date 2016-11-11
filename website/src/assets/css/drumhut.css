@@ -49,12 +49,12 @@
 	max-height:600px;
 	
 }
+/* 16:9 */
 .169-wrapper {
     width:100%;	
 }
 .169-wrapper:before {
-	padding-bottom: 100%;
-	/* 16:9 */
+	padding-bottom: 100%;	
 	float: left;
 	content: '';
 }
