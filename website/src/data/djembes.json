@@ -43,8 +43,8 @@
 				"img/slides/maxwell-2.jpg",
 				"img/slides/maxwell-3.jpg"
             ],
-			"imgHor": true,
-			"imgVert": false,
+			"imgHor": false,
+			"imgVert": true,
             "price": 410,
 			"guinea": true,
 			"mali": false,
