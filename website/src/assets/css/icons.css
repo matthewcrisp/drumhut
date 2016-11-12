@@ -18,6 +18,20 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Fanwood';
+	src:url('../fonts/fanwood-webfont.eot');
+	src:url('../fonts/fanwood-webfont.eot') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Junction';
+	src:url('../fonts/Junction-regular_0.eot');
+	src:url('../fonts/Junction-regular_0.eot') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
