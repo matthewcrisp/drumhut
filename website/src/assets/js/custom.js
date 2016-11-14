@@ -144,10 +144,3 @@ $(document).ready(function() {
 
 
 });
-
-	/* Snipcart ==============================================*/
-	Snipcart.api.cart.metadata({
-    "UserId": "429308",
-    "Version": "2.1",
-    "ApiKey": "FgowQfbjuE"
-});		
