@@ -59,7 +59,7 @@
 							{{#if height}}<h3>Height: {{ height }}</h3>{{/if}}
             			    {{#if diameter}}<h3>Diameter: {{ diameter }}</h3>{{/if}}
             			    {{#if wood}}<h3>Wood: {{ wood }}</h3>{{/if}}
-							{{#if weight}}<h3>Weight: {{weight}}</h3>{{/if}}
+							{{#if weight}}<h3>Weight: <script>document.write((parseFloat("{{weight}}") * 0.001).toFixed(2));</script>Kg</h3>{{/if}}
 							{{#if skin}}<h3>Skin: {{ skin }}</h3>{{/if}}
 							{{#if finish}}<h3>Finish: {{ finish }}</h3>{{/if}}						  	
 						  </div>
