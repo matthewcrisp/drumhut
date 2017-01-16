@@ -13,21 +13,6 @@ navOrder: 2
 
 <section id="djembes" class=" padding-top-bottom">
 
-<header class="section-header text-center wow fadeInUp">
-            <h2>Guinea Djembes</h2>
-			<p>Carved by artisan djembe carver Alseny Camara of Conakry, Guinea, these djembes sound as beautiful as they look.<br>You'll find all the information you need on each djembe, including a demonstration video, on each djembe's page.</p>
-        </header>
-{{#each djembes}}
-{{#if data.guinea}}
-<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
-	{{> product-link this }}
-</article> 
-{{/if}}
-{{/each}}
-<div class="clearfix"></div>
-
-</section>
-
 <section id="malidjembes" class="gray-bg padding-top-bottom ">
 
 <header class="section-header text-center wow fadeInUp">
@@ -44,6 +29,24 @@ navOrder: 2
 <div class="clearfix"></div>
 
 </section>
+
+
+<header class="section-header text-center wow fadeInUp">
+            <h2>Guinea Djembes</h2>
+			<p>Carved by artisan djembe carver Alseny Camara of Conakry, Guinea, these djembes sound as beautiful as they look.<br>You'll find all the information you need on each djembe, including a demonstration video, on each djembe's page.</p>
+        </header>
+{{#each djembes}}
+{{#if data.guinea}}
+<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
+	{{> product-link this }}
+</article> 
+{{/if}}
+{{/each}}
+<div class="clearfix"></div>
+
+</section>
+
+
 
 <section id="otherdjembes" class="gray-bg padding-top-bottom ">
 
