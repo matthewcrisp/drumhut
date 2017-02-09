@@ -2,6 +2,7 @@
 
 title: Demos
 heading: DEMO VIDEOS
+description: You can hear all of The Drum Hut's djembes here - because you should never buy a djembe without hearing it first!
 lead: Because you should never buy a djembe without hearing it first!
 
 layout: non-products.hbs
@@ -15,7 +16,7 @@ navOrder: 5
         <div class="row" style="padding-top:20px">
             
             {{#each djembes}}
-			{{#if data.featured}}
+			{{#if data.guinea}}
             {{#if this.data.videoCode}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
@@ -49,7 +50,7 @@ navOrder: 5
         <div class="row" style="padding-top:20px">
             
             {{#each djembes}}
-			{{#unless data.featured}}
+			{{#unless data.guinea}}
 			{{#unless data.mali}}
             {{#if this.data.videoCode}}
             <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
