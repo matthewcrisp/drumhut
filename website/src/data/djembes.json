@@ -581,6 +581,40 @@
         }
     },
 {
+        "filename": "djembe-senegal-tricolour",
+        "data": {
+            "title": "13\" Senegalese Dimba Djembe",
+            "name": "13\" Senegalese Dimba Djembe",
+            "thumb": "img/thumbs/tricolour1.jpg",
+            "images": [
+				"img/slides/tricolour1.jpg",
+				"img/slides/tricolour2.jpg",
+				"img/slides/tricolour3.jpg",
+				"img/slides/tricolour4.jpg"
+			],
+			"imgHor": false,
+			"imgVert": true,
+            "price": 260,
+			"guinea": false,
+			"mali": false,
+            "featured": true,
+			"available": true,
+			"sold": false,
+            "diameter": "13\"",
+            "height": "24\"",
+            "wood": "Dimba",
+			"weight": 14000,
+            "skin": "Calf Skin",
+            "finish": "Clean Cut",
+			"meta": "Djembe by The Drum Hut. For sale in the UK.",
+            "description": "A gorgeous djembe from Senegal, skinned with a thick calf skin. It's a very pure sounding djembe - mellow, rounded tones and clean slaps with very controlled sustain. It's tuned very high and will serve well as a lead djembe. <br><br>Featuring extended bottom hitches in the traditional African Tri-Colour scheme - the green, yellow and red found on the Senegalese flag.",			
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+},
+{
         "filename": "djembe-Mali-1",
         "data": {
             "title": "Mali001",
