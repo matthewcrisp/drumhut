@@ -615,39 +615,6 @@
         }
 },
 {
-        "filename": "djembe-pair-ghana",
-        "data": {
-            "title": " Pair of 11\" Ghanaian Tweneboa Djembes",
-            "name": "Pair of 11\" Ghanaian Tweneboa Djembes",
-            "thumb": "img/thumbs/smallghana1.JPG",
-            "images": [
-				"img/thumbs/smallghana1.JPG"
-				
-				
-			],
-			"imgHor": true,
-			"imgVert": false,
-            "price": 75,
-			"guinea": false,
-			"mali": false,
-            "featured": false,
-			"available": true,
-			"sold": false,
-            "diameter": "11\"",
-            "height": "22\"",
-            "wood": "Tweneboa",
-			"weight": 5000,
-            "skin": "Goat Skin",
-            "finish": "Clean Cut",
-			"meta": "Djembe by The Drum Hut. For sale in the UK.",
-            "description": "",			
-            "showEnquireButton": true,
-			"etsy-link": "",
-			"video": false,
-			"videoCode": ""
-        }
-},
-{
         "filename": "djembe-Mali-1",
         "data": {
             "title": "Mali001",
