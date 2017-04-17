@@ -402,10 +402,10 @@
             "name": "13\" Red Tweneboa Ghanaian Djembe",
             "thumb": "img/thumbs/marsha.jpg",
             "images": [
-                "img/marsha.jpg"
+                "img/thumbs/marsha.jpg"
             ],
-			"imgHor": true,
-			"imgVert": false,
+			"imgHor": false,
+			"imgVert": true,
             "price": 140,
 			"guinea": false,
 			"mali": false,
@@ -430,7 +430,7 @@
             "title": "13\" Indonesian Mahogany Djembe - Handmade Djembes",
             "name": "13\" Indonesian Mahogany Djembe",
             "thumb": "img/thumbs/indonesian.jpg",
-            "images": ["img/indonesian.jpg"],
+            "images": ["img/thumbs/indonesian.jpg"],
 			"imgHor": true,
 			"imgVert": false,
             "price": 160,
@@ -617,7 +617,7 @@
 {
         "filename": "djembe-Mali-1",
         "data": {
-            "title": "Mali001",
+            "title": "Mali Djembe 1",
             "name": "Mali Djembe 1",
             "thumb": "img/slides/Vertical/DH1a.jpg",
             "images": [
@@ -652,7 +652,7 @@
   {
         "filename": "djembe-Mali-2",
         "data": {
-            "title": "Mali002",
+            "title": "Mali Djembe 2",
             "name": "Mali Djembe 2",
             "thumb": "img/slides/vertical/DH2-5.jpg",
             "images": [
@@ -689,7 +689,7 @@
   {
         "filename": "djembe-Mali-3",
         "data": {
-            "title": "Mali003",
+            "title": "Mali 3",
             "name": "Mali Djembe 3",
             "thumb": "img/slides/vertical/DH3-v.jpg",
             "images": [
@@ -725,7 +725,7 @@
   {
         "filename": "djembe-Mali-4",
         "data": {
-            "title": "Mali004",
+            "title": "Mali Djembe 4",
             "name": "Mali Djembe 4",
             "thumb": "img/slides/Vertical/DH4c.jpg",
             "images": [
@@ -791,7 +791,7 @@
   {
         "filename": "djembe-Mali-6",
         "data": {
-            "title": "Mali006",
+            "title": "Mali Djembe 6",
             "name": "Mali Djembe 6",
             "thumb": "img/slides/vertical/DH6-1.jpg",
             "images": [
@@ -825,7 +825,7 @@
   {
         "filename": "djembe-Mali-7",
         "data": {
-            "title": "Mali007",
+            "title": "Mali Djembe 7",
             "name": "Mali Djembe 7",
             "thumb": "img/thumbs/DH7-1.jpg",
             "images": [
@@ -834,8 +834,8 @@
 				"img/slides/DH7-4.jpg"
 			
 			],
-			"imgHor": false,
-			"imgVert": true,
+			"imgHor": true,
+			"imgVert": false,
             "price": 305,
             "featured": true,
 			"guinea": false,
@@ -860,7 +860,7 @@
   {
         "filename": "djembe-Mali-8",
         "data": {
-            "title": "Mali008",
+            "title": "Mali Djembe 8",
             "name": "Mali Djembe 8",
             "thumb": "img/slides/Vertical/DH8a.jpg",
             "images": [
@@ -895,7 +895,7 @@
   {
         "filename": "djembe-Mali-9",
         "data": {
-            "title": "Mali009",
+            "title": "Mali Djembe 9",
             "name": "Mali Djembe 9",
             "thumb": "img/slides/Vertical/DH9a.jpg",
             "images": [
@@ -929,7 +929,7 @@
   {
         "filename": "djembe-Mali-10",
         "data": {
-            "title": "Mali010",
+            "title": "Mali Djembe 10",
             "name": "Mali Djembe 10",
             "thumb": "img/slides/Vertical/DH10a.jpg",
             "images": [
@@ -964,7 +964,7 @@
   {
         "filename": "djembe-Mali-11",
         "data": {
-            "title": "Mali011",
+            "title": "Mali Djembe 11",
             "name": "Mali Djembe 11",
             "thumb": "img/slides/Vertical/DH11a.jpg",
             "images": [
@@ -998,7 +998,7 @@
   {
         "filename": "djembe-Mali-12",
         "data": {
-            "title": "Mali012",
+            "title": "Mali Djembe 12",
             "name": "Mali Djembe 12",
             "thumb": "img/slides/Vertical/DH12a.jpg",
             "images": [
@@ -1033,7 +1033,7 @@
   {
         "filename": "djembe-Mali-13",
         "data": {
-            "title": "Mali013",
+            "title": "Mali Djembe 13",
             "name": "Mali Djembe 13",
             "thumb": "img/slides/Vertical/DH13a.jpg",
             "images": [
@@ -1068,7 +1068,7 @@
   {
         "filename": "djembe-Mali-14",
         "data": {
-            "title": "Mali014",
+            "title": "Mali Djembe 14",
             "name": "Mali Djembe 14",
             "thumb": "img/thumbs/DH14.jpg",
             "images": [
@@ -1104,7 +1104,7 @@
   {
         "filename": "djembe-Mali-15",
         "data": {
-            "title": "Mali015",
+            "title": "Mali Djembe 15",
             "name": "Mali Djembe 15",
             "thumb": "img/slides/vertical/DH15-1.jpg",
             "images": [
