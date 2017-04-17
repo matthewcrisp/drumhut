@@ -610,8 +610,8 @@
             "description": "A gorgeous djembe from Senegal, skinned with a thick calf skin. It's a very pure sounding djembe - mellow, rounded tones and clean slaps with very controlled sustain. It's tuned very high and will serve well as a lead djembe. <br><br>Featuring extended bottom hitches in the traditional African Tri-Colour scheme - the green, yellow and red found on the Senegalese flag.",			
             "showEnquireButton": true,
 			"etsy-link": "",
-			"video": false,
-			"videoCode": ""
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213458948?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
 },
 {
@@ -827,12 +827,12 @@
         "data": {
             "title": "Mali007",
             "name": "Mali Djembe 7",
-            "thumb": "img/slides/Vertical/DH7a.jpg",
+            "thumb": "img/thumbs/DH7-1.jpg",
             "images": [
-				"img/slides/Vertical/DH7a.jpg",
-				"img/slides/Vertical/DH7b.jpg",
-				"img/slides/Vertical/DH7c.jpg",
-				"img/slides/Vertical/DH7d.jpg"
+				"img/slides/DH7-2.jpg",
+				"img/slides/DH7-3jpg",
+				"img/slides/DH7-4.jpg"
+			
 			],
 			"imgHor": false,
 			"imgVert": true,
@@ -853,8 +853,8 @@
 			"description2": "",
             "showEnquireButton": true,
 			"etsy-link": "",
-			"video": false,
-			"videoCode": ""
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213464470?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
   },
   {
@@ -1132,8 +1132,8 @@
 			"description2": "",
             "showEnquireButton": true,
 			"etsy-link": "",
-			"video": false,
-			"videoCode": ""
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213465332?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
   }
 	
