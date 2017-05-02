@@ -1120,7 +1120,7 @@
             "featured": true,
 			"mali": true,
 			"available": true,
-			"sold": false,
+			"sold": true,
             "diameter": "12.75\"",
             "height": "25.25\"",
             "wood": "Lenke",
