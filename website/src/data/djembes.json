@@ -841,7 +841,7 @@
 			"guinea": false,
 			"mali": true,
 			"available": true,
-			"sold": false,
+			"sold": true,
             "diameter": "13\"",
             "height": "24.5\"",
             "wood": "Lenke",
