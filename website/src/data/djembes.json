@@ -727,11 +727,14 @@
         "data": {
             "title": "Mali Djembe 4",
             "name": "Mali Djembe 4",
-            "thumb": "img/thumbs/DH4-3.jpg",
+            "thumb": "img/thumbs/DH4-1.jpg",
             "images": [
 				"img/slides/DH4-1.jpg",
 				"img/slides/DH4-2.jpg",
-				"img/slides/Vertical/DH4c.jpg"
+				"img/slides/DH4-3.jpg",
+				"img/slides/DH4-4.jpg",
+				"img/slides/DH4-5.jpg",
+				"img/slides/DH4-6.jpg"
 			],
 			"imgHor": true,
 			"imgVert": false,
