@@ -719,7 +719,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/173781589?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/220543083?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
   },
   {
@@ -727,12 +727,12 @@
         "data": {
             "title": "Mali Djembe 4",
             "name": "Mali Djembe 4",
-            "thumb": "img/thumbs/DH4-1.jpg",
+            "thumb": "img/thumbs/DH4-7.jpg",
             "images": [
-				"img/slides/DH4-1.jpg",
-				"img/slides/DH4-2.jpg",
+				"img/slides/DH4-8.jpg",
+				"img/slides/DH4-9.jpg",
+				"img/slides/DH4-10.jpg",
 				"img/slides/DH4-3.jpg",
-				"img/slides/DH4-4.jpg",
 				"img/slides/DH4-5.jpg",
 				"img/slides/DH4-6.jpg"
 			],
@@ -755,8 +755,8 @@
 			"description2": "",
             "showEnquireButton": true,
 			"etsy-link": "",
-			"video": false,
-			"videoCode": ""
+			"video": true,
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/220540916?color=7f0000&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         }
   },
   {
