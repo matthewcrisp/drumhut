@@ -1017,7 +1017,7 @@
 			"guinea": false,
 			"mali": true,
 			"available": false,
-			"sold": false,
+			"sold": true,
             "diameter": "12.5\"",
             "height": "25\"",
             "wood": "Khadi",
