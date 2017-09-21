@@ -204,15 +204,17 @@
         "data": {
             "title": "The Euclid - Premium Handmade Djembes",
             "name": "The Euclid",
-            "thumb": "img/thumbs/euclid.jpg",
+            "thumb": "img/thumbs/euclid1.jpg",
             "images": [
-                "img/slides/euclid-carving.jpg",
-				"img/slides/euclid-hole.jpg"
+                "img/slides/euclid2.jpg",
+				"img/slides/euclid3.jpg",
+				"img/slides/euclid4.jpg",
+				"img/slides/euclid5.jpg"
 				
             ],
 			"imgHor": true,
 			"imgVert": false,
-            "price": 360,
+            "price": 380,
 			"guinea": true,
 			"mali": false,
             "featured": true,
@@ -225,10 +227,9 @@
             "skin": "",
             "finish": "",
 			"meta": "Djembe by The Drum Hut. For sale in the UK.",
-            "description": "Triangles and arcs dominate the aesthetic of this djembe, meaning the only appropriate name could be Euclid; the Ancient Greek Godfather of geometry. A visually striking djembe, The Euclid will stand out from any crowd. It's yours to customise however you choose - rope colours, skin type, finishing touches - it's all up to you! Get in touch with your ideas and I'll help bring them to fruition. Typical turn around time is 2-4 weeks depending on availability of materials.",
-			"description2": "Unfortunately this djembe has had a small issue with some pesky woodworms, but it's since been fully treated and is good as new. There were just seven flight holes in total and none of them very deep. The insects are now gone and the holes have all been filled with resin. Nonetheless, the price has been dropped to compensate for the presence of the holes.",
-            "showEnquireButton": true,
-			"etsy-link": "https://www.etsy.com/uk/listing/262842582/the-euclid-premium-13-guinean-lenke?ref=shop_home_active_1",
+            "description": "Triangles and arcs dominate the aesthetic of this djembe, meaning the only appropriate name could be Euclid; the Ancient Greek Godfather of geometry. A visually striking djembe, The Euclid will stand out from any crowd.",
+			"description2": "",
+            "showEnquireButton": true,		
 			"video": false
         }
 	},
@@ -615,6 +616,38 @@
         }
 },
 {
+        "filename": "djembe-guinea-12",
+        "data": {
+            "title": "12\" Guinea Lenke Djembe",
+            "name": "12\" Guinea Lenke Djembe",
+            "thumb": "img/thumbs/guinlenk1.jpg",
+            "images": [
+				"img/slides/guinlenk2.jpg",
+				"img/slides/guinlenk3.jpg"				
+			],
+			"imgHor": true,
+			"imgVert": false,
+            "price": 285,
+			"guinea": false,
+			"mali": false,
+            "featured": true,
+			"available": true,
+			"sold": false,
+            "diameter": "12\"",
+            "height": "24\"",
+            "wood": "Lenke",
+			"weight": "",
+            "skin": "Goat Skin",
+            "finish": "Fold-over",
+			"meta": "Djembe by The Drum Hut. For sale in the UK.",
+            "description": "A beautifully proportioned and excellent sounding Lenke djembe from Guinea. Perfect as a lead djembe, this drum produces sharp, clean sounds with excellent clarity. It's also very lightweight and easy to carry.",			
+            "showEnquireButton": true,
+			"etsy-link": "",
+			"video": false,
+			"videoCode": ""
+        }
+},
+{
         "filename": "djembe-Mali-1",
         "data": {
             "title": "Mali Djembe 1",
@@ -934,27 +967,26 @@
         "data": {
             "title": "Mali Djembe 10",
             "name": "Mali Djembe 10",
-            "thumb": "img/slides/Vertical/DH10a.jpg",
+            "thumb": "img/thumbs/mali10-1.jpg",
             "images": [
-				"img/slides/Vertical/DH10a.jpg",
-				"img/slides/Vertical/DH10b.jpg",
-				"img/slides/Vertical/DH10c.jpg",
-				"img/slides/Vertical/DH10d.jpg"
+				"img/slides/mali10-2.jpg",
+				"img/slides/mali10-3.jpg",
+				"img/slides/mali10-4.jpg"				
 			],
-			"imgHor": false,
-			"imgVert": true,
-            "price": 280,
-            "featured": false,
+			"imgHor": true,
+			"imgVert": false,
+            "price": 315,
+            "featured": true,
 			"guinea": false,
 			"mali": true,
-			"available": false,
+			"available": true,
 			"sold": false,
             "diameter": "13\"",
             "height": "25\"",
             "wood": "Lenke",
 			"weight": 14000,
-            "skin": "",
-            "finish": "",
+            "skin": "Goat Skin",
+            "finish": "Skin Twist",
 			"meta": "Djembe by The Drum Hut. For sale in the UK.",
             "description": "",
 			"description2": "",
