@@ -44,7 +44,7 @@
         "showEnquireButton": true,
 		"ksink": true,
 		"imgHor": true,
-		"available": true
+		"available": false
     }
 },
 {
