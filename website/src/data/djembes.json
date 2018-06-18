@@ -19,7 +19,7 @@
 			"mali": false,
             "featured": true,
 			"available": true,
-			"sold": false,
+			"sold": true,
             "diameter": "12.75\"",
             "height": "26\"",
             "wood": "Khadi",
