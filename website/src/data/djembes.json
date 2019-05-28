@@ -1,4 +1,4 @@
-[{
+﻿[{
         "filename": "djembe-mandelbrot",
         "data": {
             "title": "The Mandelbrot - Premium Handmade Djembes",
@@ -776,7 +776,7 @@
 			"guinea": false,
 			"mali": true,
 			"available": true,
-			"sold": false,
+			"sold": true,
             "diameter": "13\"",
             "height": "25\"",
             "wood": "Khadi",
