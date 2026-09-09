@@ -1,0 +1,89 @@
+name: Website CI
+
+on:
+  push:
+    branches: [main, master, modernise]
+  pull_request:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: website
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Lint JavaScript
+        run: npm run lint
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high
+
+      - name: Build site
+        run: npx grunt build
+
+      - name: Check generated assets
+        run: |
+          set -euo pipefail
+
+          for asset in \
+            dist/assets/css/bootstrap.min.css \
+            dist/assets/css/drumhut.css \
+            dist/assets/js/jquery.min.js \
+            dist/assets/js/bootstrap.min.js \
+            dist/assets/js/custom.js \
+            dist/assets/img/drumhut-logo-white.png \
+            dist/assets/img/navlogo-blue.png \
+            dist/assets/fonts/glyphicons-halflings-regular.woff \
+            dist/CNAME
+          do
+            test -s "$asset"
+          done
+
+      - name: Check important URLs
+        run: |
+          set -euo pipefail
+
+          python3 -m http.server 8080 --directory dist > /tmp/drumhut-http.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent --show-error http://127.0.0.1:8080/ > /dev/null; then
+              break
+            fi
+            sleep 1
+          done
+
+          for url in \
+            / \
+            /about.html \
+            /djembes.html \
+            /dunun.html \
+            /contact.html \
+            /assets/css/bootstrap.min.css \
+            /assets/js/jquery.min.js \
+            /assets/img/drumhut-logo-white.png
+          do
+            curl --fail --silent --show-error "http://127.0.0.1:8080${url}" > /dev/null
+          done
