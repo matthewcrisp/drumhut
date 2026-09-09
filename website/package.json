@@ -18,7 +18,9 @@
     "node": ">=0.10"
   },
   "scripts": {
+    "build": "grunt build",
     "test": "grunt assemble",
+    "server": "grunt server",
     "lint": "eslint Gruntfile.js src/helpers src/assets/js/app.js src/assets/js/custom.js src/assets/js/custom2.js"
   },
   "dependencies": {
