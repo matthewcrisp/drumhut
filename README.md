@@ -2,33 +2,29 @@
 
 ## Website
 
-First of all you will need to install Node.js and Bower:
+You will need Node.js and npm:
 
 Node.js - https://nodejs.org/
 
-When you install Node it will add a special command to your Terminal / CMD prompt called `npm`.
-`npm` allows you to install various packages using the command line.
-
-To open your command line go to the Start menu and search for 'cmd'. You might need to right-click it and choose 'Run as administrator' (not sure)
-
-You will use `npm` to install Bower. Bower itself is similar to `npm`, it justs lets you install a different type of package.
-
-Bower - http://bower.io/
-
-Once Bower and Node are installed you can prepare the project.
+Prepare the project from the repository root:
 
     # change directory (cd) to the website folder
     $ cd website
-    # ask npm to install the packages you need (might take a little while)
-    $ npm install
-    # now ask bower to install its packages
-    $ bower install
+    # install the exact npm dependencies from package-lock.json
+    $ npm ci
+    # install the frontend dependencies from bower.json
+    $ npx --yes bower install
 
-Once that is all complete you can run the project
+To build the site:
 
-    $ grunt server
+    $ npx grunt build
 
-This should open up your default browser with the test page
+To start the local development server:
+
+    $ npx grunt server
+
+The server should open the test page in your default browser. Dependencies are
+ignored by Git; do not commit `node_modules`, `bower_components`, or `dist`.
 
 ### Deploying
 
