@@ -96,7 +96,7 @@ $(document).ready(function() {
 			price = elem.find('.project-price').text(),
 			descr = elem.find('.project-description').html(),
 			slidesHtml = '<div class="slides-container">',
-			elemDataCont = elem.find('.project-description');
+			elemDataCont = elem.find('.project-description'),
 			slides = elem.find('.project-description').data('images').split(',');
 		for (var i = 0; i < slides.length; ++i) {
 			slidesHtml = slidesHtml + '<img src=' + slides[i] + ' alt="">';
