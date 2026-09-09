@@ -10,6 +10,14 @@ function readJson(name) {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
+  eleventyConfig.on('eleventy.before', () => {
+    const outputDirectory = path.join(__dirname, 'dist');
+    if (fs.existsSync(outputDirectory)) {
+      fs.readdirSync(outputDirectory)
+        .filter((name) => name !== '.git')
+        .forEach((name) => fs.rmSync(path.join(outputDirectory, name), { recursive: true, force: true }));
+    }
+  });
   eleventyConfig.addExtension('hbs', {
     outputFileExtension: 'html',
     compile: (template) => {
@@ -40,12 +48,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ '../_CNAME': 'CNAME' });
 
   eleventyConfig.addGlobalData('site', () => ({ title: 'The Drum Hut' }));
-  eleventyConfig.addGlobalData('navigation', () => readJson('navigation.json'));
-  eleventyConfig.addGlobalData('djembes', () => readJson('djembes.json'));
-  eleventyConfig.addGlobalData('dunun', () => readJson('dunun.json'));
-  eleventyConfig.addGlobalData('accessories', () => readJson('accessories.json'));
-  eleventyConfig.addGlobalData('demos', () => readJson('demos.json'));
-
+  eleventyConfig.addGlobalData('assets', '/assets');
   [
     ['djembes', 'product-djembe.hbs'],
     ['dunun', 'product-dunun.hbs'],
@@ -59,7 +62,7 @@ module.exports = function (eleventyConfig) {
           data: product.data,
           filename: product.filename,
           layout,
-          permalink: `${product.filename}.html`
+          permalink: `${product.filename}/index.html`
         })
       );
     });

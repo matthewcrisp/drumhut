@@ -76,10 +76,10 @@ jobs:
 
           for url in \
             / \
-            /about.html \
-            /djembes.html \
-            /dunun.html \
-            /contact.html \
+            /about/ \
+            /djembes/ \
+            /dunun/ \
+            /contact/ \
             /assets/css/bootstrap.min.css \
             /assets/js/jquery.min.js \
             /assets/js/bootstrap.bundle.min.js \

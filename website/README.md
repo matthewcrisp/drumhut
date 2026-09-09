@@ -9,7 +9,8 @@ npm ci
 npm run build
 ```
 
-The build writes the static site to `dist`. Run `npm run server` for a local
+The build writes the static site to `dist` and uses clean directory URLs such as
+`/djembes/` and `/djembe-mandelbrot/`. Run `npm run server` for a local
 development server, or `npm run lint` to check the JavaScript.
 
 Build-time integrations read `SNIPCART_PUBLIC_API_KEY` and `GTM_CONTAINER_ID`
