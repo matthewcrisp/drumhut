@@ -23,8 +23,7 @@ To start the local development server:
 
     $ npx grunt server
 
-The server should open the test page in your default browser. Dependencies are
-ignored by Git; do not commit `node_modules`, `bower_components`, or `dist`.
+The server should open the test page in your default browser.
 
 ### Deploying
 
