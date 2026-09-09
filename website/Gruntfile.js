@@ -145,7 +145,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:matthewcrisp/drumhut.git',
+          remote: 'https://github.com/matthewcrisp/drumhut.git',
           branch: 'gh-pages'
         }
       }
