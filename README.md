@@ -12,8 +12,6 @@ Prepare the project from the repository root:
     $ cd website
     # install the exact npm dependencies from package-lock.json
     $ npm ci
-    # install the frontend dependencies from bower.json
-    $ npx --yes bower install
 
 To build the site:
 
