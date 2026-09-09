@@ -32,10 +32,9 @@ This should open up your default browser with the test page
 
 ### Deploying
 
-    $ grunt build
+From the `website` directory, build and publish the site with:
 
-    # commit your new build
-    # push to master branch
-    # push to gh-pages branch
+    $ npx grunt deploy
 
-    $ git subtree push --prefix website/dist origin gh-pages
+This builds `website/dist`, commits the generated files to the `gh-pages` branch,
+and pushes that branch to GitHub Pages.
