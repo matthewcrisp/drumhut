@@ -31,9 +31,13 @@ The server should open the test page in your default browser.
 
 ### Deploying
 
-From the `website` directory, build and publish the site with:
+From the `website` directory, build the deployable site with:
 
     $ npm run deploy
 
-This builds `website/dist`, commits the generated files to the `gh-pages` branch,
-and pushes that branch to GitHub Pages.
+This builds `website/dist`. Publishing the generated directory is handled by the
+deployment environment.
+
+The site is built with Eleventy. Static files are copied from `website/src/assets`;
+the generated site is written to `website/dist`. jQuery 4 and Bootstrap 5 are
+installed from npm, with Bootstrap’s bundled JavaScript loaded by the site.
