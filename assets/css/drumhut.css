@@ -1,0 +1,164 @@
+/* ------------------------ DRUMHUT ------------------------ */
+/*
+/*  These styles were added just for The Drum Hut
+/*
+/* --------------------------------------------------------- */
+
+.wrapper {
+    background: #F2F2F2;
+}
+
+/*.hero-image-bg {
+    padding: 120px 0;
+    background-image: url(../img/Guinea1Full.jpg);
+    background-position: 50% 40%;	
+}*/
+
+.welcome-section .container {
+    position: relative;
+    z-index: 20;	
+}
+
+.welcome-section  {
+    font-size: 50px;
+}
+.social-links li a:hover::after {
+	content:""attr(alt)"";
+	display:inline-block;		
+	position:absolute;	
+	margin-top:50px;
+	left: 0;
+	right: 0;
+	margin-left:auto;
+	margin-right: auto;
+	z-index:-1;
+	font-size:1.3em;
+	-webkit-transition:.3s;
+	transition:.3s;
+	
+}
+@media screen and ( max-width: 768px ) {
+	.social-links .retina { 
+	position: relative;
+	left: -6px;
+	}
+}
+
+.slide-wrapper-horizontal {
+    max-width:900px;
+	max-height:600px;
+	
+}
+/* 16:9 
+.169-wrapper {
+    width:100%;	
+}
+.169-wrapper:before {
+	padding-bottom: 100%;	
+	float: left;
+	content: '';
+}
+.slide-wrapper-horizontal-center:after {
+	display: table;
+	content: '';
+	clear: both;
+}*/
+.slide-wrapper-vertical {
+    max-height:800px;
+	max-width:533px;
+}
+/*.slide-wrapper-vertical-center {
+    height:800px;
+	width:inherit;
+}*/
+.slide-wrapper {
+	height:800px;
+	width:800px;
+}
+/*.slide-wrapper-center {
+	height:inherit;
+	width:inherit;
+}*/
+
+.text-center {
+    text-align: center;
+}
+
+.img-wrapper {
+    display: block;
+    position: relative;
+}
+.ksink:after {
+	content: " ("attr(alt) ")";
+	font-size:1.5em;
+	position:absolute;
+	clear: both;
+	
+	
+}
+
+.small p {
+    font-size: 13px;
+}
+
+.sold {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.buttons-center{
+	height: inherit;
+}
+.buttons-center:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.centered-buttons{
+	display: inline-block;
+	vertical-align: middle;
+}
+.flexBox
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+@media all and ( min-width: 768px ) {
+    .flexBox .a { order:1; }
+    .flexBox .b { order:3; }
+    .flexBox .c { order:2; }
+	.flexBox .d { order:4; }
+}
+.nav-font {
+	font-size:1em;
+}
+}
+@media screen only and (max-width: 1000px){
+	.nav-font{
+		font-size:0.9em;
+	}
+}
+
+
+h1.boris {
+	font-family: 'BorisBlackBloxx Regular';
+}
+
+@media only screen 
+and (orientation : landscape) {
+
+    #hero .welcome-content img {
+        margin-top: 70px;
+        max-width: 400px;
+    }
+}
+@media all and (max-width: 768px) {
+	.snipcart-summary-mobile {
+		padding-top:5px;
+		text-align: center;
+	}
+}
