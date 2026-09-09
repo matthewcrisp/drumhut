@@ -65,9 +65,9 @@
 						  </div>
 				</div>
 				<div class="col-xs-12 col-md-8 col-md-pull-4 cta-message wow fadeInRight text-center">
-						{{#if imgHor}}<div class="slide-wrapper-horizontal" id="product-slides-container">{{/if}}
-						{{#if imgVert}}<div class="slide-wrapper-vertical" id="product-slides-container">{{/if}}
-						{{#else}}<div class="slide-wrapper" id="product-slides-container">{{/else}}
+						{{#if imgHor}}<div class="slide-wrapper-horizontal" id="product-slides-container">
+						{{else}}{{#if imgVert}}<div class="slide-wrapper-vertical" id="product-slides-container">
+						{{else}}<div class="slide-wrapper" id="product-slides-container">
 							<div id="product-slides" data-length="{{ images.length }}">
 								<div class="slides-container">
 									{{#each images}}														
@@ -76,7 +76,8 @@
 								</div>
 							</div>
 						</div>
-                      
+						{{/if}}{{/if}}
+
 				</div>				
 			</div>
 		</div>
@@ -136,4 +137,3 @@
 
   </body>
 </html>
-

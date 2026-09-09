@@ -10,7 +10,8 @@
   ],
   "globals": {
     "WOW": "readonly",
-    "angular": "readonly"
+    "angular": "readonly",
+    "bootstrap": "readonly"
   },
   "parserOptions": {
     "ecmaVersion": 2021
