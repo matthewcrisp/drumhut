@@ -18,7 +18,8 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "test": "grunt assemble"
+    "test": "grunt assemble",
+    "lint": "eslint Gruntfile.js src/helpers src/assets/js/app.js src/assets/js/custom.js src/assets/js/custom2.js"
   },
   "dependencies": {
     "bootstrap": "3.3.1",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "assemble": "^0.4.41",
     "coffeescript": "^2.7.0",
+    "eslint": "^8.57.0",
     "grunt": "^1.6.3",
     "grunt-build-control": "^0.7.1",
     "grunt-contrib-clean": "^2.0.1",
