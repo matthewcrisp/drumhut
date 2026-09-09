@@ -44,8 +44,18 @@ module.exports = function (eleventyConfig) {
 
   Handlebars.registerHelper('env', (name) => process.env[name] || '');
 
-  eleventyConfig.addPassthroughCopy({ '../assets': 'assets' });
-  eleventyConfig.addPassthroughCopy({ '../_CNAME': 'CNAME' });
+  // Keep the existing asset layout used by the Handlebars templates.
+  eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
+  eleventyConfig.addPassthroughCopy({ 'src/_CNAME': 'CNAME' });
+
+  // These are installed packages, so copy the browser builds explicitly.
+  // The templates and legacy plugins currently expect Bootstrap 3 and jQuery 2.
+  eleventyConfig.addPassthroughCopy({
+    'node_modules/jquery/dist/jquery.min.js': 'assets/js/jquery.min.js'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'node_modules/bootstrap/dist': 'assets'
+  });
 
   eleventyConfig.addGlobalData('site', () => ({ title: 'The Drum Hut' }));
   eleventyConfig.addGlobalData('assets', '/assets');
