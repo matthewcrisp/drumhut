@@ -113,6 +113,12 @@ module.exports = function(grunt) {
     },
 
     copy: {
+      jquery: {
+        expand: true,
+        cwd: 'node_modules/jquery/dist/',
+        src: 'jquery.min.js',
+        dest: '<%= config.dist %>/assets/js/'
+      },
       bootstrap: {
         expand: true,
         cwd: 'node_modules/bootstrap/dist/',

@@ -21,7 +21,8 @@
     "test": "grunt assemble"
   },
   "dependencies": {
-    "bootstrap": "3.3.1"
+    "bootstrap": "3.3.1",
+    "jquery": "2.2.4"
   },
   "devDependencies": {
     "assemble": "^0.4.41",
