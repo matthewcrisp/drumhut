@@ -50,7 +50,7 @@ jobs:
             dist/assets/css/bootstrap.min.css \
             dist/assets/css/drumhut.css \
             dist/assets/js/jquery.min.js \
-            dist/assets/js/bootstrap.bundle.min.js \
+            dist/assets/js/bootstrap.min.js \
             dist/assets/js/custom.js \
             dist/assets/img/drumhut-logo-white.png \
             dist/assets/img/navlogo-blue.png \
@@ -82,7 +82,7 @@ jobs:
             /contact/ \
             /assets/css/bootstrap.min.css \
             /assets/js/jquery.min.js \
-            /assets/js/bootstrap.bundle.min.js \
+            /assets/js/bootstrap.min.js \
             /assets/img/drumhut-logo-white.png
           do
             curl --fail --silent --show-error "http://127.0.0.1:8080${url}" > /dev/null
