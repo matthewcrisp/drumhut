@@ -15,7 +15,7 @@ Prepare the project from the repository root:
 
 To build the site:
 
-    $ npx grunt build
+    $ npm run build
 
 Optional integrations are injected at build time. For local builds, copy
 `website/.env.example` to `website/.env` and fill in `SNIPCART_PUBLIC_API_KEY` and
@@ -25,7 +25,7 @@ Do not put Snipcart secret API keys in this static site.
 
 To start the local development server:
 
-    $ npx grunt server
+    $ npm run server
 
 The server should open the test page in your default browser.
 
@@ -33,7 +33,7 @@ The server should open the test page in your default browser.
 
 From the `website` directory, build and publish the site with:
 
-    $ npx grunt deploy
+    $ npm run deploy
 
 This builds `website/dist`, commits the generated files to the `gh-pages` branch,
 and pushes that branch to GitHub Pages.
