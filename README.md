@@ -19,9 +19,7 @@ To build the site:
 
 Optional integrations are injected at build time. For local builds, copy
 `website/.env.example` to `website/.env` and fill in `SNIPCART_PUBLIC_API_KEY` and
-`GTM_CONTAINER_ID`. The `.env` file is ignored by Git. Shell/CI variables with the
-same names take precedence; unset values disable the corresponding integration.
-Do not put Snipcart secret API keys in this static site.
+`GTM_CONTAINER_ID`.
 
 To start the local development server:
 
@@ -37,7 +35,3 @@ From the `website` directory, build the deployable site with:
 
 This builds `website/dist`. Publishing the generated directory is handled by the
 deployment environment.
-
-The site is built with Eleventy. Static files are copied from `website/src/assets`;
-the generated site is written to `website/dist`. jQuery 4 and Bootstrap 5 are
-installed from npm, with Bootstrap’s bundled JavaScript loaded by the site.
