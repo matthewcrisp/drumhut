@@ -9,6 +9,25 @@
 
 'use strict';
 
+var fs = require('fs');
+var path = require('path');
+
+// Load local build configuration without overwriting values supplied by CI.
+var envFile = path.join(__dirname, '.env');
+if (fs.existsSync(envFile)) {
+  fs.readFileSync(envFile, 'utf8').split(/\r?\n/).forEach(function (line) {
+    var match = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/);
+    if (!match || typeof process.env[match[1]] !== 'undefined') {
+      return;
+    }
+
+    var value = match[2].replace(/^['"]|['"]$/g, '');
+    if (value && value.charAt(0) !== '#') {
+      process.env[match[1]] = value;
+    }
+  });
+}
+
 // # Globbing
 // for performance reasons we're only matching one level down:
 // '<%= config.src %>/templates/pages/{,*/}*.hbs'
@@ -76,7 +95,8 @@ module.exports = function(grunt) {
           layout: 'default.hbs',
           layoutdir: '<%= config.src %>/templates/layouts/',
           data: '<%= config.src %>/data/*.{json,yml}',
-          partials: '<%= config.src %>/templates/partials/*.hbs'
+          partials: '<%= config.src %>/templates/partials/*.hbs',
+          helpers: '<%= config.src %>/helpers/*.js'
       },
       pages: {
         files: {

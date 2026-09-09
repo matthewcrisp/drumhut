@@ -1,6 +1,16 @@
 ---
 component: navbar
 ---
+{{#if (env "GTM_CONTAINER_ID")}}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{env "GTM_CONTAINER_ID"}}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{/if}}
+{{#if (env "SNIPCART_PUBLIC_API_KEY")}}
+<div hidden id="snipcart" data-api-key="{{env "SNIPCART_PUBLIC_API_KEY"}}"></div>
+<script async src="https://cdn.snipcart.com/themes/v3.7.1/default/snipcart.js"></script>
+{{/if}}
 <div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">		
 			<div class="navbar-header">

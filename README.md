@@ -17,6 +17,12 @@ To build the site:
 
     $ npx grunt build
 
+Optional integrations are injected at build time. For local builds, copy
+`website/.env.example` to `website/.env` and fill in `SNIPCART_PUBLIC_API_KEY` and
+`GTM_CONTAINER_ID`. The `.env` file is ignored by Git. Shell/CI variables with the
+same names take precedence; unset values disable the corresponding integration.
+Do not put Snipcart secret API keys in this static site.
+
 To start the local development server:
 
     $ npx grunt server
