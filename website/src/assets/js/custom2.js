@@ -28,9 +28,10 @@ $(document).ready(function() {
 	});
 
 	/* Navbar colapse ======================================= */
-	$(document).on('click.nav','.navbar-collapse.in',function(e) {
-		if( $(e.target).is('a') || $(e.target).is('button')) {
-			$(this).collapse('hide');
+	document.addEventListener('click', function(e) {
+		var collapse = document.querySelector('.navbar-collapse.show');
+		if (collapse && ($(e.target).matches('a') || $(e.target).matches('button'))) {
+			bootstrap.Collapse.getOrCreateInstance(collapse).hide();
 		}
 	});
 
@@ -43,7 +44,9 @@ $(document).ready(function() {
 	});
 
 	/* testimonial ======================================= */
-	$('.carousel').carousel();
+	document.querySelectorAll('.carousel').forEach(function (carousel) {
+		new bootstrap.Carousel(carousel);
+	});
 	
 	/* One Page Navigation Setup ======================================= */
 	$('#main-nav').singlePageNav({
@@ -54,14 +57,6 @@ $(document).ready(function() {
 		onComplete: function() {}
 	});
 	
-	/* Bootstrap Affix ======================================= */		
-	$('#modal-bar').affix({
-		offset: {
-			top: 10,
-		}
-	});
-
-
 	/* countdown ======================================= */	
 	var days = 3;
 	var date = new Date();
@@ -96,7 +91,7 @@ $(document).ready(function() {
 			price = elem.find('.project-price').text(),
 			descr = elem.find('.project-description').html(),
 			slidesHtml = '<div class="slides-container">',
-			elemDataCont = elem.find('.project-description');
+			elemDataCont = elem.find('.project-description'),
 			slides = elem.find('.project-description').data('images').split(',');
 		for (var i = 0; i < slides.length; ++i) {
 			slidesHtml = slidesHtml + '<img src=' + slides[i] + ' alt="">';
@@ -123,7 +118,8 @@ $(document).ready(function() {
 				});
 				$('#project-modal .screen').addClass('done').prev('.loader').fadeOut();
 			}, 1000);
-		}).modal();
+		});
+		bootstrap.Modal.getOrCreateInstance(document.getElementById('project-modal')).show();
 	});
 
 	$('#project-modal').on('hidden.bs.modal', function() {
@@ -132,7 +128,7 @@ $(document).ready(function() {
 	});
 
 	$('#project-modal').on( 'click', '#btn-order',function () {
-		$('#project-modal').modal('hide');
+		bootstrap.Modal.getOrCreateInstance(document.getElementById('project-modal')).hide();
 		$(this).find('.loader').show();
 		$(this).find('.screen').removeClass('slides').removeClass('done').html('').superslides('destroy');
 		var aTag = $("section[id='orderform']");

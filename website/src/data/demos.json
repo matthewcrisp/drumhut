@@ -7,7 +7,7 @@
 			"img/sierpinski.jpg"
           
         ],
-        "code": "<iframe src=\"https://player.vimeo.com/video/140822220\" width=\"100%\" height=\"300\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"https://vimeo.com/140822220\">Mockolo Demos The Sierpinski</a> from <a href=\"https://vimeo.com/user18486666\">Matthew Crisp</a> on <a href=\"https://vimeo.com\">Vimeo</a>.</p>"
+        "code": "<iframe src=\"https://player.vimeo.com/video/140822220?dnt=1\" width=\"100%\" height=\"300\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe> <p><a href=\"https://vimeo.com/140822220\">Mockolo Demos The Sierpinski</a> from <a href=\"https://vimeo.com/user18486666\">Matthew Crisp</a> on <a href=\"https://vimeo.com\">Vimeo</a>.</p>"
     }
     
 },
@@ -20,7 +20,7 @@
 			"img/sierpinski.jpg"
           
         ],
-        "code": "<iframe src=\"https://player.vimeo.com/video/147534087\" width=\"100%\" height=\"300\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"https://vimeo.com/147534087\">12.5\" Balafon Wood Guinea Djembe - Calf Skin</a></p>"
+        "code": "<iframe src=\"https://player.vimeo.com/video/147534087?dnt=1\" width=\"100%\" height=\"300\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe> <p><a href=\"https://vimeo.com/147534087\">12.5\" Balafon Wood Guinea Djembe - Calf Skin</a></p>"
     }
     
 },
@@ -33,7 +33,7 @@
 			"img/ramanujan.jpg"
           
         ],
-        "code": "<iframe src=\"https://player.vimeo.com/video/147534088\" width=\"100%\" height=\"300\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"https://vimeo.com/147534088\">The Ramanujan</a></p>"
+        "code": "<iframe src=\"https://player.vimeo.com/video/147534088?dnt=1\" width=\"100%\" height=\"300\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe> <p><a href=\"https://vimeo.com/147534088\">The Ramanujan</a></p>"
     }
     
 }

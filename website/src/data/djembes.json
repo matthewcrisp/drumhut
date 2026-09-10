@@ -3,14 +3,14 @@
         "data": {
             "title": "The Mandelbrot - Premium Handmade Djembes",
             "name": "The Mandelbrot",
-            "thumb": "img/slides/vertical/mandelbrot-2.jpg",
+            "thumb": "img/slides/Vertical/mandelbrot-2.jpg",
             "images": [                
-				"img/slides/vertical/mandelbrot-1.jpg",
-				"img/slides/vertical/mandelbrot-2.jpg",
-				"img/slides/vertical/mandelbrot-3.jpg",
-				"img/slides/vertical/mandelbrot-4.jpg",
-				"img/slides/vertical/mandelbrot-5.jpg",
-				"img/slides/vertical/mandelbrot-6.jpg"				
+				"img/slides/Vertical/mandelbrot-1.jpg",
+				"img/slides/Vertical/mandelbrot-2.jpg",
+				"img/slides/Vertical/mandelbrot-3.jpg",
+				"img/slides/Vertical/mandelbrot-4.jpg",
+				"img/slides/Vertical/mandelbrot-5.jpg",
+				"img/slides/Vertical/mandelbrot-6.jpg" 				
             ],
 			"imgHor": false,
 			"imgVert": true,
@@ -30,7 +30,7 @@
             "description": "A taller than average djembe with a wood grain unrivalled by any I've ever seen, this is a djembe to make your friends envious. Clean and powerful in sound, and responsive at any playing volume - you're investing in the perfect playing experience with this djembe.",
             "showEnquireButton": true,	
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/191400219?color=ff8100&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/191400219?color=ff8100&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     },
 	{
@@ -63,7 +63,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/260271727/the-maxwell-premium-13-lenke-djembe?ref=shop_home_active_4",
 			"video": false,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149429117?color=3880fc&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149429117?color=3880fc&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     },  
 {
@@ -94,7 +94,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/257967301/the-sierpinski-13-djembe-from-the-drum?ref=listing-shop-header-0",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/151905108?color=275fcf&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/151905108?color=275fcf&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
 
         }
 
@@ -130,7 +130,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/257478425/the-ramanujan-premium-13-djalla-wood?ref=shop_home_active_1",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149550584?color=b81f2c&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149550584?color=b81f2c&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     }, 
 	{
@@ -196,7 +196,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/260273297/the-pythagoras-13-premium-lenke-djembe?ref=listing-shop-header-2",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/180516913?color=9a38fc&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/180516913?color=9a38fc&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     }, 
 	{
@@ -262,7 +262,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/258996293/the-escher-premium-13-guinean-lenke?ref=shop_home_active_5",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/156155336?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/156155336?color=fcdea7&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     },
 	{
@@ -294,7 +294,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/150053516?color=f531eb&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/150053516?color=f531eb&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     }, 
 	{
@@ -373,7 +373,7 @@
             "images": [
                 "img/slides/reshape-landscape.jpg",
 				"img/slides/reshape-carving.jpg",
-                "img/repairs.jpg"
+                "img/repairs.JPG"
             ],
 			"imgHor": true,
 			"imgVert": false,
@@ -394,7 +394,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/260742341/13-bete-wood-ghanaian-djembe",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149464673?color=ffffff&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/149464673?color=ffffff&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     }, {
         "filename": "djembe-ghana-refinished",
@@ -513,7 +513,7 @@
             "showEnquireButton": true,
 			"etsy-link": "https://www.etsy.com/uk/listing/262740221/11-ghanaian-tweneboa-djembe",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/150055619?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/150055619?color=fcdea7&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
     },
 	{
@@ -612,7 +612,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213458948?color=00bd16&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213458948?color=00bd16&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
 },
 {
@@ -687,13 +687,13 @@
         "data": {
             "title": "Mali Djembe 2",
             "name": "Mali Djembe 2",
-            "thumb": "img/slides/vertical/DH2-5.jpg",
+            "thumb": "img/slides/Vertical/DH2-5.jpg",
             "images": [
-				"img/slides/vertical/DH2-1.jpg",
-				"img/slides/vertical/DH2-2.jpg",
-				"img/slides/vertical/DH2-3.jpg",
-				"img/slides/vertical/DH2-4.jpg",
-				"img/slides/vertical/DH2-5.jpg"
+				"img/slides/Vertical/DH2-1.jpg",
+				"img/slides/Vertical/DH2-2.jpg",
+				"img/slides/Vertical/DH2-3.jpg",
+				"img/slides/Vertical/DH2-4.jpg",
+				"img/slides/Vertical/DH2-5.jpg"
 				
 			],
 			"imgHor": false,
@@ -724,7 +724,7 @@
         "data": {
             "title": "Mali 3",
             "name": "Mali Djembe 3",
-            "thumb": "img/slides/vertical/DH3-v.jpg",
+            "thumb": "img/slides/Vertical/DH3-v.jpg",
             "images": [
 				"img/slides/DH3-1.jpg",
 				"img/slides/DH3-2.jpg",
@@ -752,7 +752,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/220543083?color=fcdea7&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/220543083?color=fcdea7&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
   },
   {
@@ -789,7 +789,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/220540916?color=7f0000&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/220540916?color=7f0000&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
   },
   {
@@ -829,7 +829,7 @@
         "data": {
             "title": "Mali Djembe 6",
             "name": "Mali Djembe 6",
-            "thumb": "img/slides/vertical/DH6-1.jpg",
+            "thumb": "img/slides/Vertical/DH6-1.jpg",
             "images": [
 				"img/slides/DH6-3.jpg",
 				"img/slides/DH6-1.jpg",
@@ -890,7 +890,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213464470?color=ffdf1d&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213464470?color=ffdf1d&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
   },
   {
@@ -1141,7 +1141,7 @@
         "data": {
             "title": "Mali Djembe 15",
             "name": "Mali Djembe 15",
-            "thumb": "img/slides/vertical/DH15-1.jpg",
+            "thumb": "img/slides/Vertical/DH15-1.jpg",
             "images": [
 				"img/slides/DH15-4.jpg",
 				"img/slides/DH15-1.jpg",
@@ -1168,7 +1168,7 @@
             "showEnquireButton": true,
 			"etsy-link": "",
 			"video": true,
-			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213465332?color=ffb400&title=0&byline=0&portrait=0\" width=\"100%\" height=\"338\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+			"videoCode": "<iframe src=\"https://player.vimeo.com/video/213465332?color=ffb400&title=0&byline=0&portrait=0&dnt=1\" width=\"100%\" height=\"338\" loading=\"lazy\" title=\"The Drum Hut video\" allow=\"fullscreen; picture-in-picture\" allowfullscreen></iframe>"
         }
   }
 	

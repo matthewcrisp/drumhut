@@ -2,39 +2,37 @@
 
 ## Website
 
-First of all you will need to install Node.js and Bower:
+You will need Node.js and npm:
 
 Node.js - https://nodejs.org/
 
-When you install Node it will add a special command to your Terminal / CMD prompt called `npm`.
-`npm` allows you to install various packages using the command line.
-
-To open your command line go to the Start menu and search for 'cmd'. You might need to right-click it and choose 'Run as administrator' (not sure)
-
-You will use `npm` to install Bower. Bower itself is similar to `npm`, it justs lets you install a different type of package.
-
-Bower - http://bower.io/
-
-Once Bower and Node are installed you can prepare the project.
+Prepare the project from the repository root:
 
     # change directory (cd) to the website folder
     $ cd website
-    # ask npm to install the packages you need (might take a little while)
-    $ npm install
-    # now ask bower to install its packages
-    $ bower install
+    # install the exact npm dependencies from package-lock.json
+    $ npm ci
 
-Once that is all complete you can run the project
+To build the site:
 
-    $ grunt server
+    $ npm run build
 
-This should open up your default browser with the test page
+Optional integrations are injected at build time. For local builds, copy
+`website/.env.example` to `website/.env` and fill in `SNIPCART_PUBLIC_API_KEY` and
+`GTM_CONTAINER_ID`.
+
+To start the local development server:
+
+    $ npm run server
+
+The server should open the test page in your default browser.
 
 ### Deploying
 
-From the `website` directory, build and publish the site with:
+From the `website` directory, build and publish the site to the `gh-pages`
+branch with:
 
-    $ npx grunt deploy
+    $ npm run deploy
 
-This builds `website/dist`, commits the generated files to the `gh-pages` branch,
-and pushes that branch to GitHub Pages.
+The command builds `website/dist` and publishes that directory directly to
+GitHub Pages using the repository's configured Git remote.

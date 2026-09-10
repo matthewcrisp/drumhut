@@ -24,9 +24,10 @@ $(document).ready(function() {
 	});
 
 	/* Navbar collapse ======================================= */
-	$(document).on('click.nav','.navbar-collapse.in',function(e) {
-		if( $(e.target).is('a') || $(e.target).is('button')) {
-			$(this).collapse('hide');
+	document.addEventListener('click', function(e) {
+		var collapse = document.querySelector('.navbar-collapse.show');
+		if (collapse && ($(e.target).matches('a') || $(e.target).matches('button'))) {
+			bootstrap.Collapse.getOrCreateInstance(collapse).hide();
 		}
 	});
 
@@ -38,14 +39,8 @@ $(document).ready(function() {
 	});
 
 	/* testimonial ======================================= */
-	$('.carousel').carousel();
-	
-	
-	/* Bootstrap Affix ======================================= */		
-	$('#modal-bar').affix({
-		offset: {
-			top: 10,
-		}
+	document.querySelectorAll('.carousel').forEach(function (carousel) {
+		new bootstrap.Carousel(carousel);
 	});
 
 
@@ -119,7 +114,7 @@ $(document).ready(function() {
 	});
 
 	$('#project-modal').on( 'click', '#btn-order',function () {
-		$('#project-modal').modal('hide');
+		bootstrap.Modal.getOrCreateInstance(document.getElementById('project-modal')).hide();
 		$(this).find('.loader').show();
 		$(this).find('.screen').removeClass('slides').removeClass('done').html('').superslides('destroy');
 		var aTag = $("section[id='orderform']");
