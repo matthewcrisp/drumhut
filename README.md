@@ -29,9 +29,10 @@ The server should open the test page in your default browser.
 
 ### Deploying
 
-From the `website` directory, build the deployable site with:
+From the `website` directory, build and publish the site to the `gh-pages`
+branch with:
 
     $ npm run deploy
 
-This builds `website/dist`. Publishing the generated directory is handled by the
-deployment environment.
+The command builds `website/dist` and publishes that directory directly to
+GitHub Pages using the repository's configured Git remote.
