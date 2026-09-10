@@ -3,14 +3,14 @@
         "data": {
             "title": "The Mandelbrot - Premium Handmade Djembes",
             "name": "The Mandelbrot",
-            "thumb": "img/slides/vertical/mandelbrot-2.jpg",
+            "thumb": "img/slides/Vertical/mandelbrot-2.jpg",
             "images": [                
-				"img/slides/vertical/mandelbrot-1.jpg",
-				"img/slides/vertical/mandelbrot-2.jpg",
-				"img/slides/vertical/mandelbrot-3.jpg",
-				"img/slides/vertical/mandelbrot-4.jpg",
-				"img/slides/vertical/mandelbrot-5.jpg",
-				"img/slides/vertical/mandelbrot-6.jpg"				
+				"img/slides/Vertical/mandelbrot-1.jpg",
+				"img/slides/Vertical/mandelbrot-2.jpg",
+				"img/slides/Vertical/mandelbrot-3.jpg",
+				"img/slides/Vertical/mandelbrot-4.jpg",
+				"img/slides/Vertical/mandelbrot-5.jpg",
+				"img/slides/Vertical/mandelbrot-6.jpg" 				
             ],
 			"imgHor": false,
 			"imgVert": true,
@@ -373,7 +373,7 @@
             "images": [
                 "img/slides/reshape-landscape.jpg",
 				"img/slides/reshape-carving.jpg",
-                "img/repairs.jpg"
+                "img/repairs.JPG"
             ],
 			"imgHor": true,
 			"imgVert": false,
@@ -687,13 +687,13 @@
         "data": {
             "title": "Mali Djembe 2",
             "name": "Mali Djembe 2",
-            "thumb": "img/slides/vertical/DH2-5.jpg",
+            "thumb": "img/slides/Vertical/DH2-5.jpg",
             "images": [
-				"img/slides/vertical/DH2-1.jpg",
-				"img/slides/vertical/DH2-2.jpg",
-				"img/slides/vertical/DH2-3.jpg",
-				"img/slides/vertical/DH2-4.jpg",
-				"img/slides/vertical/DH2-5.jpg"
+				"img/slides/Vertical/DH2-1.jpg",
+				"img/slides/Vertical/DH2-2.jpg",
+				"img/slides/Vertical/DH2-3.jpg",
+				"img/slides/Vertical/DH2-4.jpg",
+				"img/slides/Vertical/DH2-5.jpg"
 				
 			],
 			"imgHor": false,
@@ -724,7 +724,7 @@
         "data": {
             "title": "Mali 3",
             "name": "Mali Djembe 3",
-            "thumb": "img/slides/vertical/DH3-v.jpg",
+            "thumb": "img/slides/Vertical/DH3-v.jpg",
             "images": [
 				"img/slides/DH3-1.jpg",
 				"img/slides/DH3-2.jpg",
@@ -829,7 +829,7 @@
         "data": {
             "title": "Mali Djembe 6",
             "name": "Mali Djembe 6",
-            "thumb": "img/slides/vertical/DH6-1.jpg",
+            "thumb": "img/slides/Vertical/DH6-1.jpg",
             "images": [
 				"img/slides/DH6-3.jpg",
 				"img/slides/DH6-1.jpg",
@@ -1141,7 +1141,7 @@
         "data": {
             "title": "Mali Djembe 15",
             "name": "Mali Djembe 15",
-            "thumb": "img/slides/vertical/DH15-1.jpg",
+            "thumb": "img/slides/Vertical/DH15-1.jpg",
             "images": [
 				"img/slides/DH15-4.jpg",
 				"img/slides/DH15-1.jpg",

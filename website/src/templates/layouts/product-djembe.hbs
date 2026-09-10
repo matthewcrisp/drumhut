@@ -68,15 +68,15 @@
 						{{#if imgHor}}<div class="slide-wrapper-horizontal" id="product-slides-container">
 						{{else}}{{#if imgVert}}<div class="slide-wrapper-vertical" id="product-slides-container">
 						{{else}}<div class="slide-wrapper" id="product-slides-container">
+						{{/if}}{{/if}}
 							<div id="product-slides" data-length="{{ images.length }}">
 								<div class="slides-container">
 									{{#each images}}														
-									<img src="{{assets}}/{{.}}" alt="{{ name }} - {{ meta }}" class="slide-wrapper__image img-rounded">
+									<img src="/assets/{{.}}" alt="{{ name }} - {{ meta }}" class="slide-wrapper__image img-rounded">
 									{{/each}}
 								</div>
 							</div>
 						</div>
-						{{/if}}{{/if}}
 
 				</div>				
 			</div>

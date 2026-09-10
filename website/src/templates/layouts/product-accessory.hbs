@@ -83,16 +83,16 @@
 							<div class="slide-wrapper-vertical" id="product-slides-container">
 						{{else}}
 							<div class="slide-wrapper" id="product-slides-container">
+						{{/if}}{{/if}}
 
 								<div id="product-slides" data-length="{{ images.length }}">
 									<div class="slides-container">
 										{{#each images}}														
-										<center><img src="{{assets}}/{{.}}" alt="" class="slide-wrapper__image img-rounded"></center>
+										<center><img src="/assets/{{.}}" alt="" class="slide-wrapper__image img-rounded"></center>
 										{{/each}}
 									</div>								
 								</div>
 						</div>
-						{{/if}}{{/if}}
                       
 				</div>
 				{{/unless}}
@@ -105,17 +105,17 @@
 							<div class="slide-wrapper-vertical" id="product-slides-container">
 						{{else}}
 							<div class="slide-wrapper" id="product-slides-container">
+						{{/if}}{{/if}}
 
 								<div id="product-slides" data-length="{{ images.length }}">
 									<div class="slides-container">
 										{{#each images}}														
-										<img src="{{assets}}/{{url}}" alt="{{imgName}}" class="img-rounded">
+										<img src="/assets/{{url}}" alt="{{imgName}}" class="img-rounded">
 																								
 										{{/each}}
 									</div>								
 								</div>
 						</div>
-						{{/if}}{{/if}}
                       
 				</div>
 				{{/if}}
