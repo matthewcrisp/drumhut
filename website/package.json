@@ -19,7 +19,6 @@
   },
   "scripts": {
     "build": "eleventy",
-    "test": "npm run build",
     "server": "eleventy --serve",
     "deploy": "npm run build && gh-pages --dist dist --branch gh-pages",
     "lint": "eslint src/helpers src/assets/js/app.js src/assets/js/custom.js src/assets/js/custom2.js"
