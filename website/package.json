@@ -15,24 +15,23 @@
     "url": "https://github.com/matthewcrisp/drumhut/issues"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=18"
   },
   "scripts": {
-    "test": "grunt assemble"
+    "build": "eleventy",
+    "server": "eleventy --serve",
+    "deploy": "npm run build && gh-pages --dist dist --branch gh-pages",
+    "lint": "eslint src/helpers src/assets/js/app.js src/assets/js/custom.js src/assets/js/custom2.js"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.1",
+    "jquery": "2.2.4"
   },
   "devDependencies": {
-    "assemble": "^0.4.42",
-    "assemble-contrib-permalinks": "*",
-    "assemble-contrib-sitemap": "*",
-    "coffeescript": "^2.7.0",
-    "grunt": "^1.5.3",
-    "grunt-build-control": "^0.7.0",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-connect": "^3.0.0",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "load-grunt-tasks": "^5.1.0",
-    "time-grunt": "^1.0.0"
+    "@11ty/eleventy": "3.1.6",
+    "eslint": "^8.57.0",
+    "gh-pages": "^6.3.0",
+    "handlebars": "^4.7.8"
   },
   "licenses": [
     {
@@ -41,14 +40,10 @@
     }
   ],
   "keywords": [
-    "assemble",
+    "eleventy",
     "templates",
     "handlebars",
     "site generator",
-    "site builder",
-    "grunt"
-  ],
-  "dependencies": {
-    "git": "^0.1.5"
-  }
+    "site builder"
+  ]
 }

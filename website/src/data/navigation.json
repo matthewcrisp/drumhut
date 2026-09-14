@@ -1,24 +1,24 @@
 [{
     "name": "Djembes",
-    "url": "./djembes.html"
+    "url": "/djembes/"
 }, {
     "name": "Dunun",
-    "url": "./dunun.html",
+    "url": "/dunun/",
 	"hide": true
 }, {
     "name": "Accessories",
-    "url": "./accessories.html"
+    "url": "/accessories/"
 }, {
     "name": "Demos",
-    "url": "./demos.html"
+    "url": "/demos/"
 }, {
     "name": "Repairs/Customisation",
-    "url": "./repairs.html"
+    "url": "/repairs/"
 }, {
     "name": "Events",
-    "url": "./events.html",
+    "url": "/events/",
 	"hide": true
 }, {
     "name": "Contact",
-    "url": "./contact.html"
+    "url": "/contact/"
 }]

@@ -22,6 +22,21 @@ navOrder: 2
 			<p>Apologies for any inconvenience.</p>
 </header>
 
+<header class="section-header text-center wow fadeInUp">
+            <h2>Guinea Djembes</h2>
+			<p>Carved by artisan djembe carver Alseny Camara of Conakry, Guinea, these djembes sound as beautiful as they look.<br>You'll find all the information you need on each djembe, including a demonstration video, on each djembe's page.</p>
+        </header>
+{{#each djembes}}
+{{#if data.guinea}}
+<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
+	{{> product-link this }}
+</article> 
+{{/if}}
+{{/each}}
+<div class="clearfix"></div>
+
+</section>
+
 <section id="malidjembes" class="gray-bg padding-top-bottom ">
 
 <header class="section-header text-center wow fadeInUp">
@@ -31,22 +46,6 @@ navOrder: 2
 {{#each djembes}}
 {{#if data.mali}}
 <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-	{{> product-link this }}
-</article> 
-{{/if}}
-{{/each}}
-<div class="clearfix"></div>
-
-</section>
-
-
-<header class="section-header text-center wow fadeInUp">
-            <h2>Guinea Djembes</h2>
-			<p>Carved by artisan djembe carver Alseny Camara of Conakry, Guinea, these djembes sound as beautiful as they look.<br>You'll find all the information you need on each djembe, including a demonstration video, on each djembe's page.</p>
-        </header>
-{{#each djembes}}
-{{#if data.guinea}}
-<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
 	{{> product-link this }}
 </article> 
 {{/if}}
@@ -82,7 +81,7 @@ navOrder: 2
 
 <header class="section-header text-center wow fadeInUp">
             <h2>The Archive</h2>
-			<p>Gone, but not forgotten. These are the djembes that have recently been through The Drum Hut's workshop and out the other side. They now belong to a lucky djembefola out there somewhere, but if you see any features in these djembes that you'd like replicated in your own drum, <a href="./contact.html">get in touch</a> and I'll see what can be done.</p>
+			<p>Gone, but not forgotten. These are the djembes that have recently been through The Drum Hut's workshop and out the other side. They now belong to a lucky djembefola out there somewhere, but if you see any features in these djembes that you'd like replicated in your own drum, <a href="/contact/">get in touch</a> and I'll see what can be done.</p>
         </header>
 {{#each djembes}}
 {{#if data.sold}}
