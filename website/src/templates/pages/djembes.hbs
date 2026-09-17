@@ -26,13 +26,15 @@ navOrder: 2
             <h2>Guinea Djembes</h2>
 			<p>Carved by artisan djembe carver Alseny Camara of Conakry, Guinea, these djembes sound as beautiful as they look.<br>You'll find all the information you need on each djembe, including a demonstration video, on each djembe's page.</p>
         </header>
+<div class="row">
 {{#each djembes}}
 {{#if data.guinea}}
-<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">	
+<article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
 {{/if}}
 {{/each}}
+ </div>
 <div class="clearfix"></div>
 
 </section>
@@ -43,13 +45,15 @@ navOrder: 2
             <h2>Mali Djembes</h2>
 			<p>High quality, traditional wood shells from Bamako in the heart of southern Mali. Beautifully designed on the outside and perfectly carved on the inside, these are outstanding djembes.</p>
 </header>		
+<div class="row">
 {{#each djembes}}
 {{#if data.mali}}
-<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+<article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
 {{/if}}
 {{/each}}
+ </div>
 <div class="clearfix"></div>
 
 </section>
@@ -62,17 +66,19 @@ navOrder: 2
             <h2>Beginner and Intermediate Djembes</h2>
 			<p>Found from across the UK and given a new lease of life in my workshop, these djembes are all pre-loved but have been bought back to as-new standard, using the same skill, expertise and care as the premium djembes. This is the perfect place to grab yourself an excellent sounding and looking djembe. You can hear how each djembe sounds in the demonstration video on each page.</p>
         </header>		
+<div class="row">
 {{#each djembes}}
 {{#unless data.guinea}}
 {{#unless data.mali}}
 {{#unless data.sold}}
-<article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+<article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
 {{/unless}}
 {{/unless}}
 {{/unless}}
 {{/each}}
+ </div>
 <div class="clearfix"></div>
 
 </section>
@@ -83,12 +89,14 @@ navOrder: 2
             <h2>The Archive</h2>
 			<p>Gone, but not forgotten. These are the djembes that have recently been through The Drum Hut's workshop and out the other side. They now belong to a lucky djembefola out there somewhere, but if you see any features in these djembes that you'd like replicated in your own drum, <a href="/contact/">get in touch</a> and I'll see what can be done.</p>
         </header>
+<div class="row">
 {{#each djembes}}
 {{#if data.sold}}
-<article class="design product col-xs-6 col-sm-4 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+<article class="design product col-6 col-sm-4 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
 	{{> product-link this }}
 </article> 
 {{/if}}
 {{/each}}
+ </div>
 
 </section>
