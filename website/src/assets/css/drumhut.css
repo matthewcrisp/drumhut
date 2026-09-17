@@ -223,6 +223,14 @@
 	opacity: 1;
 }
 
+/* Keep the homepage hero content centered in both axes as its height changes. */
+#hero .welcome-content {
+	left: 50%;
+	top: 50%;
+	margin-top: 0;
+	transform: translate(-50%, -50%);
+}
+
 
 h1.boris {
 	font-family: 'BorisBlackBloxx Regular';
