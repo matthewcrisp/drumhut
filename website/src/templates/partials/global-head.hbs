@@ -31,8 +31,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','{{env "GTM_CONTAINER_ID"}}');</script>
 <!-- End Google Tag Manager -->
 {{/if}}
-
-{{#if (env "SNIPCART_PUBLIC_API_KEY")}}
-<!-- Snipcart v3; set SNIPCART_PUBLIC_API_KEY at build time. -->
-<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.1/default/snipcart.css">
-{{/if}}

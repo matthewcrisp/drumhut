@@ -14,8 +14,8 @@ navOrder: 1
 <section id="hero" class="light-typo ">
     <div class="container welcome-content">
         <div class="row">
-            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">
-                <img id="logo" src="{{assets}}/img/drumhut-logo-white.png" class="img-responsive text-center" alt="drumhut logo" width="100%">                
+            <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-12 text-center wow fadeInUp">
+                <img id="logo" src="{{assets}}/img/drumhut-logo-white.png" class="img-fluid text-center" alt="drumhut logo" width="100%">
                 <h3>West African Percussion</h3>
 				<h5 style="color:red; text-shadow: 2px 2px 10px black; font-weight:bold;">The Drum Hut is now closed for business until further notice.<br><br>Please feel free to contact me for advice or referal to other djembe builders.<br><br>Apologies for the inconvenience.</h5>
                 <ul class="social-links text-center">
@@ -51,7 +51,8 @@ navOrder: 1
             
             {{#each djembes}}
 			{{#if data.featured}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+
+            <article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
             </article> 
             {{/if}}
@@ -74,7 +75,8 @@ navOrder: 1
         <div id="projects-container" class="row">
             
             {{#each dunun}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+
+            <article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
             </article> 
             {{/each}}
@@ -95,7 +97,7 @@ navOrder: 1
         <div id="projects-container" class="row">
             
             {{#each accessories}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{> product-link this }}
             </article> 
             {{/each}}
@@ -120,7 +122,7 @@ navOrder: 1
             {{#each djembes}}
 			{{#if data.featured}}
             {{#if this.data.videoCode}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
 				<h4><a href="/{{filename}}/">{{data.name}}</a></h4>
             </article>
@@ -138,7 +140,7 @@ navOrder: 1
             {{#each djembes}}
 			{{#unless data.featured}}
             {{#if this.data.videoCode}}
-            <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <article class="design product col-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
 				{{{ this.data.videoCode }}}
 				<h4><a href="/{{filename}}/">{{data.name}}</a></h4>
             </article>
