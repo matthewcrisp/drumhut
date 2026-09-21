@@ -143,6 +143,94 @@
 	}
 }
 
+/* Bootstrap 3 utility aliases retained for the existing site templates. */
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.col-xs-4 { flex: 0 0 auto; width: 33.33333333%; }
+.col-xs-6 { flex: 0 0 auto; width: 50%; }
+.col-xs-12 { flex: 0 0 auto; width: 100%; }
+.row { --bs-gutter-x: 30px; margin-right: -15px; margin-left: -15px; }
+.row > * { padding-right: 15px; padding-left: 15px; }
+.pull-left { float: left !important; }
+.pull-right { float: right !important; }
+.hidden-xs { display: none !important; }
+.visible-xs { display: inline !important; }
+.navbar-fixed-top { position: fixed; top: 0; right: 0; left: 0; z-index: 1030; }
+
+@media (min-width: 768px) {
+	.container { max-width: 750px; }
+	.col-sm-4 { flex: 0 0 auto; width: 33.33333333%; }
+	.col-sm-6 { flex: 0 0 auto; width: 50%; }
+	.col-sm-8 { flex: 0 0 auto; width: 66.66666667%; }
+	.col-sm-10 { flex: 0 0 auto; width: 83.33333333%; }
+	.col-sm-12 { flex: 0 0 auto; width: 100%; }
+	.col-sm-offset-1 { margin-left: 8.33333333%; }
+	.col-sm-offset-2 { margin-left: 16.66666667%; }
+	.col-sm-offset-3 { margin-left: 25%; }
+	.navbar-header { float: left; }
+	.navbar-collapse.collapse { display: block !important; height: auto !important; overflow: visible !important; }
+	.navbar-toggler { display: none; }
+	.navbar-nav > li { float: left; }
+	.navbar-nav { display: block; }
+	.hidden-xs { display: inline !important; }
+	.visible-xs { display: none !important; }
+}
+
+@media (min-width: 992px) {
+	.container { max-width: 970px; }
+	.col-md-4 { flex: 0 0 auto; width: 33.33333333%; }
+	.col-md-6 { flex: 0 0 auto; width: 50%; }
+	.col-md-8 { flex: 0 0 auto; width: 66.66666667%; }
+	.col-md-3 { flex: 0 0 auto; width: 25%; }
+	.col-md-12 { flex: 0 0 auto; width: 100%; }
+	.col-md-offset-3 { margin-left: 25%; }
+	.col-md-offset-4 { margin-left: 33.33333333%; }
+}
+
+@media (min-width: 1200px) {
+	.container { max-width: 1170px; }
+	.col-lg-4 { flex: 0 0 auto; width: 33.33333333%; }
+	.col-lg-6 { flex: 0 0 auto; width: 50%; }
+	.col-lg-12 { flex: 0 0 auto; width: 100%; }
+	.col-lg-offset-3 { margin-left: 25%; }
+	.col-lg-offset-4 { margin-left: 33.33333333%; }
+}
+
+@media (max-width: 767.98px) {
+	.navbar-toggler { margin-top: 14px; margin-bottom: 14px; }
+	.navbar-collapse { clear: both; }
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand { color: #fff; }
+.navbar-toggler .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	margin: 4px 0;
+	background-color: currentColor;
+}
+
+/* Bootstrap 5 renamed the legacy modal state class from .in to .show. */
+.modal.show .modal-dialog {
+	transform: translateY(0);
+	opacity: 1;
+}
+.modal-backdrop.show {
+	opacity: 1;
+}
+
+/* Keep the homepage hero content centered in both axes as its height changes. */
+#hero .welcome-content {
+	left: 50%;
+	top: 50%;
+	margin-top: 0;
+	transform: translate(-50%, -50%);
+}
+
 
 h1.boris {
 	font-family: 'BorisBlackBloxx Regular';
@@ -155,10 +243,4 @@ and (orientation : landscape) {
         margin-top: 70px;
         max-width: 400px;
     }
-}
-@media all and (max-width: 768px) {
-	.snipcart-summary-mobile {
-		padding-top:5px;
-		text-align: center;
-	}
 }
