@@ -17,6 +17,7 @@
   "engines": {
     "node": ">=18"
   },
+  "type": "module",
   "scripts": {
     "build": "eleventy",
     "server": "eleventy --serve",
@@ -24,7 +25,9 @@
     "lint": "eslint src/helpers src/assets/js/app.js src/assets/js/custom.js src/assets/js/custom2.js"
   },
   "dependencies": {
+    "@eslint/js": "^10.0.1",
     "bootstrap": "5.3.8",
+    "globals": "^17.13.0",
     "jquery": "4.0.0"
   },
   "devDependencies": {
