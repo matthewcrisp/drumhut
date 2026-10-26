@@ -9,7 +9,6 @@ function readJson(name) {
 }
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.on('eleventy.before', () => {
     const outputDirectory = path.join(__dirname, 'dist');
     if (fs.existsSync(outputDirectory)) {

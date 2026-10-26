@@ -19,7 +19,12 @@ export default [
     files: ["**/*.js"],
     rules: {
       "no-console": "warn",
-      "no-unused-vars": "warn",
+      "no-unused-vars": "error",
+      "eqeqeq": "error",
+      "prefer-const": "error",
+      "curly": "error",
+      "no-param-reassign": "error",
+      "no-shadow": "error",
     },
   },
   {
