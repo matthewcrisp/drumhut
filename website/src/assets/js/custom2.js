@@ -10,8 +10,8 @@ $(document).ready(function() {
 			height: screenHeight
 		});
 		$(window).resize( function () {
-			var screenWidth = $(window).width() + "px";
-			var screenHeight = $(window).height() + "px";
+			screenWidth = $(window).width() + "px";
+			screenHeight = $(window).height() + "px";
 			$("#hero").css({
 				width: screenWidth,
 				height: screenHeight
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
 	/* Smooth Hash Link Scroll ======================================= */	
 	$('.smooth-scroll').click(function() {
-		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if (target.length) {
